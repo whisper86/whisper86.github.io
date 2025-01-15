@@ -23,6 +23,33 @@
   
   
   <entry>
+    <title>今日记叙</title>
+    <link href="/2025/01/14/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99/"/>
+    <url>/2025/01/14/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99/</url>
+    
+    <content type="html"><![CDATA[<p>早晨刚七点，被爸爸给奶奶打电话的谈话声弄醒。我赖在床上，写着昨天的DayOne，妈妈到我房间来拿衣服，发现我醒着就和我说话。他们又提到让我写对联，我真的大字写不好看，就不想写了。我又提到想要买照相机，换电脑。他们听到这个结果应该很是是恼怒，指责我是要做点什么事了。我与他们吵了起来，指出中国的大环境问题等。</p><p>8点左右起床，妈妈去买菜了。我还没有吃饭，上楼，索性一不做二不休，快速地写好了对联，个别字还行，个别字真是丑的没边了，又歪又丑，拿下去，他们竟然还夸我写的好看！早餐是妈妈带回来的一个菜包子和不够后爸爸买的茶叶蛋。</p><p><img src="/images/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99.jpeg" alt="对联"></p><p>上午在做wiki.js DayOne模块的创建并打算部署到github pages，但是网上都没有相关的教程，倒是有像hexo，jekky等网站构建工具。索性就用了hexo。</p><p>中午依然没什么菜，肉丸子和香肠。</p><p>玩了一下午的游戏，打上了最强王者。</p><p>晚上做了hexo网站的搭建并部署到github pages。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>Blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/01/14/hello-world/"/>
     <url>/2025/01/14/hello-world/</url>
@@ -30,6 +57,104 @@
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小记</title>
+    <link href="/2025/01/13/%E5%B0%8F%E8%AE%B0/"/>
+    <url>/2025/01/13/%E5%B0%8F%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p>  早餐因为爸爸把鸡汤全部倒入下好的面条和年糕而让我无法再去吃这一份早餐，转而准备煮方便面吃，但又因为作业晚上吃的太撑，臭豆腐也太过咸腻，我不是很饿，所以早餐没有吃。</p><p>  上午继续Android Typecho项目的研究。用PC电脑的酷我音乐下载了十几首歌导入到Audio Station。</p><p>  中午煮了一包方便面和一些咸挂面，煎了一个荷包蛋作为午餐。刚吃完，抱着热水袋和烧水壶上楼，就看到李从容来找我去老家打扫卫生，途中他帮我买了一瓶水。把老家的房间地扫扫和桌子擦擦，就算完成了。</p><p><img src="/images/%E5%B0%8F%E8%AE%B02025-01-13.jpg" alt="水杉树林"></p><p>  从老家回来，继续导入音乐到Apple Music，使用mac上的iTunes导入aiff文件。昨天的ToDo List就算完成了。</p><p>  之后使用声音克隆平台（魔音）克隆了自己的声音，可以说很像。另一个ToDo List也算完成了。</p><p>  晚上什么菜也没有，一盘青菜和香肠。将就吃下去，睡觉</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>Blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>鸿门宴</title>
+    <link href="/2025/01/12/%E9%B8%BF%E9%97%A8%E5%AE%B4/"/>
+    <url>/2025/01/12/%E9%B8%BF%E9%97%A8%E5%AE%B4/</url>
+    
+    <content type="html"><![CDATA[<p>本日早晨8点左右起床，现包了20个馄饨煮着吃。肉馅还是太过粗糙，不过味道还行，不难吃。</p><p>吃完早餐写了一会毛笔字，开了一支昨天晚上收到的大号毛笔，对联上的大字我还是写不好看，无奈答应了妈妈写一副对联。之后忙着反编译DS Audio应用apk，这些专业的Java源码我不怎么看得懂，编程之路道阻且长啊！</p><p>中午以早上爸爸买的粉丝饼和一碗饭作为午餐，菜有肉丸子，炒青菜，芹菜和香肠。</p><p>下午爸爸让我去大姥家找李从容去老家打扫卫生，我让李从容过来再去，但是他没有来，也就没有去老家。牛牛用奶奶电话带给我问我过年前去六安，我给出的答复是爸爸开车去我就去。找了几个安卓音乐播放器项目，用Android Studio编译，配置一大堆Gradle，环境变量，长裤等。还是因为gradle版本问题搁置。</p><p>晚上吃晚饭的时候李从容来找我去散步，我煮了一点馄饨和面条吃完之后就去散步了。途中李从荣买了两份臭豆腐，我刚吃完饭不饿，他却执意买了两份，难不成还以为我客气？臭豆腐一点也不好吃，极其的咸。我又不忍浪费扔掉（他也不想我浪费）我忍着反胃的难受吃了下去，现在肚子很不舒服。可谓是一场憋屈的鸿门宴。</p><p>回来之后帮父母洗碗。继续研究之前的名为Typecho的fragment android项目。浑身不舒服，瑟瑟发抖，睡觉了。昨天临睡前定的ToDo list也因为今天事多且杂没有完成。</p><p>船到桥头自然直。顺其自然，道阻且长也要走下去。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小记2025-01-11</title>
+    <link href="/2025/01/11/%E5%B0%8F%E8%AE%B02025-01-11/"/>
+    <url>/2025/01/11/%E5%B0%8F%E8%AE%B02025-01-11/</url>
+    
+    <content type="html"><![CDATA[<p>完成昨日Todo List，聚合404page css和js代码上传到服务器，frp内网穿透https类型。</p><p>早晨是方便面又加了一个鸡蛋，和一些线挂面，吃的很饱。吃完早餐开始404页面前段开发，改a标签链接，补缺失的在线background-image svg图，上传到服务器，测试正常。偶然发现Wordpress Dashboard页面之前的一些站点健康和快速新建草稿模块都没有了。找了很多解决方法，例如安装插件修改DashBoard，还有修改functions.php来更改Welcome消息等，依然没有任何效果。想到前10几天，因为NAS本地的wordpress后台加载缓慢，就修改了dashboard.php和misc.php文件，关闭了check_browser_version和check_php_version，直接在函数中添加了return语句，导致下方代码都不能执行，最后还原了这两个文件，终于恢复如初。</p><p>中午妈妈只炒了一锅青菜和萝卜以及昨天煮的鸡汤和今天蒸的香肠。我不是很饿，加之也没有我喜欢吃的菜（香肠太咸，我好像有点吃腻了）。下午利用Laptop的Apache迁移了wordpress站点。</p><p>晚上依旧没有新的菜，本来答应我买的馄饨皮或饺子皮和荠菜也没有买，我已经很饿了，将就着吃了一碗饭。</p><p>吃完饭后，李从荣来了我家，初来乍到我一时无语，没有打招呼，只是问了一句干什么呢，得到来剪头发的答复。之后继续忙活修复着笔记本电脑本地Wordpress的媒体文件缩略图显示问题。然后就是尝试frp的https代理，由于版本问题导致配置文件写法不同，尝试了几次，都失败了。李从荣剪完头发后，陪他打了三把游戏，都是失败，无妨，开心最重要。李从荣走后，我继续frp的配置，功夫不负有心人，我查阅了这个项目的github仓库，看了readme后，得知配置文件的正确写法，最终成功添加了https代理。并且frps绑定了7500端口用作dashboard。这些完成之后，我又在想能不能多个https代理连接在frps.toml中添加多个vhost https port呢？找了几篇相关文章，都是只有一个https端口且为443。</p><p>深夜12点左右下载了DS Audio apk，计划明天做apk反编译与这个应用的kotlin重开发。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>元旦快乐</title>
+    <link href="/2025/01/01/%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/"/>
+    <url>/2025/01/01/%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/</url>
+    
+    <content type="html"><![CDATA[<p>今天是元旦节，一年的第一天，街上有人在放炸炮，有点年味了。</p><p>昨天晚上跨年，写了几个小时的2024年度总结，在wordpress，obsidian，dayone上均有存档。0:45分，黄磊在微信上给我发了一个表情动图祝我新年快乐，我于凌晨两点才看到。没有回复，今天下午5点多，我才回了一句元旦快乐。</p><p>晚上开通试用3个月的阿里云服务器，转移家庭局域网的NAS上的网站。晚上5点多爸爸妈妈去六安了，晚上房间只有我一个人，挺不错的，但是也真够累的，熬了一个通宵熟悉云服务器的宝塔面板使用，mysql数据库迁移，远程访问。frp内网穿透，反向代理隐藏映射的端口。</p><p><img src="/images/CloudServer.png" alt="CloudServer"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+      <tag>Blog</tag>
+      
+    </tags>
     
   </entry>
   

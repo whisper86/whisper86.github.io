@@ -2,6 +2,9 @@
   text-decoration: none !important;
   transition: opacity 0.2s ease-in-out;
 }
+.markdown-body {
+	text-indent: 2em;
+}
 .markdown-body h1:hover > .anchorjs-link,
 h2:hover > .anchorjs-link,
 h3:hover > .anchorjs-link,
