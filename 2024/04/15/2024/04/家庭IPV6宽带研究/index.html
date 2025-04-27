@@ -22,7 +22,7 @@
     <meta name="description" content="家庭IPV6宽带研究 在可以路由器IPv6之后，我可以使用手机流量或其他支持IPv6的网络访问NAS（通过Synology 自带的DDNS，我也注册了yao2755.synology.me 的域名并可通过其访问NAS）和部署在本地的Django网站了，但是当我连接ChinaNet-53LW（邻居家WI-FI）却怎么也连不上了，之后得知iPv4网络无法访问纯iPv6 网站。网上冲浪了解到别人使用Cl">
 <meta property="og:type" content="article">
 <meta property="og:title" content="家庭IPV6宽带研究">
-<meta property="og:url" content="http://example.com/2024/04/15/2024/04/%E5%AE%B6%E5%BA%ADIPV6%E5%AE%BD%E5%B8%A6%E7%A0%94%E7%A9%B6/index.html">
+<meta property="og:url" content="https://blog.yaonas.space/2024/04/15/2024/04/%E5%AE%B6%E5%BA%ADIPV6%E5%AE%BD%E5%B8%A6%E7%A0%94%E7%A9%B6/index.html">
 <meta property="og:site_name" content="HexoBlog">
 <meta property="og:description" content="家庭IPV6宽带研究 在可以路由器IPv6之后，我可以使用手机流量或其他支持IPv6的网络访问NAS（通过Synology 自带的DDNS，我也注册了yao2755.synology.me 的域名并可通过其访问NAS）和部署在本地的Django网站了，但是当我连接ChinaNet-53LW（邻居家WI-FI）却怎么也连不上了，之后得知iPv4网络无法访问纯iPv6 网站。网上冲浪了解到别人使用Cl">
 <meta property="og:locale" content="zh_CN">
@@ -72,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","app_key":"ScwQhWWeiQKqcGhY2c6cs6Dn","server_url":"https://i8wi2js1.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"blog.yaonas.space","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","app_key":"ScwQhWWeiQKqcGhY2c6cs6Dn","server_url":"https://i8wi2js1.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -98,7 +98,9 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="HexoBlog" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="HexoBlog" type="application/rss+xml">
+</head>
 
 
 <body>
@@ -205,9 +207,8 @@
 </nav>
 
   
-
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/default.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -272,11 +273,19 @@
   <main>
     
       
-
 <div class="container-fluid nopadding-x">
   <div class="row nomargin-x">
     <div class="side-col d-none d-lg-block col-lg-2">
       
+
+<aside class="sidebar category-bar" style="margin-right: -1rem">
+    <div class="widget tag">
+<!--  <h3 class="title">calendar</h3>-->
+    <h5 class="title">Calendar Archive</h5>
+  <div id="calendar"></div>
+</div>
+
+</aside>
 
     </div>
 
@@ -291,6 +300,7 @@
                 
                 <h1 id="家庭IPV6宽带研究"><a href="#家庭IPV6宽带研究" class="headerlink" title="家庭IPV6宽带研究"></a>家庭IPV6宽带研究</h1><p> 在可以路由器IPv6之后，我可以使用手机流量或其他支持IPv6的网络访问NAS（通过Synology 自带的DDNS，我也注册了yao2755.synology.me 的域名并可通过其访问NAS）和部署在本地的Django网站了，但是当我连接ChinaNet-53LW（邻居家WI-FI）却怎么也连不上了，之后得知iPv4网络无法访问纯iPv6 网站。网上冲浪了解到别人使用CloudFlare做代理可以实现IPv6 和 IPv4 双栈访问，我就兴冲冲的注册了账号，添加了网站站点，之后需要更改域名DNS服务提供商为CloudFlare，Synology自带的DDNS服务怎么更改呢。之后就注册阿里云域名，信息模板实名认证，这个真的很难受，然后就是更改DNS解析提供商为CloudFlare的，在CloudFlare上添加DNS记录，解析。申请网站SSL数字证书，等等。<br>OK呀，经过以上操作后，可以使用IPv4访问了，自此，外网访问本地网络服务完成了。<br>可是毕竟CloudFlare服务器在美国，在中国大陆访问是真的慢。WordPress网站我通过缓存，页面规则，使用外部图床等来加快访问速度，效果微乎其微，毕竟光是ping 站点都在200ms以上。这两天（20-22号）我又发现使用之前我认为是ChinaNet-53LW可以通过IPv6 test,这样使用IPv4访问NAS的可能就很小了，毕竟WordPress我并没有开放大众访问的打算，个人使用流量也支持IPv6，所有如果不是为了源服务器安全和节省流量，我是不会开启CloudFlare代理的。<br>这样回过头来看注册阿里域名等的作用也就只是换了一个自定义的美观的域名，本质上访问与yao2755.synology.me 无异。即使如此，换了一个不带Synology后缀的域名也不错。<br>现在还是尽量申请公网IPv4吧,等到那时，国内建站的可能性才更大。</p>
 
+                  
                 
               </div>
             
@@ -336,7 +346,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>家庭IPV6宽带研究</div>
-      <div>http://example.com/2024/04/15/2024/04/家庭IPV6宽带研究/</div>
+      <div>https://blog.yaonas.space/2024/04/15/2024/04/家庭IPV6宽带研究/</div>
     </div>
     <div class="license-meta">
       
@@ -359,9 +369,15 @@
             
               
               
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-cc-nc"></i>
                   </span>
                 </a>
               
@@ -411,7 +427,7 @@
     Fluid.utils.loadComments('#valine', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
         var options = Object.assign(
-          {"appId":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","appKey":"ScwQhWWeiQKqcGhY2c6cs6Dn","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {"appId":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","appKey":"ScwQhWWeiQKqcGhY2c6cs6Dn","path":"window.location.pathname","placeholder":"有话要说？","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
           {
             el: "#valine",
             path: window.location.pathname
@@ -529,35 +545,8 @@
     </div>
   
   
-    <div class="statistics">
-  
-  
-
-  
-    
-      <span id="leancloud-site-pv-container" style="display: none">
-        总访问量 
-        <span id="leancloud-site-pv"></span>
-         次
-      </span>
-    
-    
-      <span id="leancloud-site-uv-container" style="display: none">
-        总访客数 
-        <span id="leancloud-site-uv"></span>
-         人
-      </span>
-    
-    
-
-  
-
-</div>
-
-  
   
 </div>
-
   </footer>
 
   <!-- Scripts -->
@@ -573,11 +562,23 @@
     })
   </script>
 
-
 <script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
+
+<!-- Calender -->
+<script  src="/js/calendar.js" ></script>
+<script  src="/js/languages.js" ></script>
+<!-- Change CDN Picture -->
+
+<script type="text/javascript">
+  $(function() {
+      
+    $('#calendar').aCalendar('zh-CN',{single:true, root:'calendar/'});
+      
+  });
+</script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>

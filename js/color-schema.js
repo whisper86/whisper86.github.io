@@ -282,5 +282,5 @@
   Fluid.utils.waitElementLoaded(iframeSelector, function() {
     applyCustomColorSchemaSettings();
   });
-  
+
 })(window, document);

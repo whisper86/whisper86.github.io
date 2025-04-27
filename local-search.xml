@@ -4,30 +4,11 @@
   
   
   <entry>
-    <title>测试文章</title>
-    <link href="/2025/01/14/2025/01/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <url>/2025/01/14/2025/01/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <title>今日小记-2025-04-14</title>
+    <link href="/2025/04/14/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-14/"/>
+    <url>/2025/04/14/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-14/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>测试</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>今日记叙</title>
-    <link href="/2025/01/14/2025/01/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99/"/>
-    <url>/2025/01/14/2025/01/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99/</url>
-    
-    <content type="html"><![CDATA[<p>早晨刚七点，被爸爸给奶奶打电话的谈话声弄醒。我赖在床上，写着昨天的DayOne，妈妈到我房间来拿衣服，发现我醒着就和我说话。他们又提到让我写对联，我真的大字写不好看，就不想写了。我又提到想要买照相机，换电脑。他们听到这个结果应该很是是恼怒，指责我是要做点什么事了。我与他们吵了起来，指出中国的大环境问题等。</p><p>8点左右起床，妈妈去买菜了。我还没有吃饭，上楼，索性一不做二不休，快速地写好了对联，个别字还行，个别字真是丑的没边了，又歪又丑，拿下去，他们竟然还夸我写的好看！早餐是妈妈带回来的一个菜包子和不够后爸爸买的茶叶蛋。</p><p><img src="/images/%E4%BB%8A%E6%97%A5%E8%AE%B0%E5%8F%99.jpeg" alt="对联"></p><p>上午在做wiki.js DayOne模块的创建并打算部署到github pages，但是网上都没有相关的教程，倒是有像hexo，jekky等网站构建工具。索性就用了hexo。</p><p>中午依然没什么菜，肉丸子和香肠。</p><p>玩了一下午的游戏，打上了最强王者。</p><p>晚上做了hexo网站的搭建并部署到github pages。</p>]]></content>
+    <content type="html"><![CDATA[<p>昨晚一宿未睡，早晨6点多躺在床上，与ChatGPT聊天，其实要不是ChatGPT无法在国内正常使用，我肯定不会一直用DeepSeek，不是踩一捧一，刚开始（大年三十前一晚）我第一次使用DeepSeek它真的惊艳到我了。但是随着长时间的使用，今天早上偶然使用一下ChatGPT，我可以很明显的感觉到ChatGPT的回答速度很快，几乎是秒答。至于答案的准确性和丰富性两者应该是差不多的。</p><p>扯远了，今天早上与ChatGPT主要聊Vue3 TypeScript重构项目与pnpm。我也计划着睡一觉着手这事。早上6点30分左右入睡，上午10点多醒来。不是很饿，刷牙洗漱之后没有立马下去，查看电脑NAS昨晚下的minio和imgproxy镜像已经pull下来了。随即按照服务器上的docker容器环境变量配置创建了两个容器，直到内网可以正常使用imgproxy处理s3协议minio存储桶中的图像。</p><p>接着下楼吃中饭，没有什么菜，昨天的烤鸭只剩一个鸭脖，一盘腊肉炒莴笋，我切开一个咸鸭蛋不是很香地吃完饭。</p><p>中饭吃完开始处理服务器nginx反向代理minio服务传输大文件（main.js超过3MB）出现connection rest的问题。根据DeepSeek给出的处理方式加大了nginx 缓存，超时时间等。</p><p>下午2点之后花了不少时间敲了2000多字，抄写《凌晨有感》到WordPress上，其实明明可以直接复制粘贴的，不过我也不觉得是浪费时间。</p><p>晚上依旧是中午的菜，一点也没有变化，吃了几张用卷烤鸭的饼卷着葱和腊肉以及之后的鸡米花。</p><p>我实在无法忍受本地WordPress后台加载缓慢的问题，翻看控制台发现admin-ajax.php输出curl error以及消耗5s多，其正是导致页面pending的罪魁祸首！查看代码发现是update translate的等官方api不知什么原因为何curl 失败，明明ping和curl都可以连接wordpress.org，最终禁用了wordpress所有的更新请求以及外部请求（保留需要的API和CDN）终于wordpress后台和前端一样快乐，爽，痛快。</p><p>这些就是今天的记录。</p><p>明日Todo List</p><ul><li><p><input disabled="" type="checkbox"> 导出DayOne日记到hexo-blog</p></li><li><p><input disabled="" type="checkbox"> 处理DeepSeek聊天数据（从indexDB中出的聊天记录）需要保留代码块格式</p></li><li><p><input disabled="" type="checkbox"> 重构ScoreSystem项目，全面转向Vue3 TypeScript</p></li></ul>]]></content>
     
     
     <categories>
@@ -41,7 +22,2205 @@
       
       <tag>Diary</tag>
       
-      <tag>Blog</tag>
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-13</title>
+    <link href="/2025/04/13/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-13/"/>
+    <url>/2025/04/13/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-13/</url>
+    
+    <content type="html"><![CDATA[<p>聪明勇敢有力气，我真的羡慕我自己。呼啦圈也没问题，后空翻两周再转个体。天南地北不放弃，去寻找减肥的朱古力。</p><p>忙活一晚上，minio和imgproxy总算可以正常运行了，s3协议获取存储桶内图片，并进行处理。</p><p>UserPage score数据获取以及profile修改也已完成。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-12</title>
+    <link href="/2025/04/12/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-12/"/>
+    <url>/2025/04/12/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-12/</url>
+    
+    <content type="html"><![CDATA[<p>Minio 与 imgProxy</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Minio配置记录</title>
+    <link href="/2025/04/11/2025/04/Minio%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/"/>
+    <url>/2025/04/11/2025/04/Minio%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<p>作为一名全栈开发者，不断摸索和试错是基本的修养。</p><p>S3存储桶就这样被我搓出来了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-10</title>
+    <link href="/2025/04/10/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-10/"/>
+    <url>/2025/04/10/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-10/</url>
+    
+    <content type="html"><![CDATA[<p>Nothing</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-09</title>
+    <link href="/2025/04/09/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-09/"/>
+    <url>/2025/04/09/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-09/</url>
+    
+    <content type="html"><![CDATA[<p>清晨5点醒来，刷抖音，看到一个网页扫码授权登陆的逻辑与过程，故随即搜寻WeChat网页授权三方登陆的教程。在B站上找到一个。</p><p>早上吃完早饭，兴冲冲的登陆微信开发者平台，安装微信开发者工具（增加了Mojave虚拟机2G的容量），之后配置服务器（配置失败），发现我还没有注册公众号账号，在注册过程中需要实名认证，用绑定本人银行卡的微信扫码认证，呵呵，我银行卡都没有，还怎么注册？罢了罢了，第三方微信扫码授权登陆点到为止，尝试使用Github授权吧。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-08</title>
+    <link href="/2025/04/08/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-08/"/>
+    <url>/2025/04/08/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-08/</url>
+    
+    <content type="html"><![CDATA[<p>这几日状态不佳，都是晚上12之后入睡，然后次日中午时分醒来起床，项目开发进度缓慢。</p><p>打只狼游戏也十分恼火，帧率极低。毫无游戏体验。</p><p>前几日使用Windows10，又是一大堆Windows更新，硬盘状态不佳，容量也令我发愁，我是需要考虑加装硬盘或者换电脑。</p><p>及时调整状态，明天洗个澡，打扫一下房间卫生。Vue项目持续推进。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-07</title>
+    <link href="/2025/04/07/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-07/"/>
+    <url>/2025/04/07/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-07/</url>
+    
+    <content type="html"><![CDATA[<p>昨天晚上直到清晨6点才入睡，今天中午11点多起来，然后打只狼游戏。三年前义父还是打不过。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-06</title>
+    <link href="/2025/04/06/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-06/"/>
+    <url>/2025/04/06/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-06/</url>
+    
+    <content type="html"><![CDATA[<p>Vue Cli  --&gt; Vite</p><p>从SwaggerDemo分离Score并优化Score接口</p><p>Vue项目优化，移除不必要的依赖（@arco-design&#x2F;web-vue）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-05</title>
+    <link href="/2025/04/05/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-05/"/>
+    <url>/2025/04/05/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-05/</url>
+    
+    <content type="html"><![CDATA[<p>曾让你心疼的姑娘 如今已悄然无踪影 走在勇往直前的路上。</p><p>早餐：牛牛买的粉丝饼和茶叶蛋</p><p>午餐：蒸肉丸，前日剩的梅菜扣肉。</p><p>一早就定了一个Todo List，替换score-system中的登录注册模块，现在(7:05)还没有着手，今日在做迁移前的准备工作，比如转换Vue3响应式API写法，VerifyCode不再使用arco-design中的AVerficatiedCode避免多框架拖慢网站加载与资源浪费。</p><p>马上还要封装axios，降低耦合，提高代码可维护性。</p><p>下午给妈妈五元现金和微信上的4元钱，让她支付宝给我转10元，加上支付宝之前的9元，冲了19元话费。现在手机上都没有1块钱了。哎哟，怎么说呢。</p><p>最近几日烟抽的有点猛了，肺疼，腰疼，脖颈疼。真是没用！杂鱼！</p><p>一转眼又是4月份。今年4月初倒没有去年热（去年4月1日在八角塘老家我都已经穿短袖了）。说到八角塘我又想去看看，上次去还是在过年那天贴对联，也不知道现在对联怎么样。</p><p>阳台上微风徐徐，我坐在小凳子上，听着歌，写下这篇小记。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-04</title>
+    <link href="/2025/04/04/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-04/"/>
+    <url>/2025/04/04/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-04/</url>
+    
+    <content type="html"><![CDATA[<p>早餐：4个小肉包子</p><p>中饭：昨日的梅菜扣肉，青椒肉丝，生菜，泥鳅豆腐</p><p>牛牛早晨被爸爸接回来，刚好是我起床的时间（8点10几分）</p><p>继续Vue登录模块开发，使用element-plus，@arco-design&#x2F;web-vue包，score-system项目由于npm依赖较多，冲突和警告较多，node-modules删了又下。</p><p>忙活一天，终于达成这种效果。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/04/31bb87bf3a3cb5604d30d939737323e5.png@webp" alt="31bb87bf3a3cb5604d30d939737323e5.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-03</title>
+    <link href="/2025/04/03/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-03/"/>
+    <url>/2025/04/03/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-03/</url>
+    
+    <content type="html"><![CDATA[<p>发现iTab登录模块挺不错的，尝试仿写，加入到Score-System。</p><p>一直到凌晨4点才睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-04-02</title>
+    <link href="/2025/04/02/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-02/"/>
+    <url>/2025/04/02/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-02/</url>
+    
+    <content type="html"><![CDATA[<p>早上8点10几分被闹钟叫醒起床，早餐是三个蒿子粑粑，一碗豆浆，一块菠萝。饭后一瓶酸奶。</p><p>吃完早餐没有烟总感觉不得劲，于是换了一件裤子，出去买了一包白利群。回来抽了一支烟，坐在床上，继续尝试解决昨日iTab上传自定义网站icon图标获取不到的问题。痛点在于每个网站的icon图标路径不统一，有的还有用base64，或者有的就是使用Selector选择器获取不到。退而求其次，首先手动下载icon图标，由于上传文件类型不支持ico，还要再次转为svg，通过网络请求发现上传之前会请求&#x2F;api&#x2F;sts接口获取阿里云OSS存储临时权限，通过补全接口和sts-token数据，可以顺利上传文件到源（files.codelife.cc）存储桶并返回icon文件路径。</p><p>下午开始替换accessKeyId和secureAccessKey,用于替换存储桶为自己的res-yaonas bucket，经过大量的询问deepseek（都被我弄到限额，服务器繁忙了）和调试，依然报400 bad request错误，具体原因为授权问题。最后不得不直接请求SpringBoot上传接口，可喜可贺，上传自定义icon功能基本完成。在此期间（晚上吃完饭到完成该功能）， 身边的投影仪一直放着电视。</p><p>已经10点了，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>愚人节快乐</title>
+    <link href="/2025/04/01/2025/04/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90/"/>
+    <url>/2025/04/01/2025/04/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90/</url>
+    
+    <content type="html"><![CDATA[<p>使用v2ray搭建代理，想要发个QQ动态，代理还是自己搭建的用的放心，哈哈。</p><p>早上逛逛iTab上给出的v2ex网站，发现竟然是程序员论坛，真是有意思，找到一个弱密码的AI绘图后台管理网站，账密：admin-password</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/04/7a269560695d98de452322d08901a87a.png@webp" alt="7a269560695d98de452322d08901a87a.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-31</title>
+    <link href="/2025/03/31/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-31/"/>
+    <url>/2025/03/31/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-31/</url>
+    
+    <content type="html"><![CDATA[<p>郁闷。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/0e82270fa76e32b3db637f2ca5fcfe48.png@webp" alt="0e82270fa76e32b3db637f2ca5fcfe48.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记</title>
+    <link href="/2025/03/30/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/"/>
+    <url>/2025/03/30/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p>晚间通宵，打一上午只狼游戏。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-29</title>
+    <link href="/2025/03/29/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-29/"/>
+    <url>/2025/03/29/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-29/</url>
+    
+    <content type="html"><![CDATA[<p>今天早上我下楼不见妈妈踪影也没有早饭。打电话才得知妈妈6点多就去六安了。</p><p>直到下午5点左右，完成iTab自定义分类壁纸的实现。如图：</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/5c62dbc237687e1672c4a6f5a8b6205e.jpeg@webp" alt="5c62dbc237687e1672c4a6f5a8b6205e.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-28</title>
+    <link href="/2025/03/28/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-28/"/>
+    <url>/2025/03/28/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-28/</url>
+    
+    <content type="html"><![CDATA[<p>今一天总算基本完成了iTab Wallpaper接口的开发适配。</p><p>晚上想要添加自定义Wallpaper条目，结果改着改着之前的图像请求出现403错误了，不知道是我的代码改错了还是服务器将我拦截了，好不痛快。</p><p>看情况应该是服务器将我禁止了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-27</title>
+    <link href="/2025/03/27/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-27/"/>
+    <url>/2025/03/27/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-27/</url>
+    
+    <content type="html"><![CDATA[<p>凌晨3点左右醒来，外面下起了漂泊大雨并且伴随着打雷。</p><p>醒来之后没有继续睡着了，在阿里云盘上看了两部电影《名侦探柯南·通往天国的倒计时》与《赌城大亨二之至尊无敌》</p><p>7点10分左右下楼，父母煮了一锅面，里面还加了骨头汤，我肯定是没有办法吃了。</p><p>上楼着手昨日定下的Todo List。</p><p>2025-3-27 Todo List</p><ul><li><p><input checked="" disabled="" type="checkbox"> WikiJS 丰富 Git Tag 条目 </p></li><li><p><input disabled="" type="checkbox"> 丰富iTab Wallpaper等其他资源相关接口</p></li><li><p><input checked="" disabled="" type="checkbox"> 查看Google Seach Console与 Microsoft Bing WebMaster上的站点收录情况</p></li></ul><p>Google Search Console继昨天删除blog.yaonas.space页面后，今天已经不能被搜索到，非常棒。</p><p>Microsoft Bing WebMaster由于站点地图中url依旧是fun结尾的域名地址，导致直到今天还没有编制索引。</p><ul><li><input checked="" disabled="" type="checkbox"> 玩转 Kali 相关环境配置</li></ul><p>早上没吃饭加上凌晨醒来起的早，我感到一阵头晕，下楼拿了一瓶啤酒和一下零食吃下去。</p><p>下午3点多困了，睡觉，直到28日凌晨2点半醒，写下这篇Entry。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-26</title>
+    <link href="/2025/03/26/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-26/"/>
+    <url>/2025/03/26/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-26/</url>
+    
+    <content type="html"><![CDATA[<p>早上7点30分之后醒来，拿起手机，突发奇想的查找一下我的Yao’s Blog站点在Google上的收录情况，发现Wordpress站点很完美的可以被查找到，但是不知为什么（也许是CDN或反向代理的原因），blog.yaonas.space的Hexo Blog站点也被收录了，其中夹杂着大量我的日记以及隐私信息，我不想被收录，就在Google Search Console中视图删除页面，却显示Not in property. 之后起床，洗漱，下楼。</p><p>没有任何早餐可以吃，抓了几把燕麦片塞进嘴里，吃下算作早餐。上楼，添加blog.yaonas.space到Google Search Console，在Removable Page下添加需要移除的url路径，之后显示Processing Request，等待中。</p><p>iTab接口方面，完善及增加更新和备份配置数据的接口，到下午3，4点完成，计划明天丰富Wallpaper接口，添加私人壁纸接口。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/80b80f60604b1ddb3cdca141eae798b0.jpeg@webp" alt="80b80f60604b1ddb3cdca141eae798b0.jpeg"></p><p>晚上5点左右，不信邪，继续昨天Jetbrains Space docker本地部署的尝试，从昨天的2024.2.2换到2023.1.1，依旧卡在填写License，在Account页面提示没有符合这个Space的License，依旧以删除Ubuntu虚拟机收尾。</p><p>今天天气格外的热，温度高达36摄氏度，真是不当人。</p><p>在等待docker pull Image的时候在抖音看了一部《胜劵在握》的电影解说，选材挺有意思，也比较符合当前社会形式和科技趋势。</p><p>晚上吃完饭极其犯困，就写到这里，睡觉了💤</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>TodayNotes-2025-03-25</title>
+    <link href="/2025/03/25/2025/03/TodayNotes-2025-03-25/"/>
+    <url>/2025/03/25/2025/03/TodayNotes-2025-03-25/</url>
+    
+    <content type="html"><![CDATA[<p>Holy shit, I spent one whole day at building JetBrains Space On-Premises. I use Ubuntu 18.04 to install docker but finally run failed maybe because of CPU cores limitations. Before this, I removed Linux kernel by mistake. And when I changed CPU cores and RAM, I can’t start this virtual machine.</p><p>Then I made a new 22.04 version virtual machine. Successfully running space docker by docker-compose, I was so happy and entered Space Web, tells me needed to activate. I know it has free plan, but when I follow this link to my JetBrains account, show me I have no license. I found so many articles and blogs no revulsion.</p><p>At the end, I removed all docker images and containers. So angry.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-24</title>
+    <link href="/2025/03/24/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-24/"/>
+    <url>/2025/03/24/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-24/</url>
+    
+    <content type="html"><![CDATA[<p>中午时分父母去了合肥进货，我中午也没有吃饭，只塞了几口燕麦片。</p><p>昨晚一晚没睡，今天也没睡，晚餐吃了三个鸡腿，然后睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-23</title>
+    <link href="/2025/03/23/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-23/"/>
+    <url>/2025/03/23/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-23/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚通宵，依旧是做避免preflight请求的操作。</p><p>早上早餐只是蒿子粑粑，9点左右睡觉，晚上10多醒来，将剩饭吃掉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-22</title>
+    <link href="/2025/03/22/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-22/"/>
+    <url>/2025/03/22/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-22/</url>
+    
+    <content type="html"><![CDATA[<p>因为强迫症和为了争取一下相关性能，配置CDN代理，实现iTab本地化部署跨域请求不触发preflight预检请求，忙活一天。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-21</title>
+    <link href="/2025/03/21/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-21/"/>
+    <url>/2025/03/21/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-21/</url>
+    
+    <content type="html"><![CDATA[<p>昨天下午1点多睡觉，直到今天凌晨2点左右醒，醒来之后就没有继续入睡，一直等到早晨7点下楼。</p><p>早餐，疙瘩汤，火腿肠，洋大椒。</p><p>吃完早饭抽支烟，修复blog.yaonas.space站点503错误和代理问题，之后配置全站加速CDN。</p><p>wordpress其中一篇文章的图片显示修复。</p><p>iTab接口相关，getConfig和updateConfig从由文件存储改为MySQL存储，没少问DeepSeek。（直到晚上8点多完成相关需求）</p><p>现在在上厕所，早点睡觉。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/bc2939090b2b7737d4b50aa62f4cdafe.jpeg@webp" alt="bc2939090b2b7737d4b50aa62f4cdafe.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2023-03-20</title>
+    <link href="/2025/03/20/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2023-03-20/"/>
+    <url>/2025/03/20/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2023-03-20/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚一夜没睡，早晨吃了蛋炒饭。</p><p>下午1点多睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-19</title>
+    <link href="/2025/03/19/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-19/"/>
+    <url>/2025/03/19/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-19/</url>
+    
+    <content type="html"><![CDATA[<p>早晨临近8点，妈妈将我喊起床，早餐是爸爸下的面条，我还特地跟妈妈说叫爸爸不要将鸡蛋和面条一起煮，结果还是一起煮的。强忍着不悦吃掉早餐。</p><p>继续昨日iTab Config接口开发，新增update接口，尝试找出请求头Signatirekey和_id的关联，询问DeepSeek，给出Base64，Hashlib和AES结合的处理方法，接着准备逆向JS找出盐值，等到下晚的时候才发现未登录时请求头中也带有Signaturekey。</p><p>晚上吃饭的时间我却不饿，中午也是直到下午1点左右才吃的，妈妈找上来让我剃头，给我拿点零食吃，我轻易的让她把我头发给剃了，然后去洗个澡。</p><p>洗完澡抽支烟开始&#x2F;website&#x2F;info接口的开发，现在晚上11点40了，基本上完成了数据重合，只不过原iTab可能是在数据库中查找网站信息，然后返回icon，其icon地址也变成file.codelife.cc。</p><p>明天需要修改Config的json数据方式从json文件存储到MySQl。</p><p>上个厕所，睡觉了。</p><p>网站图片缓存相关：</p><p><a href="https://developer/.aliyun/.com/article/1634535">https://developer\.aliyun\.com/article/1634535</a></p><p><a href="https://www/.cnblogs/.com/dingfengbaozi/p/18636477">https://www\.cnblogs\.com/dingfengbaozi/p/18636477</a></p><p><a href="https://forum/.typecho/.org/viewtopic/.php?t=25291">https://forum\.typecho\.org/viewtopic\.php?t=25291</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-18</title>
+    <link href="/2025/03/18/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-18/"/>
+    <url>/2025/03/18/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-18/</url>
+    
+    <content type="html"><![CDATA[<p>昨天下午爸爸去六安了，早上我4点多醒来，刷抖音直到7点妈妈起床，我跟随她刷牙洗脸下楼，早餐是疙瘩汤。</p><p>继续提升hexo-blog站点的图片加载速度，譬如配置缓存，gzip压缩。没有多少效果。</p><p>之后做iTab登录接口分析，分析结果如下：</p><p>点击登录按钮，pop登录窗口</p><p>微信扫码登陆：axios请求qrcode 接口，获取ticket和微信登录二维码地址，扫码登陆，获取微信open_id。</p><p>密码登陆：输入邮箱与密码，点击立即登陆按钮，触发public-api.js axios请求，密码加密逻辑pe()函数。</p><p>继而debug pe（）函数，断点，本地测试，解密。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/7a12f84f081e55bc463c0c5ea0a8ed86.jpeg@webp" alt="7a12f84f081e55bc463c0c5ea0a8ed86.jpeg"></p><p>中午大姨娘来我家，带了酸菜鱼，妈妈喊我下楼吃饭。</p><p>吃完饭从SwaggerDemo分离出独立的iTab接口，到了下午3点多，极其犯困，定了4点的闹钟，一觉睡到晚上7:20，起床后吃个晚饭，开始iTab Login与Cofig接口的开发，建MySQL表，登录，push config数据。iTab前端也可以正常登录和获取Config数据了，接下来需要处理优化接口返回的个别数据。完善其他接口（比如update）</p><p>现在是晚上22:45，马上抽支烟，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>国内互联网环境的又一篇闹骚</title>
+    <link href="/2025/03/17/2025/03/%E5%9B%BD%E5%86%85%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83%E7%9A%84%E5%8F%88%E4%B8%80%E7%AF%87%E9%97%B9%E9%AA%9A/"/>
+    <url>/2025/03/17/2025/03/%E5%9B%BD%E5%86%85%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83%E7%9A%84%E5%8F%88%E4%B8%80%E7%AF%87%E9%97%B9%E9%AA%9A/</url>
+    
+    <content type="html"><![CDATA[<p>昨天晚上我满心欢喜的计划今天配置香港服务器网站CDN加速，今天着手去做，一大堆的账号注册与实名认证，最后竟发现不管是腾讯云，阿里云，又拍云，甚至是小众的雨润，Padun都需要域名备案，我操了，我既然都备案了还需要买香港服务器干嘛，好我退一步给域名做备案却发现服务器必须要在中国大陆，陷入死循环。</p><p>最后回到起点，用CloudFlare做CDN，静态图像文件缓存，还是老问题，大陆访问慢，我想可能还不如直接从服务器加载。</p><p>其中事先不知道雨润也配置CDN也需要域名备案，还充值了5元，还不能退款，真是坑爹。</p><p>今天中午的菜有梅菜扣肉和昨天的烤鸭。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/37d585a5e54cdb705bd85d486ae96989.jpeg@webp" alt="37d585a5e54cdb705bd85d486ae96989.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-16</title>
+    <link href="/2025/03/16/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-16/"/>
+    <url>/2025/03/16/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-16/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚搞一晚上的服务器Apache网站的Cache配置，直到5点左右睡觉，今天下午3点多被妈妈叫醒，下楼吃饭，有烤鸭。</p><p>晚上开始做昨晚设的To do list，着手Hexo-Blog的SEO优化，更改banner图格式为webp，然后去买包白利群，Springboot添加注册Mapper操作。</p><p>依旧是忙的没有时间用投影仪看《妈祖》。今天就是这样。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/c24dd04c1a0884d852e418b6ed8b122f.jpeg@webp" alt="c24dd04c1a0884d852e418b6ed8b122f.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-15</title>
+    <link href="/2025/03/15/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-15/"/>
+    <url>/2025/03/15/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-15/</url>
+    
+    <content type="html"><![CDATA[<p>今天早晨7点多妈妈将我喊醒，问我早餐吃不吃土豆丝和饼，我迷迷糊糊地应了一声又再度睡去，8点多妈妈再次喊我起床，我随即洗漱，下楼吃早饭。</p><p>吃完早饭冲壶咖啡，10点左右用现金过来妈妈的转账，如愿以偿买了1年UCloud香港服务器。（如不是中国大陆搞什么特殊，又是墙的又是备案等等）我也不会选择香港的服务器。</p><p>然后今一天都在迁移站点，导入MySQL数据库，提高网站加载速度。</p><p>晚上迁移SpringBoot iTab1.0.0项目，来来回回打包了好几次，因为FileInputStream找不到文件和Static 变量导致@Value注解获取不到值无法发送Email。</p><p>之后增加score.yaonas.space站点，注意一点就是Apache的伪静态和。这两个站点的SSL证书都是添加dns解析验证的，不知道为什么验证文件就是404 not found。</p><p>凌晨4点半了，肚子咕噜咕噜的，好想要拉稀，但是我要睡觉了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-14</title>
+    <link href="/2025/03/14/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-14/"/>
+    <url>/2025/03/14/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-14/</url>
+    
+    <content type="html"><![CDATA[<p>今天打了一天的只狼，脊椎和腰酸痛，早餐是我自己煮的香肠稀饭粥，中午没怎么吃（好想就是没吃），下午吃了妈妈买的馍（配的酱很好吃），晚上妈妈喊我下楼吃饭，我发现几乎没有什么饭了，索性将早上剩的稀饭吃了，当时吃的很撑，现在（22:40）又饿了。</p><p>明天是3月15日，前不久查看阿里云服务器余额只剩5%了，计划明天买个Ucloud服务器和迁移网站。</p><p>马上抽支烟睡觉了。</p><p>刚刚看到普皖烟盒中仅剩的三支烟，又想到今年元旦时父母去了六安，通宵从买服务器到建站的一步步，第二天忙完了这些事心情大好，忘掉了12月末的爸爸换网导致公网ipv6丢失，Jetbrains Space将停止运营的种种琐事闹的不愉快，一晚上的通宵竟丝毫感觉不到疲惫，外出转了一大圈买了包利群和玉溪的那些事，时间过得真快，转眼三个月就过去了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-13</title>
+    <link href="/2025/03/13/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-13/"/>
+    <url>/2025/03/13/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-13/</url>
+    
+    <content type="html"><![CDATA[<p>继续完善Vxe-Table构建的ScoreTable，添加关联成绩功能。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-12</title>
+    <link href="/2025/03/12/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-12/"/>
+    <url>/2025/03/12/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-12/</url>
+    
+    <content type="html"><![CDATA[<p>早晨依旧没有食物。</p><p>挨到中午，菜有牛肉，吃了一碗饭。</p><p>接着睡觉，晚上8点左右醒。</p><p>然后npm安装Vex Table，重构ScoreView。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-11</title>
+    <link href="/2025/03/11/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-11/"/>
+    <url>/2025/03/11/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-11/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚一夜没睡，早晨妈妈没有烧早餐作为对我的惩罚，我十分生气，摔碎了一柱挂面。接着上楼吃了两个橘子，抽根烟，睡觉。直到晚上五点多才醒过来，下楼发现妈妈依然没有烧什么菜，就煎点香肠和火腿肠下面吃，上楼用Charles代理抓包，分析手机网络流量，不过对于抖音应用似乎数据传输加密。</p><p>晚上9点左右，用剩的香肠和饭再加上另外的一根火腿肠炒了一下，吃完睡觉。</p><p>一直睡不着，在抖音上再次刷到锐锐（小学数学教辅上的人物），在网友的信息中找到FlAI应用，使用锐锐模版对话。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/fa61cd2b4e93987a505db45db64b4f67.jpeg@webp" alt="fa61cd2b4e93987a505db45db64b4f67.jpeg"></p><p>今天就是这样。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-10</title>
+    <link href="/2025/03/10/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-10/"/>
+    <url>/2025/03/10/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-10/</url>
+    
+    <content type="html"><![CDATA[<p>近几日作息也算是调整过来了，但是感觉并不是那么好，下午十分，我依然感到无所适从，无事可做。</p><p>我想去六安呆上几日，苦于那儿没有网，阿里云的服务器最迟到本月15日就要到期了，后续我也要购买UCloud服务器然后重新搭建和部署网站，没有什么意思（无聊）。</p><p>最近在部署好SpringBoot后端接口后，我在做Vue前端，各种复制粘贴，因为对于ElementUI我实在不算熟悉，Table也会由于各种CSS样式被改的面目全非。</p><p>下午头脑极其混乱，我想睡上一会。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/30921db174ac735bc3f8af4b285f3fcd.png@webp" alt="30921db174ac735bc3f8af4b285f3fcd.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-09</title>
+    <link href="/2025/03/09/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-09/"/>
+    <url>/2025/03/09/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-09/</url>
+    
+    <content type="html"><![CDATA[<p>时间一直在走，我什么也留不住。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/9f1eec2e872243fd3902c86ed9d0c5d1.jpeg@webp" alt="9f1eec2e872243fd3902c86ed9d0c5d1.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-08</title>
+    <link href="/2025/03/08/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-08/"/>
+    <url>/2025/03/08/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-08/</url>
+    
+    <content type="html"><![CDATA[<p>不知道说些什么了，呆在房间里，各种无所适从。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-07</title>
+    <link href="/2025/03/07/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-07/"/>
+    <url>/2025/03/07/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-07/</url>
+    
+    <content type="html"><![CDATA[<p>昨夜通宵打游戏，今天计划是一天不睡，调整好作息，我感到身体的机能下降。</p><p>今天早晨随父母吃了早饭，然后接着打游戏，抽一根烟，头脑是混乱的。难受。</p><p>不能睡呀。昨晚看了雷军的创业历程，深受启发。</p><p>12：06 PM</p><p>以身入局，对于游玩MOBA类的竞技游戏，真的会让人烦躁，太会影响人的心态了。</p><p>刚刚下楼看了一下中午的饭菜，着实太过清淡，有荸荠炒肉（之前吃过一次，上面好像浇了一层糖浆），然后就是这几天每天都有的炒油麦菜以及前几天的鱼锅子。没有吃的欲望，想要睡觉了，但是实在不想前功尽弃。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-06</title>
+    <link href="/2025/03/06/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-06/"/>
+    <url>/2025/03/06/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-06/</url>
+    
+    <content type="html"><![CDATA[<p>打游戏，冲咖啡，泡茶，SpringBoot项目重定向相关。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-05</title>
+    <link href="/2025/03/05/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-05/"/>
+    <url>/2025/03/05/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-05/</url>
+    
+    <content type="html"><![CDATA[<p>Vue前端项目开发，拦截器。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-04</title>
+    <link href="/2025/03/04/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-04/"/>
+    <url>/2025/03/04/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-04/</url>
+    
+    <content type="html"><![CDATA[<p>解决昨晚Vue前端发送加密数据无法解密的问题，原来是JEncrypt进行初始化后，公钥并没有正确的配置，导致加密后的数据并不是使用存入Redis的公钥来加密，自然无法被解密。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-03-03</title>
+    <link href="/2025/03/03/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-03/"/>
+    <url>/2025/03/03/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-03/</url>
+    
+    <content type="html"><![CDATA[<p>一觉醒来已经是中午12:40多了，我听到隔壁房间的呼噜声，想必父母已经在睡午觉了。</p><p>洗漱下楼，看见菜有麻婆豆腐，油麦菜和芹菜，我都挺爱吃的。</p><p>上楼登陆阿里云ECS控制台发现即便昨天已经设置节省停机了，但实例系统盘存储还会继续收费，索性打开了服务器。</p><p>开始修复昨晚router&#x2F;index的路由拦截器的bug，问题很简单，就是添加了isFirstLoad &#x3D;&#x3D; null条件，当localStorage有token项并且isFirstLoad&#x3D;&#x3D;false时，会直接进入else，然后next(“&#x2F;login”),继续被拦截进入else体，陷入死循环。</p><p>将昨天备份的服务器数据从sd卡U盘转移到之前的闪迪U盘，然后就打游戏去了。</p><p>下晚时想要加密用户登录时的传输数据，按照网上教程采用RAS非对称加密，引入cn.hutool.core和另一个依赖，定义公钥和私钥，测试却出现无法decode密钥的错误。不管了，打游戏。</p><p>晚上9点多睡觉，凌晨2点30左右醒来，极渴，倒点水喝，写下这篇Entry。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2024-03-02</title>
+    <link href="/2025/03/02/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2024-03-02/"/>
+    <url>/2025/03/02/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2024-03-02/</url>
+    
+    <content type="html"><![CDATA[<p>今天是星期天。</p><p>本来为整合notify</p><p>打游戏收到短信 pic</p><p>备份ECS</p><p>NAS本地Wordpress添加文章</p><p>停止实例</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>三月首记</title>
+    <link href="/2025/03/01/2025/03/%E4%B8%89%E6%9C%88%E9%A6%96%E8%AE%B0/"/>
+    <url>/2025/03/01/2025/03/%E4%B8%89%E6%9C%88%E9%A6%96%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p>今天是三月的第一天，也是农历二月初二，被称为“龙抬头”，许多人在这一天剃头，父母今天挺忙。今天也是真热。</p><p>昨晚一夜没睡，好不容易调整过来的作息又打乱了，只正常了一天。中午12点多被妈妈的电话叫醒，告诉我他们今天很忙，没有烧菜，让我去买一份酸菜鱼，之后还有晒衣服。刚好我本来就是要出去买烟的，就同意了，妈妈给我转20元。</p><p>下午一点我换好衣服（热的我只穿两件单衣）和穿上鞋就出去买了。回来买了一包小苏。</p><p>吃完中饭，继续Vue前端开发。这次是做RegisterView，由于在LoginView中使用import全局导入css样式，导致sign-up同class样式被覆盖，这个页面样式总是有问题，最后使用style标签，添加scoped属性，更改css样式中的position解决。</p><p>晚上吃完饭，抽支烟，想要解决this.$notify()中模块整合调用时this.$createElement为undefined问题，却被打游戏耽误，不过确实上到了50星。</p><p>10点多父母下楼继续干活，我也下楼煮了14个饺子吃（打游戏给我打饿了），吃完后去后门小房间抽一支烟。</p><p>上楼上个大号厕所，本来准备通宵写代码的（整合this.$notify函数消息提醒），但还是选择打游戏。</p><p>凌晨1点多关灯躺下，看会抖音视频，之前睡不着，现在已经是凌晨3点了，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-28</title>
+    <link href="/2025/02/28/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-28/"/>
+    <url>/2025/02/28/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-28/</url>
+    
+    <content type="html"><![CDATA[<p>早餐：12个煮的猪肉荠菜水饺。</p><p>昨晚一觉睡到清晨6点多，睡的很好，清晨被电视声音吵醒，翻翻微信的公众号文章，刷刷抖音起床下楼吃早饭。</p><p>吃完早饭继续Vue前端的Home Dashboard页面开发，在Github上Get一下Vue管理项目的组建，对照着B站上的教学视频，一步步完善页面。</p><p>下午修改LoginView页面，直接使用之前Django项目中的html元素和css样式，在ScoreView中引入TableView后执行getScore方法（本来为TableView中的created方法）导致this.tableData返回undefined从而导致el-table无法加载数据，这个问题自昨天出现一直没有解决。</p><p>晚上一直睡不着，10点多关灯躺下，看会抖音，从11点30左右开始看Kindle电子书，直到凌晨2点，再一次想到了弈，用QQ查找了一下，昵称依旧是“情诗”，之后使用DeepSeek来分析我的情感问题，得到负面和消极的判断，其实明眼人都可以看得出来，只是我不愿意接受和难以忘怀而已。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/02/8265d45a588e03cbf1c90ed0021be971.jpeg@webp" alt="8265d45a588e03cbf1c90ed0021be971.jpeg"></p><p>继此之后尝试将AI小智的湾湾小何音色保存在本地，来使用本地模型生成语音从文字中。可惜只是在火山引擎的音色列表中找到这个音色但是并不提供音色模型文件下载，我想到可以直接使用TTS模型来克隆音色，但是无疑加重我电脑负担和影响音色的一致性和准确性。</p><p>现在是凌晨3:30，写完这篇日记，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-27</title>
+    <link href="/2025/02/27/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-27/"/>
+    <url>/2025/02/27/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-27/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚一夜没睡，下午5点多一直到凌晨2点多我在做毛坦厂中学2022届学生的来自何处的地区分布（根据csv文件最后一列的身份证号前6位），得到分布数据后，用AI给我展示思路，决定使用PyEcharts库来生成HTMl文件来网页展示，之后又添加省份数据，动态注册地图等。凌晨2点之后，开始打游戏，没打几把妈妈就叫我关灯睡觉了，我也对打游戏失去兴趣（战绩不佳，游戏玩法疲劳），关上灯睡觉，却睡不着，刷抖音，GitHub AI小智项目直到早晨6点多，爸爸在隔壁房间打开电视，播放着电视直播，内容应该是朝闻天下，升国旗仪式，国歌的声音挺大的。</p><p>起床洗漱下楼一气呵成，早餐是疙瘩头。吃完早饭，忍着困意冲了一壶咖啡和一杯寿眉茶。</p><p>之后git clone了一下GitHub上的小智语音助手的client，无需单片机等硬件就可以使用Python运行体验。我clone下项目，新建虚拟环境，安装依赖，修改MAC与IP地址，运行程序，第一次连接需要在xiaozhi.me后台添加设备，需要输入生成的6位数字码，成功添加设备和使用AI小智。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/02/ee383915e4a38c69f8948a01f0ac9f1f.png@webp" alt="ee383915e4a38c69f8948a01f0ac9f1f.jpeg"></p><p>测试完这个项目之后，继续学生户籍地分布展现的开发，添加datazoom事件来实现下钻逻辑，引用DeepSeek生成的code，却并不会触发下钻，经过两次反馈与排除问题还是没有解决，暂时搁置。</p><p>下午在做ScoreSystem的Vue前端开发。</p><p>由于一天一夜未睡，吃完晚饭晚间7点多就上床睡觉了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-26</title>
+    <link href="/2025/02/26/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-26/"/>
+    <url>/2025/02/26/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-26/</url>
+    
+    <content type="html"><![CDATA[<p>最近几日总是梦到高中时代的各种考试，周考，月考，甚至是高考，在梦中我对这些无形的感到压力和焦虑，当我醒来后意识到我早已脱离了这些考试制度，又感到莫大的放松。关于梦到这些内容我猜想可能与这几天的ScoreSystem开发，归档之前的周考成绩有关，或者是我始终没有放下这些。</p><p>从几天前我就开始迫切的希望调整作息（这段时间的作息实在是太糟糕了，晚上凌晨刷着手机，非常困却睡不着，然后第二天睡了一上午，有时甚至在下午1点多才起床。那种感觉就像是那时课堂上非常困却不敢睡着，但是现在我可以自由的管理时间和作息，陷入这种状态还真是作孽啊）。但是今天依旧没有调整过来，依然是下午1点多下楼吃午饭。妈妈在上午9点左右就已经从六安回来了。</p><p>吃完中饭开始安装Redis的docker容器，在SpringBoot中部署，用于存放在用户注册时发送的邮箱验证码，看中的是其验证码过期自动销毁。</p><p>在吃晚饭之前初步完成了相关接口的逻辑实现。</p><p>之后计划是Vue前端的开发。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-25</title>
+    <link href="/2025/02/25/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-25/"/>
+    <url>/2025/02/25/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-25/</url>
+    
+    <content type="html"><![CDATA[<p>为什么我总觉得现在好像变忙了呢，明明之前每个星期六晚上吃饭我都可以边吃饭边看电视，现在只想快点吃完干别的事。但是就算是现在这样我还是觉得没有做什么事。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-24</title>
+    <link href="/2025/02/24/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-24/"/>
+    <url>/2025/02/24/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-24/</url>
+    
+    <content type="html"><![CDATA[<p>下午1点左右下楼，吃中饭，有羊肉锅子，炒西兰花和木耳。</p><p>着手周考成绩归档项目。</p><p>晚上卡在ajax请求携带Cookie，我迫切的想学习Vue。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-23</title>
+    <link href="/2025/02/23/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-23/"/>
+    <url>/2025/02/23/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-23/</url>
+    
+    <content type="html"><![CDATA[<p>本日星期天，昨晚一直在做DayOne小记同步到hexo-blog，而后遇到1月17日带有music组件的entry，尝试在网站中复刻这种效果，直到凌晨4点多才入睡。</p><p>今天中午被妈妈叫醒，喊我去给大姨送饭（她忙着干活），我拒绝。洗漱后下楼，饭由于妈妈的疏忽还是生的，吃了他们早上买的饼和茶叶蛋作为中饭。</p><p>下午继续完善music_widget效果，新建ejs模版，读取md文件中的配置，可以轻松的在文章中添加此组件。</p><p>晚上妈妈喊我下楼吃饭，我下去才发现已经没有菜了，发起脾气，爸爸吼了我几句，最终煮了一锅疙瘩汤吃，毫无新意。</p><p>吃完饭，我又感到无所适从，不知道干些什么，妈妈让我不要吃完饭就躺着睡觉，我想去霍山散步……</p><p>明天干些什么呢，SpringBoot iTab接口拓展？我想到好久没用Python做数据处理了，Matlab与Jupyter，或是重温Titanic生存预测。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/02/712330988d26de52a26db1a5e1038aef.jpeg@webp" alt="712330988d26de52a26db1a5e1038aef.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>奇梦</title>
+    <link href="/2025/02/21/2025/02/%E5%A5%87%E6%A2%A6/"/>
+    <url>/2025/02/21/2025/02/%E5%A5%87%E6%A2%A6/</url>
+    
+    <content type="html"><![CDATA[<p>时光倒流 重生80</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-21</title>
+    <link href="/2025/02/21/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-21/"/>
+    <url>/2025/02/21/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-21/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚一夜没睡，早上强撑着刷牙洗漱，下楼，父母已经吃过早餐，我也实在不想吃疙瘩汤，挂面之类，就烧了一壶水，上楼泡面吃。</p><p>吃完肚子挺涨，用微波炉热了一杯咖啡。</p><p>iTab接口新增编辑Score模块，接下来是用户登陆与token。</p><p>中午下楼发现妈妈已经买好了烤鸭，但我不是很饿，吃了几个烤鸭卷饼。</p><p>下午1点多实在撑不住了，睡觉。晚上6点多被妈妈电话叫醒，吃完饭。吃完拆开一箱AD钙奶，现在坐在床上，肚子有点撑，看电视。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-20</title>
+    <link href="/2025/02/20/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-20/"/>
+    <url>/2025/02/20/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-20/</url>
+    
+    <content type="html"><![CDATA[<p>这几日的作息是十分混乱的，经常中午醒（被妈妈用电话叫醒），然后晚上直到凌晨3点左右才入睡，天气阴沉，没有什么做事的动力。</p><p>姥爷今天中午又来我家吃饭，不过我是等他们吃完饭才下楼的，菜是昨天的牛肉，没有多少，新炒的芹菜酱油干，干子弄的稀碎，炒菠菜等，没有任何吃饭的欲望，想吃烤鸭，妈妈又没买，索性将米饭倒回电饭锅，煮了一锅挂面，将要出锅又没有吃的兴致了，让妈妈搞点鸡蛋皮作为浇头，又被她以打扰楼上学生睡觉休息的理由拒绝。上楼思考吃什么（去买方便面，一个人又不怎么想去）照着镜子时，李从荣来我家剃头，就让他陪我去买，使用现金分别买了2袋和桶装的方便面。回来吃了一桶“粉面菜蛋”，吃完后又买了一包蓝楼。</p><p>继续昨天Android应用开发，使用Fragment切换底部菜单选择页面。</p><p>晚上5点多，将中午煮的面用方便面调料调味，吃了一半吃不下，上楼，抽一支烟，还是要少抽，最好不抽。</p><p>年味丝毫不剩了，李从荣明天也要去合肥开学，又一年回归平常。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/3ad38d37eed2a6912b297268f9c9df95.jpeg" alt="3ad38d37eed2a6912b297268f9c9df95.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-19</title>
+    <link href="/2025/02/19/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-19/"/>
+    <url>/2025/02/19/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-19/</url>
+    
+    <content type="html"><![CDATA[<p>Nothing，Blank，And forgot</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>调整</title>
+    <link href="/2025/02/18/2025/02/%E8%B0%83%E6%95%B4/"/>
+    <url>/2025/02/18/2025/02/%E8%B0%83%E6%95%B4/</url>
+    
+    <content type="html"><![CDATA[<p>无所事事，无所适从，难受。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>打你妈游戏</title>
+    <link href="/2025/02/17/2025/02/%E6%89%93%E4%BD%A0%E5%A6%88%E6%B8%B8%E6%88%8F/"/>
+    <url>/2025/02/17/2025/02/%E6%89%93%E4%BD%A0%E5%A6%88%E6%B8%B8%E6%88%8F/</url>
+    
+    <content type="html"><![CDATA[<p>操，浪费我那么长时间。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>难受</title>
+    <link href="/2025/02/16/2025/02/%E9%9A%BE%E5%8F%97/"/>
+    <url>/2025/02/16/2025/02/%E9%9A%BE%E5%8F%97/</url>
+    
+    <content type="html"><![CDATA[<p>早上8点多起来，让妈妈煮了一锅疙瘩汤，剩下大半碗没有吃完。</p><p>中午大姨夫和刘先露来我家吃饭，我没有下去。下午1点多下楼吃饭，有妈妈在多乐堡买的炸鸡。</p><p>吃完饭睡觉，睡到下午4点多，起来吃完饭。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>疑似患上甲流</title>
+    <link href="/2025/02/15/2025/02/%E7%96%91%E4%BC%BC%E6%82%A3%E4%B8%8A%E7%94%B2%E6%B5%81/"/>
+    <url>/2025/02/15/2025/02/%E7%96%91%E4%BC%BC%E6%82%A3%E4%B8%8A%E7%94%B2%E6%B5%81/</url>
+    
+    <content type="html"><![CDATA[<p>早晨起来已经是9点多了，牛牛到房间来烦我们，妈妈回来将我弄醒，嗓子十分涩疼，奶奶用偏方使用葫芦瓢刮几下没有任何效果，喝了一袋板蓝根，嗓子不是那么疼了。之后脑袋昏沉，像是睡眠不足发困，咳嗽，肺充血样的疼。中午躺在床上睡觉，没有吃中饭。</p><p>下午随妈妈回毛坦厂，去北门买了一碗馄饨吃。</p><p>晚上妈妈给我买了两盒药。之后睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-14</title>
+    <link href="/2025/02/14/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-14/"/>
+    <url>/2025/02/14/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-14/</url>
+    
+    <content type="html"><![CDATA[<p>中午起床，吃饭，有酸菜鱼。</p><p>晚上看抖音关注了猫欲主播。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-13</title>
+    <link href="/2025/02/13/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-13/"/>
+    <url>/2025/02/13/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-13/</url>
+    
+    <content type="html"><![CDATA[<p>早上7点多起床跟随父母去了六安。</p><p>晚上10点多出门看电影。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/1e5c8344e5334d685da7d0f7ddc28285.jpeg" alt="1e5c8344e5334d685da7d0f7ddc28285.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-12</title>
+    <link href="/2025/02/12/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-12/"/>
+    <url>/2025/02/12/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-12/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚看了一部电影，名为《爆裂点》，期间喝了大量的咖啡，一整晚毫无睡意，全部时间都用在打游戏了真他妈浪费时间。</p><p>今天早上7点多下楼，妈妈已经在煮水饺了，没有了煤气，导致水饺不是很熟，我很饿，昨晚凌晨3点左右就感到饿了，吃了不少水饺。吃完之后，不是很舒服，有点想吐的感觉，肚子也疼，上个厕所，抽支烟，然后睡觉。</p><p>下午2点多醒来，煮了一锅疙瘩汤算作中饭。继续打游戏，时间浪费了却没有丝毫进展。</p><p>之后增加iTab的&#x2F;api&#x2F;weather&#x2F;city接口，使用MySQL模糊查询城市或区域。由于Pojo实体类中对象名称与SQL表列名不一致导致无法注入数据，为此耗费了不少时间，最后在xml配置文件中定义ResultMap来映射表列名与Pojo对象名解决。</p><p>晚上李从荣来我家邀请我明天去六安看电影，我痛快的答应，但是坐公交车也是我所抗拒的。不知明天妈妈去不去。</p><p>现在不是很饿，但还是下楼早点吃的，看看电视，早点睡觉吧，这次讲真的，熬夜一晚上真的难熬。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-11</title>
+    <link href="/2025/02/11/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-11/"/>
+    <url>/2025/02/11/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-11/</url>
+    
+    <content type="html"><![CDATA[<p>早晨依然是被妈妈在8点左右喊醒，然后再度睡着，在11点左右醒来。</p><p>吃中饭，又蒜苗炒肉，咸菜，之前剩的牛肉和羊肉锅子。吃完饭，泡了一杯寿眉茶。</p><p>下午iTab接口，修改category接口，增加自定义TopSearch list</p><p>根据抖音官网的HotSearch接口，进行处理数据，回调Okhttp3中的Builder类方法，修改Header值，封装到TiktokService中。</p><p>晚上陪妈妈去买汤圆和水饺，明天是元宵节。遇见刘孝凤老师。</p><p>现在看看电视，喝一杯红酒。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-10</title>
+    <link href="/2025/02/10/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-10/"/>
+    <url>/2025/02/10/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-10/</url>
+    
+    <content type="html"><![CDATA[<p>还有两天就是元宵节，年假就这样过完了……</p><p>早上妈妈8点左右喊我起床，我关掉了闹钟，房间极其寒冷，我赖在床上，不愿起来，再度睡去，10点多才穿衣起床，下楼，妈妈告知我今天中午又有人来家中吃中饭，我煮了一锅挂面，既算作早饭也是中饭。</p><p>吃完面上楼，抽一支烟，等到他们吃完饭离开，我下楼取个海马刀，开一瓶红酒。浅尝几口，滋味不错，回甘明显。之后去取快递。重新开始iTab接口开发，解决了AutoWired注解的Mapper为空的问题，具体原因为Controller中使用new一个Service导致不能被SpringBoot管理所导致的，更改new方式为AutoWired解决此问题。</p><p>晚上吃完晚饭已经是5点多，将投影仪拿过来坐在床上看了会电视，抽一支烟，品几口红酒，快哉快哉。新建一个ToDo List，计划明天早上冲咖啡，泡茶，言归正传。</p><p>现在已是六点十二，无所适从，又觉得无事可做，索性早点躺下，不管能否睡着，也想早点调整作息，不要再早晨10点多起来了。</p><p>李从荣距离开学还有不短时间，我也不能够接受元宵节即将到来，年假结束的事实，计划哪天和他去霍山玩玩，吃个酸辣粉。</p><p>毛坦厂的高中前几天就已经开学，大街上又变得人来人往，难受😣我又想起去年初九前后写的《雷雨》那篇短文。时间过得真快。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/7370c69e0fd29f7975f1481cd9dcb842.jpeg" alt="7370c69e0fd29f7975f1481cd9dcb842.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-09</title>
+    <link href="/2025/02/09/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-09/"/>
+    <url>/2025/02/09/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-09/</url>
+    
+    <content type="html"><![CDATA[<p>一日未在家，去了六安，我的项目再度搁置。</p><p>早上9点多出发，起床时极其冷，早餐是一碗羊肉汤挂面。</p><p>中午11点左右到达。父母及奶奶去大姨爹家吃饭，我只是在住处吃一碗方便面。1点多他们回来。我和父母及牛牛一起去医院看望大姨。本来是准备喊刘先露一起去看电影的，但是她临时不去，我也不想去了，独自一人回了小区，在归途中买了一盒普皖。</p><p>晚上8点多回家，将台灯和一瓶红酒带回。在车上听音乐听到了《海阔天空》，又想起了之前冬天在学校跑操的种种，天空一片灰暗，寒气刺骨，学校大喇叭响起这首歌……</p><p>我又开启了幻想，数年之后，我也成为计算机的一代枭雄，回校看望高干老师，再次代入学生身份，抽一支雪茄，站在操场上……</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/7636aec5acd9d4fd429455846115d0d8.jpeg" alt="7636aec5acd9d4fd429455846115d0d8.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-08</title>
+    <link href="/2025/02/08/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-08/"/>
+    <url>/2025/02/08/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-08/</url>
+    
+    <content type="html"><![CDATA[<p>牛牛在河边玩冰落水，去姥爷家一天来代替元宵节前去。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-07</title>
+    <link href="/2025/02/07/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-07/"/>
+    <url>/2025/02/07/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-07/</url>
+    
+    <content type="html"><![CDATA[<p>临睡前在刷抖音才想到今天的DayOne没有写。现在来写吧。</p><p>昨晚打了会游戏，Navidia驱动更新了，只狼现在帧率只有不到20帧，之后又玩了P5R，直到2点多睡觉。</p><p>早上妈妈打了我好几个电话，应该是让我买东西。12点左右大姑爹上楼喊我起床，我似乎还有起床病，大呼小叫一会，真够尴尬。</p><p>起床后刷牙洗脸，并没有下楼，大姑爹又上来喊我一下，我这才下楼倒个水喝。随便和来吃饭的亲戚打个招呼。</p><p>等他们吃完饭，我下楼，没有多少饭了，煮了剩的几个水饺和一些挂面吃，吃的很撑。</p><p>今天主要做了Hexo Fluid主题post页面的Banner-Image图像替换，类似Wordpress中的特色图片，通过读取md文件内的文章属性。</p><p>晚上将中午剩的一点面和新加的一点挂面重新煮了一下，作为晚饭。吃完饭洗个澡。</p><p>10点15了，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-06</title>
+    <link href="/2025/02/06/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-06/"/>
+    <url>/2025/02/06/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-06/</url>
+    
+    <content type="html"><![CDATA[<p>依旧是早晨（算是到中午了）起床。</p><p>下午送牛牛去姥爷家，送到就走。毛坦厂一路上车辆很多（今日学生开学回来）</p><p>晚上去大舅奶家吃饭，喝了两杯红酒，不胜酒力，有点醉，很开心，但是也有点尴尬，在饭桌上他们又让我考驾照买车。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>开工大吉</title>
+    <link href="/2025/02/05/2025/02/%E5%BC%80%E5%B7%A5%E5%A4%A7%E5%90%89/"/>
+    <url>/2025/02/05/2025/02/%E5%BC%80%E5%B7%A5%E5%A4%A7%E5%90%89/</url>
+    
+    <content type="html"><![CDATA[<p>今日初八，汪东上午已经去江苏江阴了。上午10点多被妈妈喊醒，告知表姑姥和大姨她们来我家吃饭，我不想碰上寒暄什么，忍着饥饿一直呆在楼上，做iTab接口新的分支，使用mybatis库增删改查数据裤，读取并操作class数据库中web_student表中的成绩数据。</p><p>等到下午接近3点的时候，她们还是没有回去，在我家，我实在忍受不了饥饿，就下楼了，本来门都是关上的，真他妈巧的是牛牛在我刚到楼下的时候开了门，何静表姐不可避免的发现我并喊了我一声。</p><p>吃完饭上楼，抽一支小苏。继续开发。晚上爸爸喊我去石河那的溪德江（或许喊二姑爹）家吃饭，依旧是无法推却的喝了两杯酒。</p><p>晚上回来，大姨又到我家，妈妈打电话问我陪刘先露去六安看电影干不干，我当时在看抖音，加之酒醉，竟然答应了，现在想想又不能毁约，那就随其自然，随机应变吧。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/42259dca13934542ca58c3fbdb7c61a7.jpeg" alt="42259dca13934542ca58c3fbdb7c61a7.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-04</title>
+    <link href="/2025/02/04/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-04/"/>
+    <url>/2025/02/04/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-04/</url>
+    
+    <content type="html"><![CDATA[<p>早上10点多起来。起来中午来家里吃饭的人已经到了。</p><p>明天初八。汪东也出去干活了，父母也要干活了。去一趟六安。调整一下。</p><p>这几天工作进程缓慢，还是要去六安调整，要是每天都是过年那几天就好了，哈哈，又有点可笑。过年之后都会一种无所适从感，可惜啊，平平淡淡才是真。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-02-03</title>
+    <link href="/2025/02/03/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-03/"/>
+    <url>/2025/02/03/2025/02/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-02-03/</url>
+    
+    <content type="html"><![CDATA[<p>早晨换了一件白袄子去霍山徐璐家拜年。</p><p>下午3点多回来。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>充电器一拔又是一年</title>
+    <link href="/2025/02/02/2025/02/%E5%85%85%E7%94%B5%E5%99%A8%E4%B8%80%E6%8B%94%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/"/>
+    <url>/2025/02/02/2025/02/%E5%85%85%E7%94%B5%E5%99%A8%E4%B8%80%E6%8B%94%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/</url>
+    
+    <content type="html"><![CDATA[<p>今天是初五，早上9点钟，妈妈打电话喊我起床，下楼已经是10点接近11点了。早饭的时间已经过去，我用牛奶泡了半碗燕麦片就着花生吃了下去，算作意义上的早餐。吃完之后接着吃午饭，有羊肉，香菜花生等。</p><p>吃完午饭，打游戏，嗨哟，真是浪费时间。没有上多少星，时间倒是确确实实消耗掉了。接着给妈妈昨晚收到的红包100元现金，妈妈给我转100元，去超市帮妈妈买菜和饮料等，为今晚的聚餐做准备。</p><p>去超市买完需要的东西后，上个大号厕所，去快递代收点取回初一买的耳机。客人也来我家吃饭了。我并没有下去陪他们喝酒吃饭。继续iTab接口GetLocation服务的开发。</p><p>聚餐结束我才下楼吃完饭，兜兜转转也已经到晚上7，8点了。</p><p>夜间并没有早点睡觉，坐在床上打游戏。抽烟。现在烟有没有了，只剩两根，七星混合烟是否向汪东再买或其他，明天再做考虑。</p><p>晚上在相册中添加几张照片，又收到iCloud空间不足的警告，在支付宝领取了3个月的iCloud升级到50G的扩容。又多一项开支。</p><p>在3月末之前也需要迁移服务器上的MySQL库数据及网站相关内容。还有不知UCloud的服务器的优惠是否会持续到那时。那时又是否需要买一年的服务器。</p><p>初五也是过去了。在抖音看到热点：充电器一拔又是一年。哎，时间过的挺快的。</p><p>好困ߥ᧝ᨧ飀⍊</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/8472a1d7ff16451066c2141b171022a4.jpeg" alt="8472a1d7ff16451066c2141b171022a4.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>沉淀</title>
+    <link href="/2025/02/01/2025/02/%E6%B2%89%E6%B7%80/"/>
+    <url>/2025/02/01/2025/02/%E6%B2%89%E6%B7%80/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚喝了浓茶，直到3点多才睡去，今天早晨（不、已经是中午了）12点多起床。</p><p>下午破天荒的陪妈妈去菜市场买菜和超市买零食吃。</p><p>晚上去三姑爹家吃饭，现在大醉。</p><p>隐藏自己，不要过度抛头露面，虽然人都喜欢他人关注自己，但是现在是非常时期，就这样吧。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>大年初三</title>
+    <link href="/2025/01/31/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%B8%89/"/>
+    <url>/2025/01/31/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%B8%89/</url>
+    
+    <content type="html"><![CDATA[<p>早晨被鞭炮声吵醒，醒来后并没有立即起床，坐在床上用电脑做些什么。李从荣他们来我家拜年也是这个时候。在9点多下楼，早餐是煎水饺，真是百吃不腻。</p><p>吃完早餐，抽一支七星，继续iTab接口。中午爸爸和牛牛不在家吃饭，我和妈妈用前几天剩的牛肉锅子将就吃了一顿。</p><p>下午我在服务器上安装jdk，部署Java Spring项目，通过Enverment类获取配置文件中的hotValue文件路径，动态读取内容。为Java网站项目配置域名，公网访问，反向映射端口等。李从荣他们又来了，我没有时间和他们一起玩，他们在我房间坐了一会就回去了。</p><p>他们回去没一会儿，李从荣就打我微信电话，大姑爹让我去他家，什么事也不说。去了才知道要我和他们一起去二姑奶家吃饭。我只好去了。</p><p>在那里我一支烟也没有抽，汪东和表叔给我都没有要。我想要买汪东的七星去始终没说出口。在饭桌上喝了三小杯白酒，还不错，没什么不适。现在写到这里，我又想到在我前年Review中的李静文，又想起某年在杨文轩家的她和游泳中的她种种事，希望今年在某次聚会上可以再度遇到。可惜我又拘泥于多人的寒暄与聚餐。</p><p>大年初三也过了，现在快要10:30了。这次不说睡觉了😂明天见！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>大年初二</title>
+    <link href="/2025/01/30/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C/"/>
+    <url>/2025/01/30/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C/</url>
+    
+    <content type="html"><![CDATA[<p>早晨被奶奶喊醒，问我和她一起去不去六安，我因为要带不少东西，去六安也没有什么事就没有去。爸爸六点半送奶奶去六安。</p><p>八九点钟爸爸回来，和妈妈，牛牛一起去拜年。我也没有一起去，呆在家里。继续iTab的后端API接口。</p><p>中午1点左右吃了12个水饺作为午餐，然后上楼，喝了点红酒，抽了根小苏。</p><p>下午3点，妈妈打视频过来让我去姥爷家，我就骑着电瓶车去了。路上又抽了支小苏。</p><p>到了姥爷家实在没有什么事，只好东跑跑，西遛遛。到了老住处上面的塘旁边，抽了一支Seven Stars。</p><p>简单吃个晚饭，6点多回家，姥爷给了我200元红包。</p><p>明天我又答应妈妈如果李从荣他们独自来我家拜年我就和牛牛也去拜年，不知到时候他们是否回来，我又是否会兑现承诺。</p><p>早上起来的太早了，昨晚也是凌晨1点多睡觉。在姥爷家就犯困了，睡觉💤。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/ec92fecf955522128ad038539fe04dcb.jpeg" alt="ec92fecf955522128ad038539fe04dcb.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>大年初一</title>
+    <link href="/2025/01/28/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%B8%80/"/>
+    <url>/2025/01/28/2025/01/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%B8%80/</url>
+    
+    <content type="html"><![CDATA[<p>早上一直睡到中午，既算早饭又算中餐，吃了两个粽子，两个茶叶蛋和若干煎水饺。</p><p>下午坐在床上，打了会游戏，没有事干，犯困，3点躺下睡觉，5点30被喊醒吃饭。</p><p>晚上做了会iTab相关js的调试和逆向。奶奶今天晚上没到8点就睡觉了，我只能跟着关灯睡觉，可是我一点都不困。</p><p>躺在床上，花了28元买了一副蓝牙耳机和寿眉茶丸。</p><p>今一天就这么过去。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>除夕快乐</title>
+    <link href="/2025/01/28/2025/01/%E9%99%A4%E5%A4%95%E5%BF%AB%E4%B9%90/"/>
+    <url>/2025/01/28/2025/01/%E9%99%A4%E5%A4%95%E5%BF%AB%E4%B9%90/</url>
+    
+    <content type="html"><![CDATA[<p>今天是春节，早上我6:30被父母喊醒，7点多起床，吃了一碗猪肉芹菜水饺作为早餐。爸爸并没有像之前讲好的开车送我去老家贴对联。</p><p>吃完早饭，安装vs code的continue插件来访问deepseek的api接口以使用AI assistant。根据blog相关教程并没有成功，出现401授权错误。</p><p>9点多，妈妈喊我去老家贴对联，我只好带着牛牛去贴，一路上手冻的没有知觉，耳朵同样也是，是真的冷。</p><p>回到家，爸爸已经把奶奶接回来了，她正在帮忙做饭。我随即上楼，冲咖啡的时候，李从荣和汪许东上来了，我为他冲了一杯咖啡。中午吃中饭，饭菜挺丰盛的，李从荣他们也在我家象征性的吃了一点。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/900c5f3241bd388babe8d0d4170d79c7.jpeg" alt="900c5f3241bd388babe8d0d4170d79c7.jpeg"></p><p>吃完饭，他们继续在我家玩，汪东喝了不少酒，给了我一支点燃的荷花，我当时真的是胆大包天，竟当着爸爸的面抽烟。</p><p>下午父母他们去烧纸，我跟随李从荣他们出去走走，走到朱砂冲岔路口，大姑爹开车接我们去东石笋转了一圈回去。到了大佬家，她给了我和牛牛分别一个红包。</p><p>晚上按部就班吃年夜饭，我又冲了一壶咖啡，之后是烤火，看春晚。9点多我上楼，打了几把游戏。刚刚收到Radix的邮件回信，告知我yaonas.fun域名恢复解析了，可喜可贺。</p><p>马上十二点了，除夕也算是过了，刷个牙洗脸睡觉，今早挺早起来的，现在有点困了。</p><p>明天初一，不知有何新鲜事。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-27</title>
+    <link href="/2025/01/27/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-27/"/>
+    <url>/2025/01/27/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-27/</url>
+    
+    <content type="html"><![CDATA[<p>今天是过年前的最后一天，明天我要去老家贴对联，就早点睡了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-26</title>
+    <link href="/2025/01/26/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-26/"/>
+    <url>/2025/01/26/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-26/</url>
+    
+    <content type="html"><![CDATA[<p>昨晚沉醉于听歌，黎明破晓前的5点多入睡，今天接近中午的11点醒来起床。被奶奶打的电话弄醒，让我过年当天早点去贴春联。</p><p>照常洗漱，大姨娘已经在帮我们家烧饭，今天的菜有芹菜香干肉丝，青菜豆腐和排骨汤，不过后两者我是不吃的。吃完中饭，吸了一支Seven Stars，继续API接口开发，集成定义了一个Okhttp Client的连接返回Response的util工具类方法。一下午都在完善TopSearch接口，尝试添加新的抖音热榜模块，可惜没有找到前端是在何处添加热搜模块的。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/8ad29b95fb2a438482072bbd076a3796.jpeg" alt="8ad29b95fb2a438482072bbd076a3796.jpeg"></p><p>下午4点多出门，买了一包小苏，又去超市花了20元买了方便面和饮料，啤酒。回来吃了一包火鸡面作为晚餐。之后又把前端assets文件夹的css文件移到新建的css文件夹中，修改js中引入css的路径，写了一个每日一言的接口。</p><p>明天也是过年前的最后一天了，把窄的对联写好。</p><p>10点半了，睡觉💤。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-25</title>
+    <link href="/2025/01/25/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-25/"/>
+    <url>/2025/01/25/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-25/</url>
+    
+    <content type="html"><![CDATA[<p>早上10点多从大佬家回来，自然是没有早饭可以吃了。开始着手那天使用ChatGPT生成的Swagger Demo项目，还是报错。挨到中午吃过中饭，冲了一壶咖啡，抽了一支七星香烟。继续研究API接口，下午终于达成了这种效果。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/72c6acf623ee80672f61de3b10bd6928.jpeg" alt="72c6acf623ee80672f61de3b10bd6928.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-24</title>
+    <link href="/2025/01/24/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-24/"/>
+    <url>/2025/01/24/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-24/</url>
+    
+    <content type="html"><![CDATA[<p>距离上次算算还有多久过年转瞬已经过去了将近1个月，今天下午出门买一包普皖，户外淫雨霏霏，毛毛细雨灰蒙蒙一片，一条路上没有什么人。</p><p>汪东哥今晚回来，送我一包和平七星，我之前也是想要却买不到的。</p><p>晚上和他们去了一趟超市买了一些东西，回来他们竭力邀请我在他们家睡觉，所以我现在就在这里了。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/3033217f20c1e05c6a697955e737163e.jpeg" alt="3033217f20c1e05c6a697955e737163e.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-23</title>
+    <link href="/2025/01/23/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-23/"/>
+    <url>/2025/01/23/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-23/</url>
+    
+    <content type="html"><![CDATA[<p>早晨没有早餐，只吃了一个橘子。</p><p>早晨迫不及待起来查询了网站域名whois，发现serverHold状态并没有丝毫改变。之后使用ChatGPT写了一份申请解除域名暂停解析的申请书，照例收到了一份确认提交申请的email，但是到现在仍然没有丝毫进展。</p><p>使用ChatGPT问了几个问题，包括SpringBoot Swagger API接口开发和如何看待AI应该尊重事实，不受政府社会环境背景等因素的影响。</p><p>晚上烦恼于服务器网站加载缓慢。一切都怪我使用反向代理做了一个谷歌搜索的镜像网站，导致域名滥用之后被Nercraft举报并封禁。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-22</title>
+    <link href="/2025/01/22/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-22/"/>
+    <url>/2025/01/22/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-22/</url>
+    
+    <content type="html"><![CDATA[<p>早晨只吃一个锅巴馍</p><p>中午牛牛回来，没有什么菜，只有一个鱼锅子，煮香肠挂面吃。</p><p>今一天上午直到下午4，5点都在做Java Spring项目，Swagger API接口。maven依赖版本问题等等阻碍，没有多大成果。</p><p>下午4点多发现我的yaonas.fun网站访问不了了，找了半天才在域名管理台中发现域名被注册局设置暂停解析。下午3:30中国移动打了我的一个电话，我没有接，我还以为是因为这事，又打电话过去询问，她却告诉我那边没有打电话过来的记录。创了一个阿里云工单，反馈问题，确认问题</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/6e454574e62221796a773a823d452a4d.jpeg" alt="6e454574e62221796a773a823d452a4d.jpeg"></p><p>我就这样跟着他给的链接去申请解除暂停解析，一查才知道是昨天创的Google反向代理网站被举报了，我提交了申请，只有初次算作确认的邮件，直到现在也没有答复，等到明天不知道结果如何。</p><p>晚上10点多，发了一个QQ动态，我不知道为什么时隔半年，我会发这样一个近乎神经的说说，可能只是兴起和发泄一下牢骚，我被国内的网络环境真的害惨了。查资料，下依赖，Python Package， DockerHub， Github访问都有阻碍。</p><p>11点多了，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今日小记-2025-01-21</title>
+    <link href="/2025/01/21/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-21/"/>
+    <url>/2025/01/21/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-21/</url>
+    
+    <content type="html"><![CDATA[<p>这几天早晨基本上都是被父母和牛牛的谈话声吵醒，不过明天就不会了，因为今天下午牛牛跟姥爷去他家了，哈哈😆 他去了姥爷家我也计划着去六安待几天，等到28号爸爸接奶奶回来时我才一起回来，可是现在我只能自己一个人坐公交车去，这是我所抗拒的，并且那里也没有网，对我来说有很大的限制。</p><p>下楼吃早餐，只有留下来的一个茶叶蛋，他们（父母和牛牛）根本就没有打算给我带早餐。又吃了一个橘子，就草草结束了早餐。接着换好衣服，去拿快递（曼特宁精品咖啡豆，这次的咖啡豆454g，本来47元，送礼优惠36元，价钱不算贵，如果在少一点瑕疵豆的话，从口感和味道上我想是不输于我之前36元买的果子星227的。）</p><p>拿完快递回来冲了一壶咖啡，开始今天的编程工作，首先我修改了昨天创建的api.yaonas.fun站点域名为itab.yaonas.fun，并随之改了BaseRequest.js中api接口地址。继续昨天没有完成的api接口PHP转发请求。其中itab和user层下的update接口需要请求头中的Signxx和Token值，我之前head（Array）并没有添加这两项，之后添加了却没有使用正确的格式导致向云端备份设置时一直报未登录的错误。一直到下午2点（记不清了）我才完成这项任务，现在itab网站没有出现什么404错误或是其他数据问题，云端数据也可以正常加载出来，不知道token和signxx值多久过期还是永久的，毕竟我写死了这两个值在php文件中，如果之后这两个值发生变化，我也要继续修改。</p><p>下午忙里偷闲刷了会抖音，第二次刷到AI小智这个esp32 s3开发板做的台湾腔女友AI助手。第一次刷到我还以为是个人的模型，没想到我今天一搜竟然有开源的固件，免费的测试版大模型，以及相关的指导，淘宝网上也有整体套装，85元即可拥有。如下：</p><p>小智</p><p>后端模型：Qwen-72B，SenseVoiceSmall</p><p>飞书文档：<a href="https://ccnphfhqs21z/.feishu/.cn/wiki/EH6wwrgvNiU7aykr7HgclP09nCh">https://ccnphfhqs21z\.feishu\.cn/wiki/EH6wwrgvNiU7aykr7HgclP09nCh</a> （附配件链接）</p><p>硬件开源：<a href="https://github/.com/78/xiaozhi/-esp32">https://github\.com/78/xiaozhi\-esp32</a></p><p>Q群交流：946599635</p><p>我也想买一个，或是买配件自己做一个，可惜没有资金，之前想要用esp32开发板做一个墨水屏显示也是这种情况，父母也不会大发慈悲的给我买这个。</p><p>晚上想到充分利用阿里云香港服务器的地理优势，访问Google，之前也成功搭建了VPN，但不知为何连接一次之后就连接不上了，不会是阿里云封了这个服务吧！今天晚上尝试Apache反向代理google站点，可以成功访问主页，但是使用搜索时就会检测到代理，阻止访问。又想到之前NAS的部署在docker中的基于vnc的通过网页访问的GUI谷歌浏览器。我陆续安装了两个此类docker容器，都因为服务器配置低而导致卡死，第二次真的卡的我需要重启服务器才能操作。但是我真是慌的一批，想到Firefox这个容器还加了遇到非正常停止还自动重启的配置，担心重启服务器后自动重启容器导致其再度卡死误解。不过后来还好，重启连接上服务器可以正常关闭docker。</p><p>在此我要强调一下：</p><p>​<em><strong>对于无法预知的操作一定要创建一个快</strong></em>​​<strong>照！！！</strong>​</p><p>创建这个Entry的时候才8:10分，现在都8:47了，半个多小时我都在写这个，好像有点浪费时间了。以后尝试语音输入或模版来节省时间吧。马上看会电视，准备睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>本日小记-2025-01-20</title>
+    <link href="/2025/01/20/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-20/"/>
+    <url>/2025/01/20/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-20/</url>
+    
+    <content type="html"><![CDATA[<p>早餐为一碗粥，搭配咸豇豆还是好吃的。只是轮到我下楼去吃时只有半碗了，没有吃饱。</p><p>吃完早餐，根据他人技术博客的关于节面布局修改了about页面的index.md，增加特色文章的模块。之后注册了飞书账号，注册Noah’s Ark 公司。创建了一份文档<a href="https://pcn215c2ql3s.feishu.cn/docx/KkcQdTY2GoRA79xsOuMcUJZ2nqd">总结</a>名为最近一周的工作总结。</p><p>再然后使用http-server启动了iTab网站，依然有之前没有解决的问题，api接口访问存在跨域问题。我想到在服务器上新建一个api接口站点，使用php curl获取原api接口发送的数据，在供给网站使用。在此期间，我收到了阿里云盘的短信，说我的云盘容量超过上限，14天后如果不处理会冻结我的云盘，我吓坏了，我那么多数据文件是你说冻结就冻结的？</p><p>中午一直等到下午1点多才开始做饭，本来准备煎香肠下挂面吃的，等我香肠切好找挂面时才发现挂面没有了，只好煮粥吃。我现在才发现那个大姥给的火腿肠直接吃和煮着吃都不好吃，而煎一下，表面脆脆的，完全释放出火腿肠的香味，好吃。</p><p>吃完中饭，抽一支烟，我必须阻止阿里云盘冻结我的云盘，想了不少解决方式：</p><ol><li><p>不再使用阿里云盘，迁移数据到123或115云盘，115云盘容量永久扩容。</p></li><li><p>冲阿里云会员</p></li></ol><p>最终在淘宝上用9.9冲了一个月会员。</p><p>下午继续iTab网站跨域问题的解决。最终在服务器上部署网站，同域名同端口就不会触发跨域问题，耗费了不少时间来转发api接口数据。</p><p>看到一个漂亮iTab网站是我所拥有和控制的，我很满足。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/d2a6e796dcb1c7c101fdbc300b8ae4b0.jpeg" alt="d2a6e796dcb1c7c101fdbc300b8ae4b0.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>干就完了</title>
+    <link href="/2025/01/19/2025/01/%E5%B9%B2%E5%B0%B1%E5%AE%8C%E4%BA%86/"/>
+    <url>/2025/01/19/2025/01/%E5%B9%B2%E5%B0%B1%E5%AE%8C%E4%BA%86/</url>
+    
+    <content type="html"><![CDATA[<p>早晨8点关掉闹钟，九点钟才起床。没有早餐（一锅粥，看那个样子很没有食欲），拿了一个橘子就上楼了。开始着手昨天的ToDo List。为Hexo-Blog站点添加日历归档小组件。经过一段时间的尝试，没有效果，我也在ToDo中添加note说搁置了。</p><p>中午吃完饭（菜有昨天的酸菜鱼，千张烧肉和白菜的大杂烩以及之前的一节香肠），我不死心，继续研究hexo站点页面源码，发现两侧已经定义好aside标签了，右侧已经添加了Table of Contents组件，左侧在ejs文件中条件判断为通过而没有添加任何内容。我挂载文件夹到本地，用WebStorm打开，深入研究页面逻辑，之后先这样，再那样，终于达到了预期效果。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/e818f9d132e8e4dfa559fe84987fdba5.jpeg" alt="e818f9d132e8e4dfa559fe84987fdba5.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>开心</title>
+    <link href="/2025/01/18/2025/01/%E5%BC%80%E5%BF%83/"/>
+    <url>/2025/01/18/2025/01/%E5%BC%80%E5%BF%83/</url>
+    
+    <content type="html"><![CDATA[<p>本日早晨8点左右醒，下楼吃了牛牛买回来的包子和茶叶蛋作为早餐。然后上楼铺床，装被套，又把房间的地扫了一下。一上午在配置Synology NAS的docker镜像源，重载daemon，默认的docker registry还是index.xx的官方地址。索性直接在docker GUI程序中的注册表更改镜像源。</p><p>Synology NAS的Mail Station，yaonas.fun的域名邮箱在CloudFlare中进行转发。</p><p>中午吃饭之前，妈妈让我的iPad给牛牛看古诗视频。妈妈给我转了40元让我买咖啡豆。本来47元的咖啡豆我用上4元的优惠劵在加上送礼功能的8.5折，最后实付36元。让妈妈用淘宝收礼，她把手机给我操作，我用淘宝扫码来收礼，却在跳转之后有回到了扫码界面，不知道是版本问题还是系统问题或者是程序Bug。最后复制淘口令在淘宝中打开，最终完成收礼。</p><p>下午在做Wordpress文章的翻译工作，导入现成的js文件来满足需求，最后可以达到我想要的效果，我很开心。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/b91f352947e09a3643679b97162affd8.jpeg" alt="b91f352947e09a3643679b97162affd8.jpeg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>本日小记-2025-01-17</title>
+    <link href="/2025/01/17/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-17/"/>
+    <url>/2025/01/17/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-01-17/</url>
+    
+    <content type="html"><![CDATA[<p>早餐：泡面 上午11点吃了一盘煎水饺，味道不错。</p><p>中午：4道菜，基围虾 红烧排骨，昨天晚上的卤牛肉和牛肉粉丝。</p><p>现在是下午2点半，坐公交车回毛坦厂。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/a45536550b4325df747972bcaa1cda4c.png" alt="a45536550b4325df747972bcaa1cda4c.jpeg"></p><p>dayone-moment:&#x2F;song&#x2F;3DF7942F-BA39-4520-9174-99D024B9345A</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Morning Reflections</title>
+    <link href="/2025/01/16/2025/01/Morning%20Reflections/"/>
+    <url>/2025/01/16/2025/01/Morning%20Reflections/</url>
+    
+    <content type="html"><![CDATA[<h6 id="What’s-on-my-mind-this-morning"><a href="#What’s-on-my-mind-this-morning" class="headerlink" title="What’s on my mind this morning?"></a>What’s on my mind this morning?</h6><p>Hexo-Blog Website</p><h6 id="What-Can-I-do-to-make-today-amazing"><a href="#What-Can-I-do-to-make-today-amazing" class="headerlink" title="What Can I do to make today amazing?"></a>What Can I do to make today amazing?</h6><p>Go to Lu’An</p><p>Breakfast: 火腿肠香肠大白菜挂面</p><p>中午十二点多，我还没有吃午饭和洗澡，李从荣就来我家喊我去六安了。当时他急着去六安，也不是很饿，午饭就没有吃，菜有蒸香肠和白菜粉丝。</p><p>坐公交车去了六安，车上有不少人，李从荣全程站着，我倒好，后面有一个座位就坐了。</p><p>之后坐20路公交车在梅山路小学下，买了两瓶水，支付宝余额却不足了弹出开通花呗的选项，扫了三次付款码才用微信付的。</p><p>到了六安家吃了两小碗馄饨，之后又吃了两碗饭，有卤牛肉鸡腿和牛肉粉丝。</p><p>晚上8点多去小房间抽烟又被牛牛发现，真是憋屈。</p><p>这次来六安只是接牛牛回去的，并且呆一晚上就回去，所以我衣服和电脑都没有带。明天回去需要使用rd命令删除public中非法文件名的文件，继续优化hexo-blog中DayOne md文件的命名，去除中文符号，空格，缩短文件名。还有wordpress中2024总结文章的翻译工作。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
       
     </tags>
     
@@ -75,24 +2254,11 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2025/01/14/2025/01/hello-world/"/>
-    <url>/2025/01/14/2025/01/hello-world/</url>
+    <title>今日记述</title>
+    <link href="/2025/01/14/2025/01/%E4%BB%8A%E6%97%A5%E8%AE%B0%E8%BF%B0/"/>
+    <url>/2025/01/14/2025/01/%E4%BB%8A%E6%97%A5%E8%AE%B0%E8%BF%B0/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>小记</title>
-    <link href="/2025/01/13/2025/01/%E5%B0%8F%E8%AE%B0/"/>
-    <url>/2025/01/13/2025/01/%E5%B0%8F%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<p>  早餐因为爸爸把鸡汤全部倒入下好的面条和年糕而让我无法再去吃这一份早餐，转而准备煮方便面吃，但又因为作业晚上吃的太撑，臭豆腐也太过咸腻，我不是很饿，所以早餐没有吃。</p><p>  上午继续Android Typecho项目的研究。用PC电脑的酷我音乐下载了十几首歌导入到Audio Station。</p><p>  中午煮了一包方便面和一些咸挂面，煎了一个荷包蛋作为午餐。刚吃完，抱着热水袋和烧水壶上楼，就看到李从容来找我去老家打扫卫生，途中他帮我买了一瓶水。把老家的房间地扫扫和桌子擦擦，就算完成了。</p><p><img src="/images/%E5%B0%8F%E8%AE%B02025-01-13.jpg" alt="水杉树林"></p><p>  从老家回来，继续导入音乐到Apple Music，使用mac上的iTunes导入aiff文件。昨天的ToDo List就算完成了。</p><p>  之后使用声音克隆平台（魔音）克隆了自己的声音，可以说很像。另一个ToDo List也算完成了。</p><p>  晚上什么菜也没有，一盘青菜和香肠。将就吃下去，睡觉</p>]]></content>
+    <content type="html"><![CDATA[<p>早晨刚七点，被爸爸给奶奶打电话的谈话声弄醒。我赖在床上，写着昨天的DayOne，妈妈到我房间来拿衣服，发现我醒着就和我说话。他们又提到让我写对联，我真的大字写不好看，就不想写了。我又提到想要买照相机，换电脑。他们听到这个结果应该很是是恼怒，指责我是要做点什么事了。我与他们吵了起来，指出中国的大环境问题等。<br>8点左右起床，妈妈去买菜了。我还没有吃饭，上楼，索性一不做二不休，快速地写好了对联，个别字还行，个别字真是丑的没边了，又歪又丑，拿下去，他们竟然还夸我写的好看！早餐是妈妈带回来的一个菜包子和不够后爸爸买的茶叶蛋。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/51895f1061c6e5fcec7d095c50bf1982.jpeg" alt="51895f1061c6e5fcec7d095c50bf1982.jpeg"></p><p>上午在做wiki.js DayOne模块的创建并打算部署到github pages，但是网上都没有相关的教程，倒是有像hexo，jekky等网站构建工具。索性就用了hexo。<br>中午依然没什么菜，肉丸子和香肠。<br>玩了一下午的游戏，打上了最强王者。<br>晚上做了hexo网站的搭建并部署到github pages。</p>]]></content>
     
     
     <categories>
@@ -106,7 +2272,30 @@
       
       <tag>Diary</tag>
       
-      <tag>Blog</tag>
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小记-2025-01-13</title>
+    <link href="/2025/01/13/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-13/"/>
+    <url>/2025/01/13/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-13/</url>
+    
+    <content type="html"><![CDATA[<p>早餐因为爸爸把鸡汤全部倒入下好的面条和年糕而让我无法再去吃这一份早餐，转而准备煮方便面吃，但又因为作业晚上吃的太撑，臭豆腐也太过咸腻，我不是很饿，所以早餐没有吃。<br>上午继续Android Typecho项目的研究。用PC电脑的酷我音乐下载了十几首歌导入到Audio Station。<br>中午煮了一包方便面和一些咸卦嘛，煎了一个荷包蛋作为午餐。刚吃完，抱着热水袋和烧水壶上楼，就看到李从容来找我去老家打扫卫生，途中他帮我买了一瓶水。把老家的房间地扫扫和桌子擦擦，就算完成了。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/d7e6a364df5d7425d577750addb714bf.jpeg" alt="d7e6a364df5d7425d577750addb714bf.jpeg"></p><p>从老家回来，继续导入音乐到Apple Music，使用mac上的iTunes导入aiff文件。昨天的ToDo List就算完成了。<br>之后使用声音克隆平台（魔音）克隆了自己的声音，可以说很像。另一个ToDo List也算完成了。<br>晚上什么菜也没有，一盘青菜和香肠。将就吃下去，睡觉。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
       
     </tags>
     
@@ -119,7 +2308,7 @@
     <link href="/2025/01/12/2025/01/%E9%B8%BF%E9%97%A8%E5%AE%B4/"/>
     <url>/2025/01/12/2025/01/%E9%B8%BF%E9%97%A8%E5%AE%B4/</url>
     
-    <content type="html"><![CDATA[<p>本日早晨8点左右起床，现包了20个馄饨煮着吃。肉馅还是太过粗糙，不过味道还行，不难吃。</p><p>吃完早餐写了一会毛笔字，开了一支昨天晚上收到的大号毛笔，对联上的大字我还是写不好看，无奈答应了妈妈写一副对联。之后忙着反编译DS Audio应用apk，这些专业的Java源码我不怎么看得懂，编程之路道阻且长啊！</p><p>中午以早上爸爸买的粉丝饼和一碗饭作为午餐，菜有肉丸子，炒青菜，芹菜和香肠。</p><p>下午爸爸让我去大姥家找李从容去老家打扫卫生，我让李从容过来再去，但是他没有来，也就没有去老家。牛牛用奶奶电话带给我问我过年前去六安，我给出的答复是爸爸开车去我就去。找了几个安卓音乐播放器项目，用Android Studio编译，配置一大堆Gradle，环境变量，长裤等。还是因为gradle版本问题搁置。</p><p>晚上吃晚饭的时候李从容来找我去散步，我煮了一点馄饨和面条吃完之后就去散步了。途中李从荣买了两份臭豆腐，我刚吃完饭不饿，他却执意买了两份，难不成还以为我客气？臭豆腐一点也不好吃，极其的咸。我又不忍浪费扔掉（他也不想我浪费）我忍着反胃的难受吃了下去，现在肚子很不舒服。可谓是一场憋屈的鸿门宴。</p><p>回来之后帮父母洗碗。继续研究之前的名为Typecho的fragment android项目。浑身不舒服，瑟瑟发抖，睡觉了。昨天临睡前定的ToDo list也因为今天事多且杂没有完成。</p><p>船到桥头自然直。顺其自然，道阻且长也要走下去。</p>]]></content>
+    <content type="html"><![CDATA[<p>本日早晨8点左右起床，现包了20个馄饨煮着吃。肉馅还是太过粗糙，不过味道还行，不难吃。<br>吃完早餐写了一会毛笔字，开了一支昨天晚上收到的大号毛笔，对联上的大字我还是写不好看，无奈答应了妈妈写一副对联。之后忙着反编译DS Audio应用apk，这些专业的Java源码我不怎么看得懂，编程之路道阻且长啊！<br>中午以早上爸爸买的粉丝饼和一碗饭作为午餐，菜有肉丸子，炒青菜，芹菜和香肠。<br>下午爸爸让我去大姥家找李从容去老家打扫卫生，我让李从容过来再去，但是他没有来，也就没有去老家。牛牛用奶奶电话带给我问我过年前去六安，我给出的答复是爸爸开车去我就去。找了几个安卓音乐播放器项目，用Android Studio编译，配置一大堆Gradle，环境变量，长裤等。还是因为gradle版本问题搁置。<br>晚上吃晚饭的时候李从容来找我去散步，我煮了一点馄饨和面条吃完之后就去散步了。途中李从荣买了两份臭豆腐，我刚吃完饭不饿，他却执意买了两份，难不成还以为我客气？臭豆腐一点也不好吃，极其的咸。我又不忍浪费扔掉（他也不想我浪费）我忍着反胃的难受吃了下去，现在肚子很不舒服。可谓是一场憋屈的鸿门宴。<br>回来之后帮父母洗碗。继续研究之前的名为Typecho的fragment android项目。浑身不舒服，瑟瑟发抖，睡觉了。昨天临睡前定的ToDo list也因为今天事多且杂没有完成。<br>船到桥头自然直。顺其自然，道阻且长也要走下去。</p>]]></content>
     
     
     <categories>
@@ -165,11 +2354,11 @@
   
   
   <entry>
-    <title>小记-2025-01-10</title>
-    <link href="/2025/01/10/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-10/"/>
-    <url>/2025/01/10/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-10/</url>
+    <title>本日小记</title>
+    <link href="/2025/01/10/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0/"/>
+    <url>/2025/01/10/2025/01/%E6%9C%AC%E6%97%A5%E5%B0%8F%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<h1 id="本日小记"><a href="#本日小记" class="headerlink" title="本日小记"></a>本日小记</h1><p>昨晚7点多入睡，凌晨2点左右醒，翻了一个多小时的微信历史聊天记录。想着发布一条本人博客网站的资源发布页的朋友圈。测试网站时发现Typecho站点的show more image按钮失效，添加了一个ToDo List。4点多继续睡，7点30分被父母的谈话声吵醒。询问妈妈早餐吃什么，得到依然是面条的答复，这几天都在吃高盐香肠面，我无法忍受，妈妈给我微信转了10元，让我去买肉饼和茶叶蛋带他们吃，室外零下7摄氏度的天气让我退却。下楼自己煮了面吃。</p><p>一上午一直到下午2点多都在修复网站按钮失效的问题，电脑端页面则可以正常点击，查阅几个教程，得知可能是iPhone的Phone JQuery ajax加载的原因，但是实际操作和修改后并没有改变，并且其描述的问题也不符合我的状况，推测是PHP判断移动端是echo出的js代码设置元素display为nine后导致页面点击事件取消了绑定，之后在icefox\.js文件重新定义点击事件得以解决，一并解决了互动按钮点击触发toggle操作失效的问题。</p><p><a href="http://www.yaonas.fun站点404页面没有聚合css和js,也还没有上传到服务器,这是明天要做的.同样要做的还有frp内网穿透nas网页的ssl证书的添加.关于ds/">www.yaonas.fun站点404页面没有聚合css和js，也还没有上传到服务器，这是明天要做的。同样要做的还有frp内网穿透NAS网页的SSL证书的添加。关于DS</a> Audio应用的Android项目反编译，开发也要提上日程。</p><p>中午，父母忙，只有一旁炒娃娃菜，以及昨天煮好的香肠，没有胃口吃。下午玩了一会只狼。晚上妈妈给我转了50元，我去超市买了3袋方便面以及为妈妈带的白醋和牙膏，花了30元，之后又帮妈妈取了4个快递，用现金买了白利群和小苏。吃方便面的时候又花了11元订阅了3个月的Apple Music。总共的50元，只剩了8元。距离买咖啡豆和茶叶又变得遥遥无期。还有蓝牙耳机和鼠标或异形螺丝钉也是需要的。吃完晚饭同步了Apple Music的音乐资源库，添加几首歌。之后看了会电视，现在是10点25了，准备睡觉。</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 本日小记</code></pre><p>昨晚7点多入睡，凌晨2点左右醒，翻了一个多小时的微信历史聊天记录。想着发布一条本人博客网站的资源发布页的朋友圈。测试网站时发现Typecho站点的show more image按钮失效，添加了一个ToDo List。4点多继续睡，7点30分被父母的谈话声吵醒。询问妈妈早餐吃什么，得到依然是面条的答复，这几天都在吃高盐香肠面，我无法忍受，妈妈给我微信转了10元，让我去买肉饼和茶叶蛋带他们吃，室外零下7摄氏度的天气让我退却。下楼自己煮了面吃。<br>一上午一直到下午2点多都在修复网站按钮失效的问题，电脑端页面则可以正常点击，查阅几个教程，得知可能是iPhone的Phone JQuery ajax加载的原因，但是实际操作和修改后并没有改变，并且其描述的问题也不符合我的状况，推测是PHP判断移动端是echo出的js代码设置元素display为nine后导致页面点击事件取消了绑定，之后在icefox.js文件重新定义点击事件得以解决，一并解决了互动按钮点击触发toggle操作失效的问题。<br>www.yaonas.fun站点404<br>页面没有聚合css和js，也还没有上传到服务器，这是明天要做的。同样要做的还有frp内网穿透NAS网页的SSL证书的添加。关于DS Audio应用的Android项目反编译，开发也要提上日程。<br>中午，父母忙，只有一旁炒娃娃菜，以及昨天煮好的香肠，没有胃口吃。下午玩了一会只狼。晚上妈妈给我转了50元，我去超市买了3袋方便面以及为妈妈带的白醋和牙膏，花了30元，之后又帮妈妈取了4个快递，用现金买了白利群和小苏。吃方便面的时候又花了11元订阅了3个月的Apple Music。总共的50元，只剩了8元。距离买咖啡豆和茶叶又变得遥遥无期。还有蓝牙耳机和鼠标或异形螺丝钉也是需要的。<br>吃完晚饭同步了Apple Music的音乐资源库，添加几首歌。之后看了会电视，现在是10点25了，准备睡觉。</p>]]></content>
     
     
     <categories>
@@ -219,7 +2408,7 @@
     <link href="/2025/01/08/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-08/"/>
     <url>/2025/01/08/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-08/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 小记</code></pre><p>昨晚之前超过24小时没有睡觉，所有在晚上7点左右就睡了，然后今凌晨2点多醒来，没有做什么事，在床上躺着，刷了一会抖音，没有意思。然后抽了一支烟，窝在床上，只穿了一件衬衣，手臂冻得没有知觉。再之后，套上了袄子，打游戏。妈妈起来了，我想吃稀饭加香肠，妈妈却准备做挂面（不是普通的挂面，是特别细的，并且上面挂有盐霜），我下楼煮了香肠，然后将火锅底料加在面中吃，作为早餐。<br>吃完早餐，抽一支烟，打游戏（今天打游戏又浪费了很多时间，就像是游戏再玩我），之后折腾着投影仪，我想将前几天在抖音看到的C语言基础题（如最大公约数，数组逆序）投屏到投影仪上，却一直没有找到投屏按钮，没有办法，我只好共享iPhone屏幕到投影上，无奈投影仪分辨率太低，加之又是白天光线强，看不清代码，就照着手机写几个C文件。坐在桌子前真是太冷了，浑身发冷，难受至极。<br>中午，由于早上吃了不少面，没有那么饿（今天妈妈打了我两个电话喊我下去吃饭）。菜是昨天的牛肉烫香菇，西红柿炒鸡蛋，青椒豆腐。随便应付吃了一下，又吃了一块炼乳夹心土司面包。照例饭后一支烟。下午又在打游戏，我真的是受够了。不提它。之后在做link3.cc的网站链接页。现在的页面地址是link3.cc&#x2F;whisperyao，再做www.yaonas.fun的index页面，做了一个页面重定向，重定向到网站链接页。之后研究网站的404重定向，但不知怎的，实际测试发现只要触发404Error重定向到404.html还是会触发404Not Found，导致循环重定向，然后抛出many redirects错误，打算直接修改Apache配置文件来定义403，404，500等错误重定向。虽说宝塔面板不能同时安装Apache和Nginx，但我应该可以通过命令行安装Nginx，然后让Nginx做docker容器网络端口的反向代理连接。这不是今天要做的事。<br>刚刚想要在投影仪上播放NAS的音乐，找了音流apk，之后通过野草助手安装上，打开软件却显示个启动图就闪退了，所以就换成DS Audio，发现3.15.1之后的都因为投影仪Android系统版本过低不能安装，换成3.14.1的版本，这样也有问题，因为毕竟是主要移动手机的应用，但是TV端却无法点击，所以就插上了鼠标，可以正常操作，也能连接。一直插着鼠标也不是个办法，无线鼠标和键盘的好处就体现出来了，无线键盘今年八月份的时候，李从容送了我一个，但是之前的华为无线鼠标却坏了（也不知道是电池接线柱锈化还是内部进水出了问题），之前我就想要买一个异形螺丝刀去修一下，无奈没钱，这次又想到这个问题，我也决定在买咖啡豆和茶叶的时候要买一个螺丝刀，如果修不好这个鼠标，我也就只能新买一个几十块的鼠标了。<br>我现在有点困，想要睡觉了。</p><p><img src="/images/DayOne-Export/90000adc7109d1e66165a6fdf97a2dde.jpeg" alt="90000adc7109d1e66165a6fdf97a2dde.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<p>昨晚之前超过24小时没有睡觉，所有在晚上7点左右就睡了，然后今凌晨2点多醒来，没有做什么事，在床上躺着，刷了一会抖音，没有意思。然后抽了一支烟，窝在床上，只穿了一件衬衣，手臂冻得没有知觉。再之后，套上了袄子，打游戏。妈妈起来了，我想吃稀饭加香肠，妈妈却准备做挂面（不是普通的挂面，是特别细的，并且上面挂有盐霜），我下楼煮了香肠，然后将火锅底料加在面中吃，作为早餐。<br>吃完早餐，抽一支烟，打游戏（今天打游戏又浪费了很多时间，就像是游戏再玩我），之后折腾着投影仪，我想将前几天在抖音看到的C语言基础题（如最大公约数，数组逆序）投屏到投影仪上，却一直没有找到投屏按钮，没有办法，我只好共享iPhone屏幕到投影上，无奈投影仪分辨率太低，加之又是白天光线强，看不清代码，就照着手机写几个C文件。坐在桌子前真是太冷了，浑身发冷，难受至极。<br>中午，由于早上吃了不少面，没有那么饿（今天妈妈打了我两个电话喊我下去吃饭）。菜是昨天的牛肉烫香菇，西红柿炒鸡蛋，青椒豆腐。随便应付吃了一下，又吃了一块炼乳夹心土司面包。照例饭后一支烟。下午又在打游戏，我真的是受够了。不提它。之后在做link3.cc的网站链接页。现在的页面地址是link3.cc&#x2F;whisperyao，再做www.yaonas.fun的index页面，做了一个页面重定向，重定向到网站链接页。之后研究网站的404重定向，但不知怎的，实际测试发现只要触发404Error重定向到404.html还是会触发404Not Found，导致循环重定向，然后抛出many redirects错误，打算直接修改Apache配置文件来定义403，404，500等错误重定向。虽说宝塔面板不能同时安装Apache和Nginx，但我应该可以通过命令行安装Nginx，然后让Nginx做docker容器网络端口的反向代理连接。这不是今天要做的事。<br>刚刚想要在投影仪上播放NAS的音乐，找了音流apk，之后通过野草助手安装上，打开软件却显示个启动图就闪退了，所以就换成DS Audio，发现3.15.1之后的都因为投影仪Android系统版本过低不能安装，换成3.14.1的版本，这样也有问题，因为毕竟是主要移动手机的应用，但是TV端却无法点击，所以就插上了鼠标，可以正常操作，也能连接。一直插着鼠标也不是个办法，无线鼠标和键盘的好处就体现出来了，无线键盘今年八月份的时候，李从容送了我一个，但是之前的华为无线鼠标却坏了（也不知道是电池接线柱锈化还是内部进水出了问题），之前我就想要买一个异形螺丝刀去修一下，无奈没钱，这次又想到这个问题，我也决定在买咖啡豆和茶叶的时候要买一个螺丝刀，如果修不好这个鼠标，我也就只能新买一个几十块的鼠标了。<br>我现在有点困，想要睡觉了。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/90000adc7109d1e66165a6fdf97a2dde.jpeg" alt="90000adc7109d1e66165a6fdf97a2dde.jpeg"></p>]]></content>
     
     
     <categories>
@@ -244,7 +2433,7 @@
     <link href="/2025/01/07/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-07/"/>
     <url>/2025/01/07/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-07/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs">小记</code></pre><p>昨天晚上计划着Typecho独立出来一个DayOne Blog的数据表，避免QQ动态与DayOne内容融合在一个contents表中，不方便查阅与管理，通过widget类定位到Contents类，以及直接执行sql语句的select函数，通过改table.contents方式更改遍历的表，无效且报错，我想应该是整个Typecho项目中诸如function.php，Start.php等文件中依然使用contents表，导致条数不匹配，要是修改整个项目的table.contents的方式来做，代价太大，且无法同时输出两个表的文章（或许也可以，但是归根结底，工程量还是太大）最终我通过分类的方式来过滤两种类型的文章。<br>昨晚一夜未睡。凌晨四五点时依旧很饿。7点左右于妈妈之后下楼，早餐是年糕和挂面，有煎荷包蛋和香肠。<br>中午是牛肉烫香菇，蒸鲊肉。然后去洗碗，把投影仪拿了上来。<br>晚上牛肉里已经没有香菇了，用微波炉打热黄奶送的粽子作为晚饭，粽子挺硬的，也没有腊肉，不好吃，热了两个，只吃了一个，然后又拿了两包面包充饥。<br>吃完晚饭还是打游戏，1月过去的7天里，打游戏浪费了我不少时间，真是难受。还是想到六安去，然后就过年了，又要怎么安排呢？<br>Java android应用开发。NAS音乐软件，自定义，用户头像。</p><p><img src="/images/DayOne-Export/aaf2708a661a72529d8e255379f3f761.jpeg" alt="aaf2708a661a72529d8e255379f3f761.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<p>昨天晚上计划着Typecho独立出来一个DayOne Blog的数据表，避免QQ动态与DayOne内容融合在一个contents表中，不方便查阅与管理，通过widget类定位到Contents类，以及直接执行sql语句的select函数，通过改table.contents方式更改遍历的表，无效且报错，我想应该是整个Typecho项目中诸如function.php，Start.php等文件中依然使用contents表，导致条数不匹配，要是修改整个项目的table.contents的方式来做，代价太大，且无法同时输出两个表的文章（或许也可以，但是归根结底，工程量还是太大）最终我通过分类的方式来过滤两种类型的文章。<br>昨晚一夜未睡。凌晨四五点时依旧很饿。7点左右于妈妈之后下楼，早餐是年糕和挂面，有煎荷包蛋和香肠。<br>中午是牛肉烫香菇，蒸鲊肉。然后去洗碗，把投影仪拿了上来。<br>晚上牛肉里已经没有香菇了，用微波炉打热黄奶送的粽子作为晚饭，粽子挺硬的，也没有腊肉，不好吃，热了两个，只吃了一个，然后又拿了两包面包充饥。<br>吃完晚饭还是打游戏，1月过去的7天里，打游戏浪费了我不少时间，真是难受。还是想到六安去，然后就过年了，又要怎么安排呢？<br>Java android应用开发。NAS音乐软件，自定义，用户头像。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/aaf2708a661a72529d8e255379f3f761.jpeg" alt="aaf2708a661a72529d8e255379f3f761.jpeg"></p>]]></content>
     
     
     <categories>
@@ -319,7 +2508,7 @@
     <link href="/2025/01/04/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-04/"/>
     <url>/2025/01/04/2025/01/%E5%B0%8F%E8%AE%B0-2025-01-04/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs">小记</code></pre><p>早晨11点醒，一下楼就看见姥爷和大姥爷正在我家吃饭，爸爸妈妈也因为活忙没有陪他们吃饭，碍于情面，我只好低着头坐在桌前吃饭，大姥爷和我一句话也没有说。中午的饭菜是羊肉锅和萝卜烧肉，羊肉锅中的粉丝都煮化了。<br>吃完饭下午坐在床上刷了会手机，打了会游戏，因为寒冷一直坐在床上，编程项目也没有着手进行。不知怎的突然犯困，衣服也没脱，躺在床上就睡着了，期间做了一些梦。<br>晚上爸爸叫我洗碗，我让他把投影仪拿上来。最终我洗了大量的碗，也看了电视，但是放在上面的投影仪竟然连接不上家里的无线网，这个问题有待解决。</p><p><img src="/images/DayOne-Export/b3e34c3b87c84424bf0f9e8b54dbdcc4.jpeg" alt="b3e34c3b87c84424bf0f9e8b54dbdcc4.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<p>早晨11点醒，一下楼就看见姥爷和大姥爷正在我家吃饭，爸爸妈妈也因为活忙没有陪他们吃饭，碍于情面，我只好低着头坐在桌前吃饭，大姥爷和我一句话也没有说。中午的饭菜是羊肉锅和萝卜烧肉，羊肉锅中的粉丝都煮化了。<br>吃完饭下午坐在床上刷了会手机，打了会游戏，因为寒冷一直坐在床上，编程项目也没有着手进行。不知怎的突然犯困，衣服也没脱，躺在床上就睡着了，期间做了一些梦。<br>晚上爸爸叫我洗碗，我让他把投影仪拿上来。最终我洗了大量的碗，也看了电视，但是放在上面的投影仪竟然连接不上家里的无线网，这个问题有待解决。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/b3e34c3b87c84424bf0f9e8b54dbdcc4.jpeg" alt="b3e34c3b87c84424bf0f9e8b54dbdcc4.jpeg"></p>]]></content>
     
     
     <categories>
@@ -369,7 +2558,7 @@
     <link href="/2025/01/02/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/"/>
     <url>/2025/01/02/2025/01/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 今日小记</code></pre><p>昨晚通宵，由于顺利在云服务器上完成网站的部署，我的心情还算不错，早晨竟没有丝毫睡意，下了一锅火锅底料麻辣挂面作为早餐，然后抽了最后一支红南京，之后肚子疼，去拉屎。打电话问妈妈什么时候回来，说是下午三四点钟，我让其带一份烤鸭，下午她不到2点提前回来却没有带烤鸭。上完厕所去买烟，依旧没有白金万宝路，哎呀，可求不可得，那一种独特的混合型烟草味，与此同时，小苏和红塔山也没有，是过年了要压货么？去了另一家超市，依旧没有，给我推荐红双喜，在我印象中不是最多10几块的么，一问价格竟是80，谁买谁傻子，换了一包玉溪，比正常便宜2块，也不知道是不是真的。<br>中午没吃，下午妈妈回来，给我转了15块，我很困也就没有去买什么吃的。睡觉了，晚上8点多醒。晚上的菜是一盘芹菜肉丝和蒸香肠。</p><p><img src="/images/DayOne-Export/426320c3ad8b4ac8e033fb09872c481f.jpeg" alt="426320c3ad8b4ac8e033fb09872c481f.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<p>昨晚通宵，由于顺利在云服务器上完成网站的部署，我的心情还算不错，早晨竟没有丝毫睡意，下了一锅火锅底料麻辣挂面作为早餐，然后抽了最后一支红南京，之后肚子疼，去拉屎。打电话问妈妈什么时候回来，说是下午三四点钟，我让其带一份烤鸭，下午她不到2点提前回来却没有带烤鸭。上完厕所去买烟，依旧没有白金万宝路，哎呀，可求不可得，那一种独特的混合型烟草味，与此同时，小苏和红塔山也没有，是过年了要压货么？去了另一家超市，依旧没有，给我推荐红双喜，在我印象中不是最多10几块的么，一问价格竟是80，谁买谁傻子，换了一包玉溪，比正常便宜2块，也不知道是不是真的。<br>中午没吃，下午妈妈回来，给我转了15块，我很困也就没有去买什么吃的。睡觉了，晚上8点多醒。晚上的菜是一盘芹菜肉丝和蒸香肠。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/426320c3ad8b4ac8e033fb09872c481f.jpeg" alt="426320c3ad8b4ac8e033fb09872c481f.jpeg"></p>]]></content>
     
     
     <categories>
@@ -394,7 +2583,7 @@
     <link href="/2025/01/01/2025/01/%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/"/>
     <url>/2025/01/01/2025/01/%E5%85%83%E6%97%A6%E5%BF%AB%E4%B9%90/</url>
     
-    <content type="html"><![CDATA[<p>今天是元旦节，一年的第一天，街上有人在放炸炮，有点年味了。</p><p>昨天晚上跨年，写了几个小时的2024年度总结，在wordpress，obsidian，dayone上均有存档。0:45分，黄磊在微信上给我发了一个表情动图祝我新年快乐，我于凌晨两点才看到。没有回复，今天下午5点多，我才回了一句元旦快乐。</p><p>晚上开通试用3个月的阿里云服务器，转移家庭局域网的NAS上的网站。晚上5点多爸爸妈妈去六安了，晚上房间只有我一个人，挺不错的，但是也真够累的，熬了一个通宵熟悉云服务器的宝塔面板使用，mysql数据库迁移，远程访问。frp内网穿透，反向代理隐藏映射的端口。</p><p><img src="/images/CloudServer.png" alt="CloudServer"></p>]]></content>
+    <content type="html"><![CDATA[<p>今天是元旦节，一年的第一天，街上有人在放炸炮，有点年味了。<br>昨天晚上跨年，写了几个小时的2024年度总结，在wordpress，obsidian，dayone上均有存档。0:45分，黄磊在微信上给我发了一个表情动图祝我新年快乐，我于凌晨两点才看到。没有回复，今天下午5点多，我才回了一句元旦快乐。<br>晚上开通试用3个月的阿里云服务器，转移家庭局域网的NAS上的网站。晚上5点多爸爸妈妈去六安了，晚上房间只有我一个人，挺不错的，但是也真够累的，熬了一个通宵熟悉云服务器的宝塔面板使用，mysql数据库迁移，远程访问。frp内网穿透，反向代理隐藏映射的端口。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/cfe517f949846c9d57016d0dc4915641.jpeg" alt="cfe517f949846c9d57016d0dc4915641.jpeg"></p>]]></content>
     
     
     <categories>
@@ -408,8 +2597,6 @@
       
       <tag>Diary</tag>
       
-      <tag>Blog</tag>
-      
     </tags>
     
   </entry>
@@ -418,8 +2605,8 @@
   
   <entry>
     <title>If I review this past year, what was the best thing that happened each month</title>
-    <link href="/2024/12/31/2024/12/Review/"/>
-    <url>/2024/12/31/2024/12/Review/</url>
+    <link href="/2024/12/31/2024/12/If%20I%20review%20this%20past%20year,%20what%20was%20the%20best%20thing%20that%20happened%20each%20month/"/>
+    <url>/2024/12/31/2024/12/If%20I%20review%20this%20past%20year,%20what%20was%20the%20best%20thing%20that%20happened%20each%20month/</url>
     
     <content type="html"><![CDATA[<pre><code class="hljs">###### If I review this past year, what was the best thing that happened each month? </code></pre><p>2024 Annual Summary<br>Today is 31st December, The last day of 2024, It’s necessary for me to write an article of 2024 annual summary.</p><h2 id="January"><a href="#January" class="headerlink" title="January"></a>January</h2><p>On the same month of 2023, I created a new project called iPhone-Bark, everything is starting from I wrote one script in Ubuntu which let me send Bark service that transfers messages from Laptop to iPhone. And then I wanted to make an GUI application with tkinter package for this demand. Then I did. With more and more designs, compile and test, at last is safeguard. On 1st January 2024, I pushed one commit to GitLab, which commit message is ‘fix up some bugs’</p><p>![[GitLab Repository.jpeg|]]</p><p>And on 31st December 2023, I created a docker container, built an wiki.js website to collect some programming skills.</p><p>About next 10 days, I just developed iPhone-Bark project, One part of it is email verification when signing up account. 17th January, I posted a google blog of self introduction. Selenium spider of DouYin also running(selenium hub remote webdriver)python and Java version.</p><p>27th January, I went to Lu’an with my aunt and cousin. During waiting for my brother to leave school. Aunt said so many things to me, all in all is hope me to leave home, earn money, and I mentioned bitcoin.</p><h2 id="February"><a href="#February" class="headerlink" title="February"></a>February</h2><p>There has three days from I went to Lu’an, on the first day of February, I ordered a takeaway for my breakfast, this takeaway is ChangFen, Famous food in Guangdong.</p><p>![[Takeaway Bill.jpg|300]]</p><p>3rd February, I can’t stand the craving for coffee. I bought some coffee relative tools and coffee beans with saved money from takeaway.</p><p>And 9th February is Chinese New Year eve, on 7th, I came back alone by Bus. The most thing I need to do is get my delivery. At that day evening, I made a cup of hand-brewed coffee.</p><p>![[Coffee.jpg|300]]</p><p>Then was new year, nothing to say. I didn’t go to any relatives’ house to pay New Year’s greetings. Only thing I need to mention is on 16th, I came to HuoShan with uncle to have greeting. That time I was drunk. Vomit, so embarrassing.</p><p>![[HuoShan.jpeg|300]]</p><p>19th February, I wrote an article in DayOne,  In this article, I said I fell that I’m really sick these, and want to Lu’an, Hope change the environment. And JFrame development. In the next few days of February, My mood is bad , because uncle and aunt or other relative always said something to me. On 29th February, I really went to Lu’an, and the February was passed.</p><h2 id="March"><a href="#March" class="headerlink" title="March"></a>March</h2><p>After February 29th, I arrived in Lu’an and stayed there for another 5-6 days. On March 2nd, I ordered a takeout of LongJiang pork trotter rice and thought it was delicious.</p><p>![[Pig’s Foot Rice.jpeg|400]]</p><p>For this reason, when I was in Zhangjiagang in August, I ordered pork trotter rice, but it was not as delicious as what I had in Lu’an. I don’t know if it was my first time eating and I was amazed, so I gave it a high rating.</p><p>In March, I have been obsessed with and researching coffee. For example, on the 3rd, I bought a heated cup. Two types of coffee beans (Yirgacheffe and Honduran Sherry) are not tasty because I don’t like sour coffee. On the 12th, I bought another serving of Mandheling coffee beans.</p><p>On the 16th, there was an image file error in the macOS virtual machine, so I had to revert back to the snapshot from October last year. The Objective C application I wrote in early February in Lu’an (WebView to open local HTML files and view game dynamics offline) was gone.</p><p>On the 19th, I followed my father to Lu’an again. During these few days in Lu’an, I was developing a Java version of iPhone Bar, writing several articles such as “Memories and Impressions”, “On March 22nd at 12:36 pm”, and “ Reading ‘Mischievous Pony Jump’ “. Then I went home on the 25th.</p><p>On the 31st, based on the Synology Cam application on the Windows platform, I would like to write a desktop application based on WebView, This leads to the use of JXbrowser</p><h2 id="April"><a href="#April" class="headerlink" title="April"></a>April</h2><p>On April 1st, I followed my father to my hometown in Bajiaotang. The water fir forest was lush and eye-catching.<br>![[Shuishan forest.jpeg|400]]</p><p>In early April, almost every night before going to bed, I would write a DayOne essay titled ‘Bedtime Notes’.</p><p>In mid April, my desire for remote access to NAS became even stronger, and I then researched the configuration of home broadband, enabling public IPv6, disabling firewalls, registering Alibaba Cloud domain names, DDNS, and completing the process step by step.</p><p>Before May, I set up the Typecho website and made modifications and developments to the Theme theme files.<br>![[Typecho Website.jpeg|400]]</p><h2 id="May"><a href="#May" class="headerlink" title="May"></a>May</h2><p>In May, I continued the development of the Typecho website by flexibly switching between multiple languages such as PHP, JavaScript, HTML, and CSS, creating a website interface with a unique feature that looks beautiful. I truly felt a strong sense of achievement.</p><p>On May 5th, I installed a virtual machine with the ChromeOS system, but it took me a while to delete it due to network firewall issues, insufficient storage space, and other reasons.</p><p>On May 12th, a network clipboard was created using MySQL database. Afterwards, I found a Cloud Clipboard project on GitHub that was very user-friendly. We are also continuing to research the public network IPv6 for home broadband.</p><p>I accidentally found an application called Delta on TikTok. After a detailed understanding, I learned that it was a simulator of game consoles such as NDS. I also found several game resources on the Internet. I was particularly fascinated by the siren of Zelda Land and Pokémon Diamond. This also laid the foundation for me to play Switch games in the future.</p><h2 id="June"><a href="#June" class="headerlink" title="June"></a>June</h2><p>On June 5th, I used the Switch on my computer to simulate and download the game “Zelda Kingdom Tears”.<br>![[TearsOfTheKingdom.jpeg|500]]</p><p>I could play it normally, but the only problem was that I didn’t have a controller and couldn’t aim with a gyroscope. So on June 7th, I bought a Genesis Rooster NS controller, and spent the next month in Switch games. It took over 20 days to clear the Tears of the Fallen Nation, and around the 25th, I started playing P5R (Persona 5 Deluxe Edition) again. Due to storage space limitations, I bought another 64GB SD card.</p><h2 id="July"><a href="#July" class="headerlink" title="July"></a>July</h2><p>In July, I continued playing the Switch game “Tears of Zelda’s Kingdom”. I was still a bit unsatisfied with the game, so on the 10th, I started playing “Breath of the Wild” again.</p><h2 id="August"><a href="#August" class="headerlink" title="August"></a>August</h2><p>On July 31st, I went to Zhangjiagang with the aunt and Li congRong because they had been planning a trip for the past 10 days. I originally wanted my mom to go with me, but in the end, I went on a trip alone with them on the condition that she bought me the Kindle mentioned in 2022. We went to Guizhou for a trip, and I also got on a plane for the first time.<br>![[Airplane.jpeg|300]]</p><p>On the second night of the journey, my cousin Wang Xudong and I also stayed at an e-sports hotel for one night. Despite the exhaustion of the journey and the rare opportunity, I didn’t play any games. On August 5th, we returned to MaotanChang again. On the 13th, I went to Jiangsu with Li congRong again. He mainly wanted to see his brother Wang Xudong and get his newly bought computer. Then I will become a beauty and accompany him. On the 21st, I smelled a strong smell of smoke from Wang Dong’s dormitory, which ignited my desire to smoke. The next day, I bought a pack of Xiao Su cigarettes from the supermarket downstairs. Until now, smoke never leaves our hands. Returned from Zhangjiagang on the 23rd.</p><p>On August 29th, after a month of waiting, my mother finally gave me 460 yuan, and I also bought the Kindle Voyage that I had been deeply in love with before. August has just passed like this.</p><h2 id="September"><a href="#September" class="headerlink" title="September"></a>September</h2><p>In early September, I often went out for a walk to avoid smoking in my room, and the Ming and Qing old streets in the evening were quite charming.<br>![[OldStreet.jpeg|400]]</p><p>On September 10th, I had no balance or cigarettes in my phone. What should I do? I asked my mother for 50 yuan and took a bus alone to Lu’an, where I bought two packs of cigarettes, Xuanhemen and Puwan. Smoking was discovered by my grandmother. On September 17, Mid-Autumn Festival, Grandma cooked a lot of dishes I like to eat, such as pickled Chinese cabbage, croaker, chicken fillet, etc. Unfortunately, I didn’t take a single photo. During my 10 days living in Lu’an, I read many Kindle e-books and modern urban romance novels such as “Rebirth 80, My Wife is a Bit Spicy”</p><p>On the 21st, I followed my mother back to MaotanChang, and on the 23rd, I picked up chestnuts with her. I will be reading ‘The Biography of Mao Zedong’ in the next few days.</p><h2 id="October"><a href="#October" class="headerlink" title="October"></a>October</h2><p>On October National Day, I had no plans to go anywhere. On the 2nd, Li congRong came to my house, and I went to our hometown with him and Niu Niu. We set up hammocks in the water fir forest, read books, and picked up chestnuts. Uncle invited us to Huoshan for dinner tonight (hotpot)<br>![[Countryside.jpeg|400]]</p><p>On the afternoon of the 10th, I took a nap and had a dream. When I woke up, I recorded the content in classical Chinese on DayOne.</p><p>On the 18th, export DayOne content to a JSON file and import it into Typecho.</p><p>On the 23rd, a crawler project was developed to automatically obtain VPN subscriptions for xhjpro. However, on December 20th, it was discovered that the website had expired after adding email verification codes.</p><p>At the end of the month, I read several articles by Lin Huiyin, wrote a poem, and wrote it down with a brush. My mother may have seen this poem and bought me a brush worth over 30 yuan in early November.</p><h2 id="November"><a href="#November" class="headerlink" title="November"></a>November</h2><p>At the beginning of the month, I downloaded several books from Zlibrary and imported them into Kindle, such as “Passing by Your World” and “Sky City (My 26 Year Old Female Tenant)“. I have been reading ‘Sky City’ for a month, and as a novel, I can also be very fascinated by it.</p><p>On November 16, I went out to buy cigarettes and took a walk around the MaotanChang. I bought a bottle of water and two Shaobing . It seems that I have never bought Shaobing myself. Before (in junior high school), I followed my mother to buy vegetables and sell Shaobing to me.<br>![[Walk.jpeg|500]]</p><p>On November 18, in order to finish the video I wanted to know the highest number of likes of my TikTok videos in the past two years, I started TikTok again. Unexpectedly, the URL encryption parameters changed again, from x-box to a-box. Fortunately, in the end, the reverse analysis completed the crawling. The result is a video of a corgi dog taking a T-step at the beginning of 23 years.</p><p>On November 28, my mother was not at home that day, and my father didn’t cook any food at night. I decided to buy instant noodles to eat. On the way, I thought that I planned to go to hell noodle restaurant to eat Little pan rice with LicongRong when he came back a few days ago. I decided to eat it alone. When I got to the ground, I found that hell noodle restaurant had disappeared and turned into a restaurant. So I had to go to the North Gate to eat Wonton. Before that, I went to the supermarket and bought two packs of cigarettes. LiQun·national beauty and heavenly fragrance and Marlboro Platinum 3.0. Marlboro charged me 30, which was really black. At night, when I got home, my dad found me smoking and we had a big argument. The next morning, I went out to buy breakfast. It was almost 6 o’clock and it was still dark. Walking on the road, smoking a mixed tobacco Marlboro was really comfortable. Before dawn at 6 o’clock that day, a platinum Marlboro on Youfang Street tasted the best</p><h2 id="December"><a href="#December" class="headerlink" title="December"></a>December</h2><p>On December 3rd, I exchanged cash for my phone balance to offset expenses, and then bought coffee filter paper, 20g Mandheling coffee beans for tasting, and 5 ShouMei tea pills.</p><p>On the morning of December 4th, I went to buy breakfast, took a walk, and went to the pavilion next to the cinnabar flushing warehouse to watch ‘My Tulip Miss’. A certain sentence made me think of her and secretly feel sad.</p><p>At the end of December, it was really terrible. On the 20th, email verification was added to the registration of xhjpro. The xhjpro spider I wrote was no longer useful. I had to modify it again, find a temporary email, register, and the program was not yet developed. On the 29th, I found that the website of the temporary email had added human-machine verification. On the 25th, I saw that the Jetsbrands Space project would cease operations on June 1st, and spent the afternoon tinkering with Space On Premises. On the 27th, my father came back from Lu’an and bought a new phone, changing the home network from telecom to mobile. As a result, the websites I am currently building on my NAS cannot be accessed through a wide area network. The public IPv6 network can be pinged, but almost all ports are blocked. I have almost lost all motivation to develop NAS websites due to this network issue. I hope the network situation will return to its original state soon.</p><h4 id="That’s-all-my-review-of-2024-enjoy-a-new-year-time"><a href="#That’s-all-my-review-of-2024-enjoy-a-new-year-time" class="headerlink" title="That’s all my review of 2024, enjoy a new year time"></a>That’s all my review of 2024, enjoy a new year time</h4>]]></content>
     
@@ -593,8 +2780,8 @@
   
   <entry>
     <title>情怀是珍贵的，但是在物质面前又算什么呢</title>
-    <link href="/2024/12/24/2024/12/%E6%83%85%E6%80%80%E6%98%AF%E7%8F%8D%E8%B4%B5%E7%9A%84%20%E4%BD%86%E6%98%AF%E5%9C%A8%E7%89%A9%E8%B4%A8%E9%9D%A2%E5%89%8D%E5%8F%88%E7%AE%97%E4%BB%80%E4%B9%88%E5%91%A2/"/>
-    <url>/2024/12/24/2024/12/%E6%83%85%E6%80%80%E6%98%AF%E7%8F%8D%E8%B4%B5%E7%9A%84%20%E4%BD%86%E6%98%AF%E5%9C%A8%E7%89%A9%E8%B4%A8%E9%9D%A2%E5%89%8D%E5%8F%88%E7%AE%97%E4%BB%80%E4%B9%88%E5%91%A2/</url>
+    <link href="/2024/12/24/2024/12/%E6%83%85%E6%80%80%E6%98%AF%E7%8F%8D%E8%B4%B5%E7%9A%84%E4%BD%86%E6%98%AF%E5%9C%A8%E7%89%A9%E8%B4%A8%E9%9D%A2%E5%89%8D%E5%8F%88%E7%AE%97%E4%BB%80%E4%B9%88%E5%91%A2/"/>
+    <url>/2024/12/24/2024/12/%E6%83%85%E6%80%80%E6%98%AF%E7%8F%8D%E8%B4%B5%E7%9A%84%E4%BD%86%E6%98%AF%E5%9C%A8%E7%89%A9%E8%B4%A8%E9%9D%A2%E5%89%8D%E5%8F%88%E7%AE%97%E4%BB%80%E4%B9%88%E5%91%A2/</url>
     
     <content type="html"><![CDATA[<pre><code class="hljs">情怀是珍贵的，但是在物质面前又算什么呢</code></pre><p>昨天一下午都在折腾Jetbrains Space-On-Premises，起因是偶然打开Space（Jetbrains公司做的类似于GitHub的一个远程代码仓库，去年12月份用了一段时间），今年基本没有怎么用，这次打开Space就看到这个项目到2025年6月就停止运营了。我还是挺喜欢这个项目，有点像私人本地的仓库，同时多人聊天，code review也不错。<br>通过docker-compose安装，之前一直在修改docker-composer.yml文件，pull image一直由于镜像源和网络问题阻挠，之后使用VPN总算把image全部拉取下来。之后又是修改docker网络，还是electricsearch 容器启动失败，最后索性直接使用原来的yml文件。在此期间，一直忍受NAS空间不足的警告。<br>安装完成之后，访问192.168.2.141:8084，Space站点，有模有样的，但是又爆出OAuth2错误。<br>我忍无可忍，毕竟已经凌晨两点多了，删除了所有相关docker容器和镜像。一下午和晚上的时间又浪费了。可是我还是很想要Space活下去啊！<br>昨天上午打开U盘，发现springboot-vue项目，补环境，库，包，还是没有运行起来。<br>最后的最后，今天是圣诞节🎄，Happy Chrisms day。</p>]]></content>
     
@@ -721,7 +2908,7 @@
     <link href="/2024/12/20/2024/12/%E6%9E%9C%E7%84%B6%E8%BF%98%E6%98%AF%E5%8A%A8%E6%89%8B%E4%BA%86/"/>
     <url>/2024/12/20/2024/12/%E6%9E%9C%E7%84%B6%E8%BF%98%E6%98%AF%E5%8A%A8%E6%89%8B%E4%BA%86/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 果然还是动手了</code></pre><p><img src="/images/DayOne-Export/936d5d854d8d592816cfdb67be21b319.jpeg" alt="936d5d854d8d592816cfdb67be21b319.jpeg"></p><p>哎呦，可悲<br>现在是晚上10:21，我又饿又困，想做TempGmail爬取和AutoGetVPN项目也是心有余而力不足。<br>9点多想让爸爸把投影仪搬上来，遭到耻笑。</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 果然还是动手了</code></pre><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/936d5d854d8d592816cfdb67be21b319.jpeg" alt="936d5d854d8d592816cfdb67be21b319.jpeg"></p><p>哎呦，可悲<br>现在是晚上10:21，我又饿又困，想做TempGmail爬取和AutoGetVPN项目也是心有余而力不足。<br>9点多想让爸爸把投影仪搬上来，遭到耻笑。</p>]]></content>
     
     
     <categories>
@@ -871,7 +3058,7 @@
     <link href="/2024/12/14/2024/12/%E7%9C%9F%E5%BA%94%E8%AF%A5%E6%88%92%E7%83%9F/"/>
     <url>/2024/12/14/2024/12/%E7%9C%9F%E5%BA%94%E8%AF%A5%E6%88%92%E7%83%9F/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 真应该戒烟</code></pre><p>虽然我在生活饮食上不怎么花钱，但是一包烟30块真的太黑了。这也没有，那也没有。<br>不出去了，本来拿抽烟装拽的人真是二逼。<br>我可以喝咖啡，茶呀。抽烟没有必要，等以后我财富自由，想要什么烟都可以买到的话，我才能心安理得的享受收集癖和尝鲜欲。</p><p><img src="/images/DayOne-Export/c65d2e4005ad677a4ab4f811fcd4c839.jpeg" alt="c65d2e4005ad677a4ab4f811fcd4c839.jpeg"></p><p>不抽烟了。不抽！</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 真应该戒烟</code></pre><p>虽然我在生活饮食上不怎么花钱，但是一包烟30块真的太黑了。这也没有，那也没有。<br>不出去了，本来拿抽烟装拽的人真是二逼。<br>我可以喝咖啡，茶呀。抽烟没有必要，等以后我财富自由，想要什么烟都可以买到的话，我才能心安理得的享受收集癖和尝鲜欲。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/c65d2e4005ad677a4ab4f811fcd4c839.jpeg" alt="c65d2e4005ad677a4ab4f811fcd4c839.jpeg"></p><p>不抽烟了。不抽！</p>]]></content>
     
     
     <categories>
@@ -1021,7 +3208,7 @@
     <link href="/2024/12/08/2024/12/%E6%96%97%E6%99%BA%E6%96%97%E5%8B%87/"/>
     <url>/2024/12/08/2024/12/%E6%96%97%E6%99%BA%E6%96%97%E5%8B%87/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 斗智斗勇</code></pre><p>真有意思，在我使用selenium批量注册xhj账号时，今天做优化，发现选择邮箱类型下拉选择菜单的index发现变化，如果不加以调整，必会出现诸如Jack3306@qq.com错误邮箱地址的情况，之后可能就会增加cookie和同ip拦截的情况。</p><p><img src="/images/DayOne-Export/119a9f3ed37ddf867458465ca0f75eb9.jpeg" alt="119a9f3ed37ddf867458465ca0f75eb9.jpeg"></p><p>补记：也许是我记岔了，再次审查我的代码，index没有错，判断中，gmail的index为3，与email_type_selector的序列保持一致。</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 斗智斗勇</code></pre><p>真有意思，在我使用selenium批量注册xhj账号时，今天做优化，发现选择邮箱类型下拉选择菜单的index发现变化，如果不加以调整，必会出现诸如Jack3306@qq.com错误邮箱地址的情况，之后可能就会增加cookie和同ip拦截的情况。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/119a9f3ed37ddf867458465ca0f75eb9.jpeg" alt="119a9f3ed37ddf867458465ca0f75eb9.jpeg"></p><p>补记：也许是我记岔了，再次审查我的代码，index没有错，判断中，gmail的index为3，与email_type_selector的序列保持一致。</p>]]></content>
     
     
     <categories>
@@ -1067,11 +3254,11 @@
   
   
   <entry>
-    <title>Untitled111</title>
-    <link href="/2024/12/06/2024/12/Untitled111/"/>
-    <url>/2024/12/06/2024/12/Untitled111/</url>
+    <title>閒適</title>
+    <link href="/2024/12/06/2024/12/%E9%97%B2%E9%80%82/"/>
+    <url>/2024/12/06/2024/12/%E9%97%B2%E9%80%82/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 閒適</code></pre><p>一杯曼特寧手衝，苦不堪言，回味卻帶有強烈的榛子和可可味，一支萬寶路，獨特的混合型煙草帶來的嗅覺衝擊，一塊好麗友派，膩甜與苦澀互補，幾瓣橘子，酸甜使得曼特寧好似耶加雪菲的情調。一個閒適的下午……</p><p><img src="/images/DayOne-Export/ccc65e3179f26807be16e36237deb363.jpeg" alt="ccc65e3179f26807be16e36237deb363.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<p>一杯曼特寧手衝，苦不堪言，回味卻帶有強烈的榛子和可可味，一支萬寶路，獨特的混合型煙草帶來的嗅覺衝擊，一塊好麗友派，膩甜與苦澀互補，幾瓣橘子，酸甜使得曼特寧好似耶加雪菲的情調。一個閒適的下午……</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/ccc65e3179f26807be16e36237deb363.jpeg" alt="ccc65e3179f26807be16e36237deb363.jpeg"></p>]]></content>
     
     
     <categories>
@@ -1121,7 +3308,7 @@
     <link href="/2024/12/04/2024/12/%E6%9C%B1%E7%A0%82%E5%86%B2%E4%BA%AD%E4%B9%8B%E6%89%8B%E8%AE%B0/"/>
     <url>/2024/12/04/2024/12/%E6%9C%B1%E7%A0%82%E5%86%B2%E4%BA%AD%E4%B9%8B%E6%89%8B%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 朱砂冲亭之手记</code></pre><p>你系的不仅是鞋带，而是一个少女怀春的心……<br>《我的郁金香小姐》，肖艾，弈。<br>那天下晚自习之后，她蹲在教室门口的过道，欲系鞋带，手却未动，我在感性的思想中，极想旁若无人，俯下身，为她系蝴蝶结，但在理性的判断中，我始终无法那么做，尽管那么明显！之后一次，她抬起脚，不让鞋带弄脏，一步步跳下3楼的台阶，是否为更少的人看见而制造机会？<br>整整已经5年了，我不忍忘记，忘记后，我所做的，所遭遇的一切是多么的荒唐！<br>她究竟有什么魔力，一瞥一笑都牵动我的心。那么轻松，美好。<br>在朱沙冲的亭子里，我在看《我的郁金香小姐》第116章《喜调》，空旷的环境，让我想的更多。快走之后坐下，抽了一支烟，微冷。</p><p><img src="/images/DayOne-Export/677aea00a9d947621abdf4fc3d88ccaf.jpeg" alt="677aea00a9d947621abdf4fc3d88ccaf.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 朱砂冲亭之手记</code></pre><p>你系的不仅是鞋带，而是一个少女怀春的心……<br>《我的郁金香小姐》，肖艾，弈。<br>那天下晚自习之后，她蹲在教室门口的过道，欲系鞋带，手却未动，我在感性的思想中，极想旁若无人，俯下身，为她系蝴蝶结，但在理性的判断中，我始终无法那么做，尽管那么明显！之后一次，她抬起脚，不让鞋带弄脏，一步步跳下3楼的台阶，是否为更少的人看见而制造机会？<br>整整已经5年了，我不忍忘记，忘记后，我所做的，所遭遇的一切是多么的荒唐！<br>她究竟有什么魔力，一瞥一笑都牵动我的心。那么轻松，美好。<br>在朱沙冲的亭子里，我在看《我的郁金香小姐》第116章《喜调》，空旷的环境，让我想的更多。快走之后坐下，抽了一支烟，微冷。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/677aea00a9d947621abdf4fc3d88ccaf.jpeg" alt="677aea00a9d947621abdf4fc3d88ccaf.jpeg"></p>]]></content>
     
     
     <categories>
@@ -1171,7 +3358,7 @@
     <link href="/2024/12/01/2024/12/Untitled107/"/>
     <url>/2024/12/01/2024/12/Untitled107/</url>
     
-    <content type="html"><![CDATA[<pre><code class="hljs"># 小记</code></pre><p>本日早晨我想吃稀饭和咸菜，妈妈却迟迟不起来，只得吃爸爸煮的疙瘩汤，非常清淡，又没有火锅底料，我就挖了一点红烧牛肉，没有想到牛肉里竟然还煮了萝卜，我大发一顿牢骚。<br>之后早晨到中午都在做Audio Station的js反编译，得到一个播放列表的歌曲信息存储在n中的data字典中，使用n.data.items.getAt(a)获取本首歌曲信息，a为这首歌在本播放列表的index。<br>中午我想吃烤鸭，可依然只是牛肉和炒豆芽。吃完饭之后写了一会毛笔字：<br>十年生死两茫茫 不思量 自难忘<br>千里孤坟无处话凄凉 尘满面 鬓如霜夜半幽梦忽还乡 小轩窗 正梳妆<br>料得年年肠断处 明月夜 短松岗<br>晚上犯困，菜依旧是那个菜，不过牛肉，香菇已经没有了，我吃完一碗饭，没吃饱，不想继续吃。叫妈妈炒咸菜，煮稀饭吃。没有答应。我只好去睡觉了。<br>半夜来来回回醒过几次，刚好一点醒一次，两点四十四醒一次，最终4点醒来，我没有继续睡下去，就想着今天早上我想和上个星期五一样买吃，自然而然想到Apple Music订阅已经过期，打算用支付宝优惠来订阅，得到的结果竟然是You’re not eligible for this offer。我想应该是美国ID才能使用这个订阅或者其他别的原因。<br>现在已经是12月3日凌晨4:28了，如果今天早上我不去买吃，应该可以吃到咸菜稀饭了吧。</p><p><img src="/images/DayOne-Export/da40bbaa20ce68c88734e53fcf5976b9.jpeg" alt="da40bbaa20ce68c88734e53fcf5976b9.jpeg"></p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs"># 小记</code></pre><p>本日早晨我想吃稀饭和咸菜，妈妈却迟迟不起来，只得吃爸爸煮的疙瘩汤，非常清淡，又没有火锅底料，我就挖了一点红烧牛肉，没有想到牛肉里竟然还煮了萝卜，我大发一顿牢骚。<br>之后早晨到中午都在做Audio Station的js反编译，得到一个播放列表的歌曲信息存储在n中的data字典中，使用n.data.items.getAt(a)获取本首歌曲信息，a为这首歌在本播放列表的index。<br>中午我想吃烤鸭，可依然只是牛肉和炒豆芽。吃完饭之后写了一会毛笔字：<br>十年生死两茫茫 不思量 自难忘<br>千里孤坟无处话凄凉 尘满面 鬓如霜夜半幽梦忽还乡 小轩窗 正梳妆<br>料得年年肠断处 明月夜 短松岗<br>晚上犯困，菜依旧是那个菜，不过牛肉，香菇已经没有了，我吃完一碗饭，没吃饱，不想继续吃。叫妈妈炒咸菜，煮稀饭吃。没有答应。我只好去睡觉了。<br>半夜来来回回醒过几次，刚好一点醒一次，两点四十四醒一次，最终4点醒来，我没有继续睡下去，就想着今天早上我想和上个星期五一样买吃，自然而然想到Apple Music订阅已经过期，打算用支付宝优惠来订阅，得到的结果竟然是You’re not eligible for this offer。我想应该是美国ID才能使用这个订阅或者其他别的原因。<br>现在已经是12月3日凌晨4:28了，如果今天早上我不去买吃，应该可以吃到咸菜稀饭了吧。</p><p><img src="https://res-yaonas.cn-nb1.rains3.com/hexo-blog/images/DayOne-Export/da40bbaa20ce68c88734e53fcf5976b9.jpeg" alt="da40bbaa20ce68c88734e53fcf5976b9.jpeg"></p>]]></content>
     
     
     <categories>
@@ -1568,8 +3755,8 @@
   
   <entry>
     <title>散步🚶</title>
-    <link href="/2024/11/16/2024/11/%E6%95%A3%E6%AD%A5/"/>
-    <url>/2024/11/16/2024/11/%E6%95%A3%E6%AD%A5/</url>
+    <link href="/2024/11/16/2024/11/%E6%95%A3%E6%AD%A5%F0%9F%9A%B6/"/>
+    <url>/2024/11/16/2024/11/%E6%95%A3%E6%AD%A5%F0%9F%9A%B6/</url>
     
     <content type="html"><![CDATA[<pre><code class="hljs">散步🚶</code></pre><p>忙里偷闲散散步，走了13000多步。期间买了一瓶水，两个烧饼。<br>明天我想吃烤鸭。</p><p><img src="/images/DayOne-Export/e156355351fbabbfe3114f3acffd2951.jpeg" alt="e156355351fbabbfe3114f3acffd2951.jpeg"></p>]]></content>
     
@@ -3968,8 +6155,8 @@
   
   <entry>
     <title>Nothing to say, and I don’t want to say any more</title>
-    <link href="/2024/08/22/2024/08/Nothing%20to%20say,%20and%20I%20don%E2%80%99t%20want%20to%20say%20any%20more/"/>
-    <url>/2024/08/22/2024/08/Nothing%20to%20say,%20and%20I%20don%E2%80%99t%20want%20to%20say%20any%20more/</url>
+    <link href="/2024/08/22/2024/08/Nothing%20to%20say,%20and%20I%20don&#39;t%20want%20to%20say%20any%20more/"/>
+    <url>/2024/08/22/2024/08/Nothing%20to%20say,%20and%20I%20don&#39;t%20want%20to%20say%20any%20more/</url>
     
     <content type="html"><![CDATA[<p>Nothing to say, and I don’t want to say any more<br>The only thing I want to say that is Li is SB</p>]]></content>
     
@@ -4072,31 +6259,6 @@
     <url>/2024/08/18/2024/08/%E5%8F%8A%E6%97%B6%E6%AD%A2%E6%8D%9F%20%E8%87%AA%E8%B4%9F%E7%9B%88%E4%BA%8F/</url>
     
     <content type="html"><![CDATA[<h1 id="及时止损-自负盈亏"><a href="#及时止损-自负盈亏" class="headerlink" title="及时止损 自负盈亏"></a>及时止损 自负盈亏</h1><p>Got one iPhone shell</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Life</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Diary</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>牢骚</title>
-    <link href="/2024/08/17/2024/08/%E7%89%A2%E9%AA%9A/"/>
-    <url>/2024/08/17/2024/08/%E7%89%A2%E9%AA%9A/</url>
-    
-    <content type="html"><![CDATA[<p>今日晚，随小二子李从容到汪东厂宿舍，空间倒是不小，可是床上挤的我实在无法忍受，什么玩意，我还有自己的事，不能在此久留，既然我此次来张家港的主要事情没有完成，那倒不如早点回去，实在是毫无意义。<br>  纯属傻逼。为玩电脑跑这么远，在多人宿舍伸不开拳脚，各种异味，烟味直冲天灵盖。</p>]]></content>
     
     
     <categories>
@@ -4318,8 +6480,8 @@
   
   <entry>
     <title>国内的网络环境实在不容乐观，处处有限制，有实名，完全放不开拳脚</title>
-    <link href="/2024/08/09/2024/08/%E5%9B%BD%E5%86%85%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%AE%9E%E5%9C%A8%E4%B8%8D%E5%AE%B9%E4%B9%90%E8%A7%82%EF%BC%8C%E5%A4%84%E5%A4%84%E6%9C%89%E9%99%90%E5%88%B6%EF%BC%8C%E6%9C%89%E5%AE%9E%E5%90%8D%EF%BC%8C%E5%AE%8C%E5%85%A8%E6%94%BE%E4%B8%8D%E5%BC%80%E6%8B%B3%E8%84%9A/"/>
-    <url>/2024/08/09/2024/08/%E5%9B%BD%E5%86%85%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%AE%9E%E5%9C%A8%E4%B8%8D%E5%AE%B9%E4%B9%90%E8%A7%82%EF%BC%8C%E5%A4%84%E5%A4%84%E6%9C%89%E9%99%90%E5%88%B6%EF%BC%8C%E6%9C%89%E5%AE%9E%E5%90%8D%EF%BC%8C%E5%AE%8C%E5%85%A8%E6%94%BE%E4%B8%8D%E5%BC%80%E6%8B%B3%E8%84%9A/</url>
+    <link href="/2024/08/09/2024/08/%E5%9B%BD%E5%86%85%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83%E7%89%A2%E9%AA%9A/"/>
+    <url>/2024/08/09/2024/08/%E5%9B%BD%E5%86%85%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83%E7%89%A2%E9%AA%9A/</url>
     
     <content type="html"><![CDATA[<p>国内的网络环境实在不容乐观，处处有限制，有实名，完全放不开拳脚<br>从六月初到八月，有两个月我都在打游戏，这次从贵州回来，哎哟，公网80和443端口被封，阿里云盘第三方WebDav服务限速，给我的NAS极致观影体验和网站带来了一次重创，要不是托NAS一体之方便，我还真会买个服务器架设网站。现在只能转变方向，一边继续稳固PHP相关，另一边Java网站建设也有待精进。</p>]]></content>
     
@@ -4668,8 +6830,8 @@
   
   <entry>
     <title>那时我们都年轻，</title>
-    <link href="/2024/07/27/2024/07/%E9%82%A3%E6%97%B6%E6%88%91%E4%BB%AC%E9%83%BD%E5%B9%B4%E8%BD%BB%EF%BC%8C/"/>
-    <url>/2024/07/27/2024/07/%E9%82%A3%E6%97%B6%E6%88%91%E4%BB%AC%E9%83%BD%E5%B9%B4%E8%BD%BB%EF%BC%8C/</url>
+    <link href="/2024/07/27/2024/07/%E9%82%A3%E6%97%B6%E6%88%91%E4%BB%AC%E9%83%BD%E5%B9%B4%E8%BD%BB/"/>
+    <url>/2024/07/27/2024/07/%E9%82%A3%E6%97%B6%E6%88%91%E4%BB%AC%E9%83%BD%E5%B9%B4%E8%BD%BB/</url>
     
     <content type="html"><![CDATA[<p>那时我们都年轻，<br>对未来无限憧憬。<br>看微风吹过田野，<br>听细雨打湿泥泞。</p>]]></content>
     
@@ -6567,7 +8729,7 @@
   
   
   <entry>
-    <title>bark-to-windows</title>
+    <title>利用数据库做一个网络剪贴板 类似于bark-to-windows</title>
     <link href="/2024/05/12/2024/05/bark-to-windows/"/>
     <url>/2024/05/12/2024/05/bark-to-windows/</url>
     
@@ -9467,6 +11629,31 @@
   
   
   <entry>
+    <title>Some experience with TiKTok Spider switch launguage from Python to Java</title>
+    <link href="/2024/01/19/2024/02/Some%20experience%20with%20TiKTok%20Spider/"/>
+    <url>/2024/01/19/2024/02/Some%20experience%20with%20TiKTok%20Spider/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Some-experience-with-TiKTok-Spider-switch-launguage-from-Python-to-Java"><a href="#Some-experience-with-TiKTok-Spider-switch-launguage-from-Python-to-Java" class="headerlink" title="Some experience with TiKTok Spider switch launguage from Python to Java"></a>Some experience with TiKTok Spider switch launguage from Python to Java</h1><p>On 17​<strong>th</strong>​ January, I don’t know why I got the idea of this operation, but magic is I did, with the cost of two days I achieved the function of using cookies to log into TikTok (DouYin) automatically, and today, I switched the ​<strong>web driver</strong>​ from local to selenium grid, but before this action, I also passed the try of connecting local chrome (debug mode), yeah, all is well besides I can’t operate mouse in ​<strong>chrome driver</strong>​. I saw the comment before I tried and knew this problem. So I switched ​<strong>Webdriver</strong>​ to selenium grid (Maybe just more like the version of Python), and then I processed that big bug (oh, maybe yesterday I had solved this problem), refactored code, and added some features, such as finding elements, write info to document, etc.<br>Now, I have committed two commitments to GitHub, and the features of the first phase were finished, during the next phase, I am supposed to add loops of getting information (Author, Content, Detail_Href), and get comments, the following action is beauty JSON data, etc.<br>Digest knowledge from websites daily carefully. Stay Hungry, Stay Foolish.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Diary</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Keep the enthusiasm of Day One</title>
     <link href="/2024/01/17/2024/01/Keep%20the%20enthusiasm%20of%20Day%20One/"/>
     <url>/2024/01/17/2024/01/Keep%20the%20enthusiasm%20of%20Day%20One/</url>
@@ -10043,8 +12230,8 @@
   
   <entry>
     <title>If I review this past year, what was the best thing that happened each month</title>
-    <link href="/2023/12/29/2023/12/If%20I%20review%20this%20past%20year,%20what%20was%20the%20best%20thing%20that%20happened%20each%20month/"/>
-    <url>/2023/12/29/2023/12/If%20I%20review%20this%20past%20year,%20what%20was%20the%20best%20thing%20that%20happened%20each%20month/</url>
+    <link href="/2023/12/29/2023/12/2023%20Review/"/>
+    <url>/2023/12/29/2023/12/2023%20Review/</url>
     
     <content type="html"><![CDATA[<h6 id="If-I-review-this-past-year-what-was-the-best-thing-that-happened-each-month"><a href="#If-I-review-this-past-year-what-was-the-best-thing-that-happened-each-month" class="headerlink" title="If I review this past year, what was the best thing that happened each month?"></a>If I review this past year, what was the best thing that happened each month?</h6><p>How time flying a new year will start, review this past year, all the things just like past in a sudden.<br>  In January because Chinese new year was on 21st January so before it, no special with other days, on 31st December of 2022 I was became the strongest king of game so the beginning of January I was played game, about on tenth I got a iPhone 5s but it was locked so I was try to jailbreak until 20th,and on fifteenth of January, there was snow and may be the first snow of this day, I went out of house and payed the phone bill I was so relaxed, the last days of 2022(of course I mean that was Chinese lunar calendar) I permed my curly hair and took a lot of photo in a sudden I found wow I was so handsome. Then was Chinese new year, after it about there has 7 or 8 days, I and my parents went to Chinese new year greeting no special things, then on 28th January a relative of mine got married, I went to take a part in of marriage ceremony, I drank a lot, but that feeling was so fine. Another thing I want to say is I meet a girl name is LijinWen, wow how huge change was made to her that I couldn’t recognize her. About her memory I just remember this same as on marriage ceremony , I and her was same as flower girl (laughing) of course I don’t know what is meaning that time and another time is we went to swim together. In that time I found her was so beautiful but in this time I can say she is not maybe isn’t her. ok, whether or not please continue my review.<br>  And then on 31st we went to hefei do something, just these, a month was passed.<br>  In February, The atmosphere of the New Year is slowly fading. All things will become to the normal, at that time, I am enjoying the happiness by using vpn, and because of iPhone 5s, I first watch TikTok by using app and then created a account of google it goes without saying, on 11th February, I downloaded a game which I noticed in douying I am interested in it’s realistic, spent my whole night time then the remaining days of February maybe I usually played this game, on 25th February, Maybe I ate the most delicious instant noodles during this whole year, there are fat shell rolls in instant noodles! Yaml. The last days I was designed a Android app named “yunt” that’s most thing of February.</p><p><img src="/images/DayOne-Export/74d38062f5645a09abe60818320f0acd.jpeg" alt="74d38062f5645a09abe60818320f0acd.jpeg"></p>]]></content>
     
@@ -10143,8 +12330,8 @@
   
   <entry>
     <title>resolve problem that I am sticking to login aliyun</title>
-    <link href="/2023/12/26/2023/12/resolve%20problem%20that%20I%20am%20sticking%20to%20login%20aliyun/"/>
-    <url>/2023/12/26/2023/12/resolve%20problem%20that%20I%20am%20sticking%20to%20login%20aliyun/</url>
+    <link href="/2023/12/26/2023/12/resolve%20problem/"/>
+    <url>/2023/12/26/2023/12/resolve%20problem/</url>
     
     <content type="html"><![CDATA[<p>resolve problem that I am sticking to login aliyun </p><p>Today night I find the login page of driver cookie about value of isg is refresh all all the time but even though I can’t login with cookie but I can first scan the QR Card to login and use one(this) session to operate, ok tomorrow I will try it<br>And today night I have committed with commitment “reformat the file” means that bark program it’s over I will try that solution tomorrow don’t forget</p>]]></content>
     
@@ -10343,8 +12530,8 @@
   
   <entry>
     <title>人生处处皆有遺憾，驀然回首，青舟己過萬重山</title>
-    <link href="/2023/12/21/2023/12/%E4%BA%BA%E7%94%9F%E5%A4%84%E5%A4%84%E7%9A%86%E6%9C%89%E9%81%BA%E6%86%BE%EF%BC%8C%E9%A9%80%E7%84%B6%E5%9B%9E%E9%A6%96%EF%BC%8C%E9%9D%92%E8%88%9F%E5%B7%B1%E9%81%8E%E8%90%AC%E9%87%8D%E5%B1%B1/"/>
-    <url>/2023/12/21/2023/12/%E4%BA%BA%E7%94%9F%E5%A4%84%E5%A4%84%E7%9A%86%E6%9C%89%E9%81%BA%E6%86%BE%EF%BC%8C%E9%A9%80%E7%84%B6%E5%9B%9E%E9%A6%96%EF%BC%8C%E9%9D%92%E8%88%9F%E5%B7%B1%E9%81%8E%E8%90%AC%E9%87%8D%E5%B1%B1/</url>
+    <link href="/2023/12/21/2023/12/%E4%BA%BA%E7%94%9F%E5%A4%84%E5%A4%84%E7%9A%86%E6%9C%89%E9%81%BA%E6%86%BE%20%E9%A9%80%E7%84%B6%E5%9B%9E%E9%A6%96%20%E9%9D%92%E8%88%9F%E5%B7%B1%E9%81%8E%E8%90%AC%E9%87%8D%E5%B1%B1/"/>
+    <url>/2023/12/21/2023/12/%E4%BA%BA%E7%94%9F%E5%A4%84%E5%A4%84%E7%9A%86%E6%9C%89%E9%81%BA%E6%86%BE%20%E9%A9%80%E7%84%B6%E5%9B%9E%E9%A6%96%20%E9%9D%92%E8%88%9F%E5%B7%B1%E9%81%8E%E8%90%AC%E9%87%8D%E5%B1%B1/</url>
     
     <content type="html"><![CDATA[<h1 id="人生处处皆有遺憾，驀然回首，青舟己過萬重山"><a href="#人生处处皆有遺憾，驀然回首，青舟己過萬重山" class="headerlink" title="人生处处皆有遺憾，驀然回首，青舟己過萬重山"></a>人生处处皆有遺憾，驀然回首，青舟己過萬重山</h1><p>記得那是8年前，暑假結束，高二下學期分班，哥们或绩有点下滑，从原本的尖子班调到平行班，新班主任挺開心的，但是对于我来說就是高興不起来，毕竟是降了一级，从原本别人仰望的存在，变成需要去仰望別人，失落感肯定是有的，尤其是班級后边卫生角，坐了几个看着就不像熱热学习的同学，莫名有点害怕。但是经过我一上午的观際，我发現这帮人的头頭竟是坐在我旁边的一个看起来人畜无害的女孩子，瓜子脸，五官长得特别致，长得小小的，然后这帮暂且称之为不良少年吧，每次下课都会围在我的桌子旁聊天，有个人我印象特别深刻，叫老刘，也是长得小小的，身上有一种浓烈的市井气息，但这人特别逗啊，以至于我后来一看到他就想笑，当然这是后话了。<br>分班第一天麼，没有课，就是班主任来介绍一个下新同学，然后分座位，发书。由于是住读生，提前一天来到学校，那天晚上我找不到班主任，不知道寝室在哪，正好懒得回家，去学校附近的网吧通了宵，反正第二天没有课，开了台电脑，看火影忍者，当时好像是刚刚更新到第四次忍界大战，看到四代火影跟带土打的那一場，帅得我一晚上没有睡着，就导制第二天到班上困得一批，困到放学都不想回宿舍那种，我就趴在桌子上睡觉了，不知过了多久，我迷迷糊糊就听見动静，然后我抬头看，我發现我的同桌坐在教室讲台，边充电边玩手机，好像是在跟别人聊天，笑出了聲，把我吵醒了。当时教室就我们两个人，她看到我也有点尴尬，收起手机出去了，我一看时间，我K，从中午12点睡到下午6点多，肚子餓了，上食堂吃饭，到食堂我發现她也在，和她一起吃饭的，就是我们班那幾個卫生角的同学，由于上午下课的时候，他们老来座位旁边聊天，我有点害怕，就把我的座位让出来给他们，自己去走廊站一站，我的这个举动也帶来了他们的好感，所有当我端着饭盆找座位的時候，他就跟我打招呼说：‘新英雄來了。主要是前两天英雄联盟刚好出了个新英雄，叫疾風劍聖亞索，我又是新来的，所以他们给我取了个外号就叫亚索，我也很配合，端着饭盆，“哈萨给”，然後其他人心领神会，模伤各种英雄技能语音和动作，来了一场别开生面的戰爭。我同桌看不懂，“你们干嘛呢？“老劉说这叫男人之间的默契，你懂个屁。说完我們哈哈大笑，给妹子整的有点无语。吃完饭老刘跟我说，老班把我分到他们寝室，他准备打完篮球再回宿舍，问我跟不跟他一起，我不会打，我说算了，想回教室坐一会，这时候我同桌说正好跟我一起回去，手机还在教室里充电，一路上我俩谁都没有说话，有点尴尬。当时满脑子就想着早点回到室，结果到了教室更尴尬，我啥也干不了，桌子上除了课本啥也没有。试问瘋了一个暑假，谁看得下去课本，这个时候我就看到她桌子上有本《龙族》，盯着看了好久，我当时心想还有女孩子喜欢看这个？同桌可能是注意到我这个眼神，把《龙族》递给我，你要看吗？”“这个我看过了，感觉有点血腥，我看到弟弟居然叫哥哥把它吃掉就没看了。”“合看你就看到第一章是吧。”“呵,没有没有,开玩笑开玩笑,我看完了。等更新呢,主要是没想到你们女孩子也喜欢看这种小说。“别人我不知道,反正我挺喜欢看的。”“下回出新版咱俩AA呗,一起看。”“行”。<br>当天晚上回寝室老刘很热情的给我安排床位,他是寝室长,还问我有没有被子啥的,给我介绍卫生间在哪,洗衣机怎么用等等。他这个劲一下就打破了我对于不良少年的固有认知,我原本觉得他社会气息比较浓重,应该待人不会很友善,但现在看来,他比大多数人情商更高,只是学习不好而已。<br>第二天上课,可能是前一天下午睡多了的原因,我早早起床,洗漱完毕来到班上，我发现有个人比我还早,就我那同桌,她鬼鬼祟祟蹲在讲台后边,给充电宝充电。学校不让带手机,宿舍也没有插座,唯一能充电的地方,就是学校多媒体讲台下边的电脑,她听到我开门给她下一跳啊,看到是我才给她放下心来。“你怎么来这么早。”我说我没事干我来看会书。然后就不说话了,气氛有一点尴尬,一直到早起铃声之后,陆陆续续有同学过来早读,我读着读着突然听到一阵歌声,我扭头一看,这同桌左手伸进袖子里捂住耳朵,右手拿着笔在本子上写着什么，嘴里还念念有词,那嘴型明显就不是在读书,她好像感受到我的目光,有一点不好意思,装模作样拿出一本英语书开始Abanda,Abanda,Abanda.早读结束,老刘一行人跑过来喊我同桌吃早饭顺便问我去不去,我站起身跟他们一起,第一次跟一帮人去吃早饭,不知道的还以为要打群架呢,值得注意的是,我发现这个同桌在他们面前特别活泼,总是被老老刘讲笑话逗得花枝乱颤。我也是第一次知道,原来女孩子也是可以被逗笑的,这也太可爱了,当时心里就想,要是我也能和她关系这么好就好了。然后当天晚上下晚自习,我同桌突然找到我,问我是不是每天早上都起的很早,我说也不是啊,咋了,然后她跟我说昨天晚上看小说有点晚，今天一天困死了,但是充电宝没有电了,问我能不能帮她给充电宝充电,在早上其他人来之前拔掉,然后可怜巴巴的看着我。这眼神我靠,谁顶得住呀。即便我不愿意早起,但还是接下了这个任务。第二天我5点钟就醒了,不知道为什么,醒来就只记得一件事,去班上取充电宝,然后坐在位子上,等她。很快快到早读了。我同桌卡点进了教室,一坐下我就把充电宝递给她,她看到特别高兴,给我竖了一大拇哥,那以后我每天兢兢业业的给她充电,期待着她拿到充电宝的时候对我展颜一笑,也因为这个,我很快就融入他们这个小团体。接下来每天就是充电宝、早读、上课,晚自习,睡觉,高中生活确实比较枯燥,尤其快高三了,为了备战高考,每天就是两点一线,不过对于那时的我来说,却多了一种盼头，盼望着每天能见到我这个同桌,到了礼拜天上午第四节课,我们班是音乐课，不出意外的话,音乐老师基本上是不会来的。所以都是我们自习,这时候我同桌碰了碰我的手臂。“哎”,“咋了”。“你QQ号多少?”生平第一次有女孩找我要联系方式,然后拿一张纸条写好递给她。“干嘛”?“拉你进我们班群我是管理员”。她说完嘚瑟一下,我说好的,然后给她比了个OK,下午回家第一件事,同意好友申请。中午饭都来不及吃,她网名叫暧昧,后面一堆那个火星文,我一看这网名,同道中人呐,我俩用火星文就聊了起来,聊到快下午三点,她问我要不要去学校,我说你在学校么，她说在看她哥打篮球,有点无聊让我陪她一起,她哥就是老刘,到地方往那一坐,我发现她没有穿校服,一件白色的小裙子,公主风短梨花发型,脑袋后边有个超大的白色蝴蝶结,穿着当时特别流行的某威牌帆布鞋,而且貌似应该是化了点妆,我发誓这是我这辈子看到最好看的女孩子,好看到你不敢跟她对视。“看我干嘛?”“我看你长得好看。”“那还用说。”“嘿…” 在篮球场待了两个多小时,老刘请我喝了瓶饮料,然后就各回各家了。当天晚上闲的翻QQ空间,我看见我同桌发了条说说,是一组照片,显然是下午在篮球场自拍的,下午不敢跟她对视,这照片仔细一看更好看了,当时满脑子在想,为什么我们礼拜天晚上不用晚自习。接下来的日子,我除了学习就是和同桌聊天,慢慢地我也学会了逗她玩啊,总是给她气的掐了大腿,就这样过了一个月。月考结束,老班给我们重新换了座位,小刘同学和我分开了,她旁边坐了另外一个男生,好消息是,每天给她充电宝充电的任务没有被新同桌抢走,但我不知道为什么就莫名其妙看那个男的贼不爽,然后干了一件特别幼稚的事情,我那时候是英语课代表,每回交英语作业的时候,我就把我的放在小组最后边，把她放在小组最上边，我俩作业本贴在一起,真的就是小时候喜欢一个人,连作业本放在一起都觉得好幸福。但是后来我的占有欲越来越强,光是作业本贴贴已经无法满足我了,我找到老刘,让他教我打篮球,因为小刘设事会去篮球场观战,我要想尽一切办法在她面前刷存在感,用老刘的原话就是,那时候我就像一只开屏的孔雀,疯狂展示羽毛,但是我们之间的关系也仅仅止步于此了。哥们怂啊,不敢表白,我怕一表白连朋友都做不成了,只能在心里偷偷暗恋人家,写的情书也不敢给人看。转眼间就到了第二年夏天,这一年哥们还是不敢表白,并且由于距离和高考的原因,我和小刘同学和互动也变少了,就是空下来的时候给她写写情书,我原本以为我们之间的关系就这样了,一直到高中毕业,然后各自奔赴各自的人生。那天是晚自习,我作业写完了,突然才思泉涌,拿出我的小本本开始写情书,写着写着,原本热闹的班级突然安静下来,然后感觉我的脖子凉飕飕的,回头一看,坏了,班主任微微一笑,向我伸出手。“拿来，啧啧,快高考了,写这些东西,你别说写的还挺好,你语文作文要是有这水平,至于只考90多吗。”我当时低着头,一句话都不想说。“嗯,写的不错,大家应该听一听,念吧,不念都别下课。”我偷偷看向小刘,我发现她也在看着我,然后深呼吸一口气,死就死吧，接过我的小本本。<br>“亲爱的小刘同学,”这句话说完,全班同学“哦～～”，小刘羞得脸都红了。”谈及你,是密密麻麻,却一纸空白,是心慌慌,只字未提，却滔滔不绝。”然后又是一阵,“哦～～”“喜欢你什么呢,我说不上来,也许是午后昏暗教室里,我睁开朦胧的睡眼,你打量我的目光,也许是夏日的操场上,我故意惹你生气,你笑骂着追着我的身影,也许是课后的篮球馆里,惊艳了我整个人生的那一席白衣,我试图用一些漂亮的句子来形容你,但是不行,我字字推敲,写出长长一段话,你眉眼一弯，熠熠生辉,就让我觉得,不行,这些文字写不出你眼里的星辰,写不出你唇角的春风。无论哪个词,都及不上你的半分惊艳。”念完之后,全班鸦雀无声,小刘直接把脸埋在书后边。“嗯,写得不错,也是高三了,我懒得管你,但是希望你谈恋爱归谈恋爱,不要影响成绩,一旦我发现你退步了,我就要找你和你的小刘同学,OK吗?”我当时如释重负,“OK,OK”,“下课吧。”同学陆陆续续离开教室,我却没有要走的意思,哪怕我脸皮再厚,此刻也不敢和人群一起走出去。很快班上就只剩下我和一直低看头的小刘,还有她哥,老刘瞪着我,一脸自家白菜被猪拱了的那眼神,我不敢抬头看他,这时候小刘说:“哥,你先走吧。”“不是什么”老刘显然是没有想到他妹妹居然是这个反应,“等下我自己回去”老刘拗不过,临走之前又狠狠瞪了我一眼,老刘走后,小刘缓缓走到我面前,向我伸出手,“我能看看吗。”我把我那份写满情书的小本本递给她,“写多久了？” “有快一年了吧。”她收起小本本,揣到口袋里,然后跟我说“走吧”,“啊,去哪”“送我回宿舍”“哦。”路过她课桌的时候,她顺手拿了个盒子出来,然后我俩就走在去女生宿舍的路上,我就莫名感受到气氛有一点暖昧,她把我的情书揣到了自己口袋里,通过这个行为分析来看,哥们这事吧,应该是成了,但是我又不确定,怎么办,先试探一下,我就想去牵她手,想是这么想,就根本不敢动。这时候她好像看出了什么,主动拉起我的手。“想牵就牵”,兄弟们,就两只手扣在一起的时候,十指连心啊,一瞬间有一股电流经过我的全身,感觉心里痒痒的，牵一下50,我恨得牙痒痒。“我这个人有很多缺点,像天上的星星一样。”“我知道,但我得告诉你个秘密。“什么秘密？”“你也有优点呢,只不过少得跟太阳一样。”“那你喜欢我干嘛。”“因为太阳一出来,星星就不见了。”她可能被我这句话整得有点不知所措,然后我就看着她一直拿着那盒子,有点好奇,“这啥？”,她直接把盒子递给我,“唉,本来是买给我哥的鞋,但你这么一说,现在他不配，归你了”,我有点懵,无动于忠，“这最近流行的APP得物上买的都是鉴别正品,根据我对你的观察,你肯定喜欢。”“这不行,我跟你表白,我啥也没送你,你还送我一双鞋?不行不行不行”她笑了笑,拿出一支笔,在鞋面上写下,“大阳和小刘”,“这下行了吧。”,不是你这,多不好意思。”“再告诉你个秘密吧,你每次看着我的时候,眼睛里都是星星,一闪一闪的。”说着她看着我越来越近然后缓缓闭上了眼睛。接下来……反正反正,哥们的初吻就这样没了。<br>那天过后,我俩也成了班上公认的一对情侣,我们也约好要一直一起走下去,确实在朝着这个方向努力,以至于后来班主任都拿我俩开玩笑。<br>日子就这样一天天过去,眼看快要高考了,那天晚上我在宿舍复习,看到老刘穿起衣服跟我说查寝了,帮他打掩护,和几个别的寝室的人一起走了。大半夜应该是混出学校玩去了,看着他离开的背影,我突然觉得不能再这样下去了，我和小刘已经步入正轨了,我想让老刘也好好读书,他如果再这样下去的话,很可能大学都考不上,所以那天晚上老师来查寝的时候。我没有帮他,结果,第二天老师就把老刘的父亲叫到学校,本身对老刘学习已经失望顶的刘爸,听到儿子在校违反校规勃然大怒,老刘可能也是一肚子气,当场和他爸起了争执,俩人吵了起来,最终老刘退学了,甚至小刘也受到了牵连。我记得老刘回宿舍收拾东习走的时候,找其他人一起吃了个饭,消息是小刘告诉我的,她说他哥可能是给我忘了喊我一起去,可我知道真正的原因并不是这个,我当时想半天决定一起过去给他道个歉。老刘见到我,意味深长的看了我很久,我到现在都忘不了那个眼神,然后他站起来,给除了我以外的所有人都倒了杯饮料,喝完就走了。马上就高考了,他不想学就不学吗,有什么关系,我但凡不这么多管闲事,事情也不至于发展到这种地步。那天以后,我从人人羡慕的模范男友,变成人人避犹不及的告状精,班主任的走狗,全班人都不愿意靠近我,甚至连小刘也不怎么跟我说话了。最终,我也离开学校去了外地打工,哪怕小刘中途联系过我好几次,我也没有回去,我们之间的感情,仓促的开始,也这样仓促的结束。<br>              ——十年后——<br>当年那双小刘送我的鞋,我穿了很久,但还是不可避免的穿坏了,我就在得物上买了双一模一样的,看着这个APP变成现在的得物,还是一如既往的蓝色包装,甚至在今天,这款8年前的鞋子也断断续续的有货,就像我对她,任时光飞逝,这份感情一直埋在我的心里。想到这里,我打了个电话。“你突然找到我,就为了送双鞋?”“那不睹物思人吗,这么久不见了,想你了呗。”“哼,想我就和我妹和好。”“别扯了,我高中都没毕业,人家大学生。”“她追了你这么多年,你觉得她在乎这些吗?“我不能不在乎””要我说你这人脑子就不正常。”“我找你来就叙叙旧。”“你说当年我留下来是不是就不会这样了?”“也许吧。”“那既然如此,你当年有胆子当着全班人的面,把你这个情书念出来,为什么现在没有胆子跟人家和好。”“老刘”“嗯”“我今年26了,没车没房,每个月的工资要偿换上个月的借贷,十年前的我,意气风发,十年后的我,狗屁不是,混得一塌糊涂。她今年24,正是一个女人最美好的年纪,我何德何能,让她把她人生中最宝贵的时光,浪费在我的身上。”“什么时候走?”“马上。”“等会吧。”<br>“好久不见。”“好久不见。”“行了,回去吧。”“你几点的飞机啊?”“十点”,“那我们还能再待两个小时。”“准确来说是一个小时,待会还得上飞机,咋的,舍不得我走啊?”“快滚。”“这么绝情吗?”“那我换一个,还会回来吗燕子”,“不是,你神经病啊。师傅开车吧!”“哈哈哈……”,“那你还会回来吗?算了,拿着路上玩吧,解闷的。”“对不起。”“再见时要幸福啊燕子。”“你也是。”“走啦。”<br>“大傻阳,你摸我屁股干什么?”“大傻阳,你摸我屁股干什么?”“哈喽哈喽,也不知道你能不能听到,不过你既然已经听到这段话,那说明我们最后还是没有走到一起,有点可惜。有的时候我看着身边的人一个个结婚,真的好羡慕啊，我甚至想象过我们在一起的日子,就在我们老家,有钱没钱无所谓,有个能住的地方就好了,白天的时候我们一起出去上班,到了晚上,如果高兴的话呢，我就骑着小电驴去买菜,为你准备一桌丰盛的大餐,你要是惹我生气,那我就惩罚你,晚上只有一碗清水煮面,嗯,算喽,给你加点肉丝吧,省得你说我虐待你,礼拜天呢,哎,你不是喜欢打游戏吗,我就在家里买两台电脑，买一堆零食和饮料,然后陪你一起玩,晚上,晚上再喝点小酒……”</p>]]></content>
     
@@ -10493,8 +12680,8 @@
   
   <entry>
     <title>Time keeps going by. I can’t keep anything</title>
-    <link href="/2023/12/18/2023/12/Time%20keeps%20going%20by.%20I%20can%E2%80%99t%20keep%20anything/"/>
-    <url>/2023/12/18/2023/12/Time%20keeps%20going%20by.%20I%20can%E2%80%99t%20keep%20anything/</url>
+    <link href="/2023/12/18/2023/12/Time%20keeps%20going%20by.%20I%20can%20not%20keep%20anything/"/>
+    <url>/2023/12/18/2023/12/Time%20keeps%20going%20by.%20I%20can%20not%20keep%20anything/</url>
     
     <content type="html"><![CDATA[<h1 id="Time-keeps-going-by-I-can’t-keep-anything"><a href="#Time-keeps-going-by-I-can’t-keep-anything" class="headerlink" title="Time keeps going by. I can’t keep anything"></a>Time keeps going by. I can’t keep anything</h1><p>As the top sentence says, I can’t keeping anything is truth there is no doubt I noticed myself don’t become a loser all the time. But in fact maybe I lose my girlfriend yi even though yi is maybe is not my girlfriend but for me is enough</p><p><img src="/images/DayOne-Export/53e71b804f2237e59077576f0561fd24.jpeg" alt="53e71b804f2237e59077576f0561fd24.jpeg"></p>]]></content>
     

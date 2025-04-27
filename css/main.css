@@ -782,6 +782,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body p:not(#Song-Name,
+body #Song-Artist) {
+  text-indent: 2em;
+}
 body a {
   color: var(--text-color);
   text-decoration: none;
@@ -856,6 +860,8 @@ i.iconfont {
   --inlinecode-bg-color: rgba(175,184,193,0.2);
   --fold-title-color: #3c4858;
   --fold-border-color: #eaecef;
+  --music-widget-container-bg-color: #a6a6a6;
+  --music-widget-textara-color: #000000FF;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -883,6 +889,8 @@ i.iconfont {
     --inlinecode-bg-color: rgba(99,110,123,0.4);
     --fold-title-color: #c4c6c9;
     --fold-border-color: #435266;
+    --music-widget-container-bg-color: #333b40;
+    --music-widget-textara-color: #ffffff;
   }
   :root:not([data-user-color-scheme]) img {
     -webkit-filter: brightness(0.9);
@@ -921,6 +929,8 @@ i.iconfont {
     --inlinecode-bg-color: rgba(99,110,123,0.4);
     --fold-title-color: #c4c6c9;
     --fold-border-color: #435266;
+    --music-widget-container-bg-color: #333b40;
+    --music-widget-textara-color: #ffffff;
   }
   [data-user-color-scheme="dark"] img {
     -webkit-filter: brightness(0.9);
@@ -1391,9 +1401,9 @@ figure.highlight td.code > pre {
   border-bottom-left-radius: 0;
 }
 .markdown-body {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
-  font-family: var(--font-family-sans-serif);
+  font-family: "楷体", "楷体_GB2312", "STKaiti", "华文楷体", "BiauKai", "DFKai-SB", serif;
   margin-bottom: 2rem;
   color: var(--post-text-color);
 }
@@ -2238,4 +2248,116 @@ input[type=checkbox] {
   .link-text:only-child {
     margin-left: 1rem;
   }
+}
+#calendar a {
+  text-decoration: none;
+}
+.cal-head {
+  position: relative;
+  height: 20px;
+  padding: 8px 6px 2px 6px;
+}
+.cal-prev,
+.cal-next {
+  position: absolute;
+  top: 9px;
+  width: 9px;
+  height: 10px;
+  padding: 3px 4px;
+  border: 1px solid transparent;
+  color: #333;
+  outline: 0;
+}
+.cal-prev {
+  left: 8px;
+}
+.cal-prev:before {
+  border-right: 9px solid #333;
+}
+.cal-next {
+  right: 8px;
+}
+.cal-next:before {
+  border-left: 9px solid #333;
+}
+.cal-prev:before,
+.cal-next:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.cal-title {
+  position: relative;
+  top: -10px;
+  width: 120px;
+  margin: 0 auto;
+  color: #333;
+  font: bold 14px/18px Arial;
+  text-align: center;
+}
+.cal-title a {
+  border: 1px solid transparent;
+  color: #258fb8;
+}
+.cal,
+.cal th,
+.cal td {
+  border: 1px solid #eee;
+}
+.cal {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+}
+.cal th {
+  color: #258fb8;
+  border-width: 0 1px 1px 0;
+  font-weight: 700;
+}
+.cal td {
+  border-width: 0 1px 1px 0;
+}
+.cal tbody a {
+  background-color: #258fb8;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+.cal tbody .cal-today {
+  color: #f00;
+  font-weight: bold;
+}
+.cal .cal-gray {
+  color: #ddd;
+}
+.cal th,
+.cal td {
+  font-weight: normal;
+  line-height: 2.5625;
+  padding: 0;
+  text-align: center;
+}
+.cal .cal-foot {
+  color: #258fb8;
+}
+.cal-title a:hover,
+.cal-prev:hover,
+.cal-next:hover,
+.cal .cal-foot:hover,
+.cal .cal-foot:focus {
+  background-color: #258fb8;
+  color: #fff;
+  cursor: pointer;
+}
+.cal tbody a:hover,
+.cal tbody a:focus {
+  background-color: #ea6753;
+  color: #fff;
+  cursor: pointer;
 }

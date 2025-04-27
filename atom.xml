@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HexoBlog</title>
+  
+  <subtitle>WhisperYao&#39;s Blog</subtitle>
+  <link href="https://blog.yaonas.space/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yaonas.space/"/>
+  <updated>2025-04-14T06:27:16.000Z</updated>
+  <id>https://blog.yaonas.space/</id>
+  
+  <author>
+    <name>Xu Yao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>今日小记-2025-04-14</title>
+    <link href="https://blog.yaonas.space/2025/04/14/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-14/"/>
+    <id>https://blog.yaonas.space/2025/04/14/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-14/</id>
+    <published>2025-04-14T06:27:16.000Z</published>
+    <updated>2025-04-14T06:27:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚一宿未睡，早晨6点多躺在床上，与ChatGPT聊天，其实要不是ChatGPT无法在国内正常使用，我肯定不会一直用DeepSeek，不是踩一捧一，刚开始（大年三十前一晚）我第一次使用DeepSeek它真的惊艳到我了。但是随着长时间的使用，今天早上偶然使用一下ChatGPT，我可以很明显的感觉到ChatGPT的回答速度很快，几乎是秒答。至于答案的准确性和丰富性两者应该是差不多的。</p><p>扯远了，今天早上与ChatGPT主要聊Vue3 TypeScript重构项目与pnpm。我也计划着睡一觉着手这事。早上6点30分左右入睡，上午10点多醒来。不是很饿，刷牙洗漱之后没有立马下去，查看电脑NAS昨晚下的minio和imgproxy镜像已经pull下来了。随即按照服务器上的docker容器环境变量配置创建了两个容器，直到内网可以正常使用imgproxy处理s3协议minio存储桶中的图像。</p><p>接着下楼吃中饭，没有什么菜，昨天的烤鸭只剩一个鸭脖，一盘腊肉炒莴笋，我切开一个咸鸭蛋不是很香地吃完饭。</p><p>中饭吃完开始处理服务器nginx反向代理minio服务传输大文件（main.js超过3MB）出现connection rest的问题。根据DeepSeek给出的处理方式加大了nginx 缓存，超时时间等。</p><p>下午2点之后花了不少时间敲了2000多字，抄写《凌晨有感》到WordPress上，其实明明可以直接复制粘贴的，不过我也不觉得是浪费时间。</p><p>晚上依旧是中午的菜，一点也没有变化，吃了几张用卷烤鸭的饼卷着葱和腊肉以及之后的鸡米花。</p><p>我实在无法忍受本地WordPress后台加载缓慢的问题，翻看控制台发现admin-ajax.php输出curl error以及消耗5s多，其正是导致页面pending的罪魁祸首！查看代码发现是update translate的等官方api不知什么原因为何curl 失败，明明ping和curl都可以连接wordpress.org，最终禁用了wordpress所有的更新请求以及外部请求（保留需要的API和CDN）终于wordpress后台和前端一样快乐，爽，痛快。</p><p>这些就是今天的记录。</p><p>明日Todo List</p><ul><li><p><input disabled="" type="checkbox"> 导出DayOne日记到hexo-blog</p></li><li><p><input disabled="" type="checkbox"> 处理DeepSeek聊天数据（从indexDB中出的聊天记录）需要保留代码块格式</p></li><li><p><input disabled="" type="checkbox"> 重构ScoreSystem项目，全面转向Vue3 TypeScript</p></li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-13</title>
+    <link href="https://blog.yaonas.space/2025/04/13/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-13/"/>
+    <id>https://blog.yaonas.space/2025/04/13/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-13/</id>
+    <published>2025-04-13T13:16:00.000Z</published>
+    <updated>2025-04-15T09:05:32.727Z</updated>
+    
+    <content type="html"><![CDATA[<p>聪明勇敢有力气，我真的羡慕我自己。呼啦圈也没问题，后空翻两周再转个体。天南地北不放弃，去寻找减肥的朱古力。</p><p>忙活一晚上，minio和imgproxy总算可以正常运行了，s3协议获取存储桶内图片，并进行处理。</p><p>UserPage score数据获取以及profile修改也已完成。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-12</title>
+    <link href="https://blog.yaonas.space/2025/04/12/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-12/"/>
+    <id>https://blog.yaonas.space/2025/04/12/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-12/</id>
+    <published>2025-04-12T04:58:56.000Z</published>
+    <updated>2025-04-12T04:58:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Minio 与 imgProxy</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minio配置记录</title>
+    <link href="https://blog.yaonas.space/2025/04/11/2025/04/Minio%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.yaonas.space/2025/04/11/2025/04/Minio%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</id>
+    <published>2025-04-11T04:59:00.000Z</published>
+    <updated>2025-04-11T04:59:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一名全栈开发者，不断摸索和试错是基本的修养。</p><p>S3存储桶就这样被我搓出来了。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-10</title>
+    <link href="https://blog.yaonas.space/2025/04/10/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-10/"/>
+    <id>https://blog.yaonas.space/2025/04/10/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-10/</id>
+    <published>2025-04-10T04:58:00.000Z</published>
+    <updated>2025-04-10T04:58:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Nothing</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-09</title>
+    <link href="https://blog.yaonas.space/2025/04/09/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-09/"/>
+    <id>https://blog.yaonas.space/2025/04/09/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-09/</id>
+    <published>2025-04-08T20:00:00.000Z</published>
+    <updated>2025-04-08T20:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>清晨5点醒来，刷抖音，看到一个网页扫码授权登陆的逻辑与过程，故随即搜寻WeChat网页授权三方登陆的教程。在B站上找到一个。</p><p>早上吃完早饭，兴冲冲的登陆微信开发者平台，安装微信开发者工具（增加了Mojave虚拟机2G的容量），之后配置服务器（配置失败），发现我还没有注册公众号账号，在注册过程中需要实名认证，用绑定本人银行卡的微信扫码认证，呵呵，我银行卡都没有，还怎么注册？罢了罢了，第三方微信扫码授权登陆点到为止，尝试使用Github授权吧。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-08</title>
+    <link href="https://blog.yaonas.space/2025/04/08/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-08/"/>
+    <id>https://blog.yaonas.space/2025/04/08/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-08/</id>
+    <published>2025-04-08T04:45:15.000Z</published>
+    <updated>2025-04-08T04:45:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这几日状态不佳，都是晚上12之后入睡，然后次日中午时分醒来起床，项目开发进度缓慢。</p><p>打只狼游戏也十分恼火，帧率极低。毫无游戏体验。</p><p>前几日使用Windows10，又是一大堆Windows更新，硬盘状态不佳，容量也令我发愁，我是需要考虑加装硬盘或者换电脑。</p><p>及时调整状态，明天洗个澡，打扫一下房间卫生。Vue项目持续推进。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-07</title>
+    <link href="https://blog.yaonas.space/2025/04/07/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-07/"/>
+    <id>https://blog.yaonas.space/2025/04/07/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-07/</id>
+    <published>2025-04-06T20:00:00.000Z</published>
+    <updated>2025-04-06T20:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天晚上直到清晨6点才入睡，今天中午11点多起来，然后打只狼游戏。三年前义父还是打不过。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-06</title>
+    <link href="https://blog.yaonas.space/2025/04/06/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-06/"/>
+    <id>https://blog.yaonas.space/2025/04/06/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-06/</id>
+    <published>2025-04-06T07:31:51.000Z</published>
+    <updated>2025-04-06T07:31:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Vue Cli  --&gt; Vite</p><p>从SwaggerDemo分离Score并优化Score接口</p><p>Vue项目优化，移除不必要的依赖（@arco-design&#x2F;web-vue）</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-05</title>
+    <link href="https://blog.yaonas.space/2025/04/05/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-05/"/>
+    <id>https://blog.yaonas.space/2025/04/05/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-05/</id>
+    <published>2025-04-05T03:02:41.000Z</published>
+    <updated>2025-04-05T03:02:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>曾让你心疼的姑娘 如今已悄然无踪影 走在勇往直前的路上。</p><p>早餐：牛牛买的粉丝饼和茶叶蛋</p><p>午餐：蒸肉丸，前日剩的梅菜扣肉。</p><p>一早就定了一个Todo List，替换score-system中的登录注册模块，现在(7:05)还没有着手，今日在做迁移前的准备工作，比如转换Vue3响应式API写法，VerifyCode不再使用arco-design中的AVerficatiedCode避免多框架拖慢网站加载与资源浪费。</p><p>马上还要封装axios，降低耦合，提高代码可维护性。</p><p>下午给妈妈五元现金和微信上的4元钱，让她支付宝给我转10元，加上支付宝之前的9元，冲了19元话费。现在手机上都没有1块钱了。哎哟，怎么说呢。</p><p>最近几日烟抽的有点猛了，肺疼，腰疼，脖颈疼。真是没用！杂鱼！</p><p>一转眼又是4月份。今年4月初倒没有去年热（去年4月1日在八角塘老家我都已经穿短袖了）。说到八角塘我又想去看看，上次去还是在过年那天贴对联，也不知道现在对联怎么样。</p><p>阳台上微风徐徐，我坐在小凳子上，听着歌，写下这篇小记。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-04</title>
+    <link href="https://blog.yaonas.space/2025/04/04/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-04/"/>
+    <id>https://blog.yaonas.space/2025/04/04/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-04/</id>
+    <published>2025-04-04T05:04:13.000Z</published>
+    <updated>2025-04-04T05:04:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>早餐：4个小肉包子</p><p>中饭：昨日的梅菜扣肉，青椒肉丝，生菜，泥鳅豆腐</p><p>牛牛早晨被爸爸接回来，刚好是我起床的时间（8点10几分）</p><p>继续Vue登录模块开发，使用element-plus，@arco-design&#x2F;web-vue包，score-system项目由于npm依赖较多，冲突和警告较多，node-modules删了又下。</p><p>忙活一天，终于达成这种效果。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/04/31bb87bf3a3cb5604d30d939737323e5.png@webp" alt="31bb87bf3a3cb5604d30d939737323e5.jpeg"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-03</title>
+    <link href="https://blog.yaonas.space/2025/04/03/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-03/"/>
+    <id>https://blog.yaonas.space/2025/04/03/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-03/</id>
+    <published>2025-04-02T20:00:00.000Z</published>
+    <updated>2025-04-02T20:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>发现iTab登录模块挺不错的，尝试仿写，加入到Score-System。</p><p>一直到凌晨4点才睡觉。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-04-02</title>
+    <link href="https://blog.yaonas.space/2025/04/02/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-02/"/>
+    <id>https://blog.yaonas.space/2025/04/02/2025/04/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-04-02/</id>
+    <published>2025-04-02T05:41:19.000Z</published>
+    <updated>2025-04-02T05:41:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>早上8点10几分被闹钟叫醒起床，早餐是三个蒿子粑粑，一碗豆浆，一块菠萝。饭后一瓶酸奶。</p><p>吃完早餐没有烟总感觉不得劲，于是换了一件裤子，出去买了一包白利群。回来抽了一支烟，坐在床上，继续尝试解决昨日iTab上传自定义网站icon图标获取不到的问题。痛点在于每个网站的icon图标路径不统一，有的还有用base64，或者有的就是使用Selector选择器获取不到。退而求其次，首先手动下载icon图标，由于上传文件类型不支持ico，还要再次转为svg，通过网络请求发现上传之前会请求&#x2F;api&#x2F;sts接口获取阿里云OSS存储临时权限，通过补全接口和sts-token数据，可以顺利上传文件到源（files.codelife.cc）存储桶并返回icon文件路径。</p><p>下午开始替换accessKeyId和secureAccessKey,用于替换存储桶为自己的res-yaonas bucket，经过大量的询问deepseek（都被我弄到限额，服务器繁忙了）和调试，依然报400 bad request错误，具体原因为授权问题。最后不得不直接请求SpringBoot上传接口，可喜可贺，上传自定义icon功能基本完成。在此期间（晚上吃完饭到完成该功能）， 身边的投影仪一直放着电视。</p><p>已经10点了，睡觉。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>愚人节快乐</title>
+    <link href="https://blog.yaonas.space/2025/04/01/2025/04/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90/"/>
+    <id>https://blog.yaonas.space/2025/04/01/2025/04/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90/</id>
+    <published>2025-04-01T03:52:35.000Z</published>
+    <updated>2025-04-01T03:52:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用v2ray搭建代理，想要发个QQ动态，代理还是自己搭建的用的放心，哈哈。</p><p>早上逛逛iTab上给出的v2ex网站，发现竟然是程序员论坛，真是有意思，找到一个弱密码的AI绘图后台管理网站，账密：admin-password</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/04/7a269560695d98de452322d08901a87a.png@webp" alt="7a269560695d98de452322d08901a87a.jpeg"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-03-31</title>
+    <link href="https://blog.yaonas.space/2025/03/31/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-31/"/>
+    <id>https://blog.yaonas.space/2025/03/31/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-31/</id>
+    <published>2025-03-31T01:02:52.000Z</published>
+    <updated>2025-03-31T01:02:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>郁闷。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/0e82270fa76e32b3db637f2ca5fcfe48.png@webp" alt="0e82270fa76e32b3db637f2ca5fcfe48.jpeg"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记</title>
+    <link href="https://blog.yaonas.space/2025/03/30/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://blog.yaonas.space/2025/03/30/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/</id>
+    <published>2025-03-29T16:02:00.000Z</published>
+    <updated>2025-03-29T16:02:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>晚间通宵，打一上午只狼游戏。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-03-29</title>
+    <link href="https://blog.yaonas.space/2025/03/29/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-29/"/>
+    <id>https://blog.yaonas.space/2025/03/29/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-29/</id>
+    <published>2025-03-29T01:18:01.000Z</published>
+    <updated>2025-03-29T01:18:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天早上我下楼不见妈妈踪影也没有早饭。打电话才得知妈妈6点多就去六安了。</p><p>直到下午5点左右，完成iTab自定义分类壁纸的实现。如图：</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/5c62dbc237687e1672c4a6f5a8b6205e.jpeg@webp" alt="5c62dbc237687e1672c4a6f5a8b6205e.jpeg"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-03-28</title>
+    <link href="https://blog.yaonas.space/2025/03/28/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-28/"/>
+    <id>https://blog.yaonas.space/2025/03/28/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-28/</id>
+    <published>2025-03-28T04:26:57.000Z</published>
+    <updated>2025-03-28T04:26:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今一天总算基本完成了iTab Wallpaper接口的开发适配。</p><p>晚上想要添加自定义Wallpaper条目，结果改着改着之前的图像请求出现403错误了，不知道是我的代码改错了还是服务器将我拦截了，好不痛快。</p><p>看情况应该是服务器将我禁止了。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-03-27</title>
+    <link href="https://blog.yaonas.space/2025/03/27/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-27/"/>
+    <id>https://blog.yaonas.space/2025/03/27/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-27/</id>
+    <published>2025-03-27T11:00:00.000Z</published>
+    <updated>2025-04-15T09:06:22.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>凌晨3点左右醒来，外面下起了漂泊大雨并且伴随着打雷。</p><p>醒来之后没有继续睡着了，在阿里云盘上看了两部电影《名侦探柯南·通往天国的倒计时》与《赌城大亨二之至尊无敌》</p><p>7点10分左右下楼，父母煮了一锅面，里面还加了骨头汤，我肯定是没有办法吃了。</p><p>上楼着手昨日定下的Todo List。</p><p>2025-3-27 Todo List</p><ul><li><p><input checked="" disabled="" type="checkbox"> WikiJS 丰富 Git Tag 条目 </p></li><li><p><input disabled="" type="checkbox"> 丰富iTab Wallpaper等其他资源相关接口</p></li><li><p><input checked="" disabled="" type="checkbox"> 查看Google Seach Console与 Microsoft Bing WebMaster上的站点收录情况</p></li></ul><p>Google Search Console继昨天删除blog.yaonas.space页面后，今天已经不能被搜索到，非常棒。</p><p>Microsoft Bing WebMaster由于站点地图中url依旧是fun结尾的域名地址，导致直到今天还没有编制索引。</p><ul><li><input checked="" disabled="" type="checkbox"> 玩转 Kali 相关环境配置</li></ul><p>早上没吃饭加上凌晨醒来起的早，我感到一阵头晕，下楼拿了一瓶啤酒和一下零食吃下去。</p><p>下午3点多困了，睡觉，直到28日凌晨2点半醒，写下这篇Entry。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记-2025-03-26</title>
+    <link href="https://blog.yaonas.space/2025/03/26/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-26/"/>
+    <id>https://blog.yaonas.space/2025/03/26/2025/03/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-03-26/</id>
+    <published>2025-03-26T04:37:22.000Z</published>
+    <updated>2025-03-26T04:37:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>早上7点30分之后醒来，拿起手机，突发奇想的查找一下我的Yao’s Blog站点在Google上的收录情况，发现Wordpress站点很完美的可以被查找到，但是不知为什么（也许是CDN或反向代理的原因），blog.yaonas.space的Hexo Blog站点也被收录了，其中夹杂着大量我的日记以及隐私信息，我不想被收录，就在Google Search Console中视图删除页面，却显示Not in property. 之后起床，洗漱，下楼。</p><p>没有任何早餐可以吃，抓了几把燕麦片塞进嘴里，吃下算作早餐。上楼，添加blog.yaonas.space到Google Search Console，在Removable Page下添加需要移除的url路径，之后显示Processing Request，等待中。</p><p>iTab接口方面，完善及增加更新和备份配置数据的接口，到下午3，4点完成，计划明天丰富Wallpaper接口，添加私人壁纸接口。</p><p><img src="https://files.yaonas.space/_/rt:fit/plain/s3://res/DayOne/2025/03/80b80f60604b1ddb3cdca141eae798b0.jpeg@webp" alt="80b80f60604b1ddb3cdca141eae798b0.jpeg"></p><p>晚上5点左右，不信邪，继续昨天Jetbrains Space docker本地部署的尝试，从昨天的2024.2.2换到2023.1.1，依旧卡在填写License，在Account页面提示没有符合这个Space的License，依旧以删除Ubuntu虚拟机收尾。</p><p>今天天气格外的热，温度高达36摄氏度，真是不当人。</p><p>在等待docker pull Image的时候在抖音看了一部《胜劵在握》的电影解说，选材挺有意思，也比较符合当前社会形式和科技趋势。</p><p>晚上吃完饭极其犯困，就写到这里，睡觉了💤</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://blog.yaonas.space/categories/Life/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.yaonas.space/tags/Diary/"/>
+    
+  </entry>
+  
+</feed>

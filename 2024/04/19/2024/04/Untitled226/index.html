@@ -22,7 +22,7 @@
     <meta name="description" content="小记这四五天来，忙乎着Synology NAS的外网，最开始只是路由器开启了ipv6，这一开就不可收拾，起初公网无法访问，在中兴路由器管理上也找不到相关配置，看到ipv6默认网关是fe80前缀的内网环路地址，以为是它的原因，找半天修改ipv6默认网关的方法，无果。后来无意中进入到天翼网关，常规登陆后，没有多少配置项，又想登入到超级管理员配置页，遂进行破解，无果。在一篇blog上找到下方还有一行小的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Untitled226">
-<meta property="og:url" content="http://example.com/2024/04/19/2024/04/Untitled226/index.html">
+<meta property="og:url" content="https://blog.yaonas.space/2024/04/19/2024/04/Untitled226/index.html">
 <meta property="og:site_name" content="HexoBlog">
 <meta property="og:description" content="小记这四五天来，忙乎着Synology NAS的外网，最开始只是路由器开启了ipv6，这一开就不可收拾，起初公网无法访问，在中兴路由器管理上也找不到相关配置，看到ipv6默认网关是fe80前缀的内网环路地址，以为是它的原因，找半天修改ipv6默认网关的方法，无果。后来无意中进入到天翼网关，常规登陆后，没有多少配置项，又想登入到超级管理员配置页，遂进行破解，无果。在一篇blog上找到下方还有一行小的">
 <meta property="og:locale" content="zh_CN">
@@ -72,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","app_key":"ScwQhWWeiQKqcGhY2c6cs6Dn","server_url":"https://i8wi2js1.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"blog.yaonas.space","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","app_key":"ScwQhWWeiQKqcGhY2c6cs6Dn","server_url":"https://i8wi2js1.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -98,7 +98,9 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="HexoBlog" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="HexoBlog" type="application/rss+xml">
+</head>
 
 
 <body>
@@ -205,9 +207,8 @@
 </nav>
 
   
-
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/default.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -272,11 +273,19 @@
   <main>
     
       
-
 <div class="container-fluid nopadding-x">
   <div class="row nomargin-x">
     <div class="side-col d-none d-lg-block col-lg-2">
       
+
+<aside class="sidebar category-bar" style="margin-right: -1rem">
+    <div class="widget tag">
+<!--  <h3 class="title">calendar</h3>-->
+    <h5 class="title">Calendar Archive</h5>
+  <div id="calendar"></div>
+</div>
+
+</aside>
 
     </div>
 
@@ -291,6 +300,7 @@
                 
                 <h1 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h1><p>这四五天来，忙乎着Synology NAS的外网，最开始只是路由器开启了ipv6，这一开就不可收拾，起初公网无法访问，在中兴路由器管理上也找不到相关配置，看到ipv6默认网关是fe80前缀的内网环路地址，以为是它的原因，找半天修改ipv6默认网关的方法，无果。后来无意中进入到天翼网关，常规登陆后，没有多少配置项，又想登入到超级管理员配置页，遂进行破解，无果。在一篇blog上找到下方还有一行小的快速装维入口，这一进就发现了新大陆。我找到安全下的广域网访问，关闭或降低两层防火墙等级，可算是公网访问了。<br>  我又通过群晖自带的DDNS解析，注册了yao2755.synology.me 域名，可以使用流量或ipv6网络访问。<br>  新的问题又随之而来，当我连接隔壁Wi-Fi时，发现无法访问，想到ipv4无法直接访问纯ipv6单栈协议的网站，又看到CloudFlare 代理的方法，操作起来。到更改DNS服务器的时候，发现synology提供的DDNS解析，服务商就是synology，无法修改。于是就注册了一个阿里云域名yaonas.fun 一年。然后就是信息模版审核，实名认证，让我很不爽。之后DNS添加记录，等待解析，成功。配置反向代理，使用worker创建vpn，也不在话下。<br> 使用cloudflare的问题是，服务器不在中国大陆，导致拖慢了网站加载速度。今天又看到在index首页添加代码判断用户客户端网络是否支持ipv6来重定向到ipv6网站，通过web station的Ark网站测试是可行的，但nas 的dsm，我难以修改，只找到index.cgi 的配置，wordpress的固定地址和访问连接更不用说了。<br>  现在的问题是wordpress hljs失效，缓存问题。</p>
 
+                  
                 
               </div>
             
@@ -336,7 +346,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>Untitled226</div>
-      <div>http://example.com/2024/04/19/2024/04/Untitled226/</div>
+      <div>https://blog.yaonas.space/2024/04/19/2024/04/Untitled226/</div>
     </div>
     <div class="license-meta">
       
@@ -359,9 +369,15 @@
             
               
               
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-cc-nc"></i>
                   </span>
                 </a>
               
@@ -411,7 +427,7 @@
     Fluid.utils.loadComments('#valine', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
         var options = Object.assign(
-          {"appId":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","appKey":"ScwQhWWeiQKqcGhY2c6cs6Dn","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {"appId":"i8Wi2Js1U8HHUx4kpsjO6s18-gzGzoHsz","appKey":"ScwQhWWeiQKqcGhY2c6cs6Dn","path":"window.location.pathname","placeholder":"有话要说？","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
           {
             el: "#valine",
             path: window.location.pathname
@@ -529,35 +545,8 @@
     </div>
   
   
-    <div class="statistics">
-  
-  
-
-  
-    
-      <span id="leancloud-site-pv-container" style="display: none">
-        总访问量 
-        <span id="leancloud-site-pv"></span>
-         次
-      </span>
-    
-    
-      <span id="leancloud-site-uv-container" style="display: none">
-        总访客数 
-        <span id="leancloud-site-uv"></span>
-         人
-      </span>
-    
-    
-
-  
-
-</div>
-
-  
   
 </div>
-
   </footer>
 
   <!-- Scripts -->
@@ -573,11 +562,23 @@
     })
   </script>
 
-
 <script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
+
+<!-- Calender -->
+<script  src="/js/calendar.js" ></script>
+<script  src="/js/languages.js" ></script>
+<!-- Change CDN Picture -->
+
+<script type="text/javascript">
+  $(function() {
+      
+    $('#calendar').aCalendar('zh-CN',{single:true, root:'calendar/'});
+      
+  });
+</script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>

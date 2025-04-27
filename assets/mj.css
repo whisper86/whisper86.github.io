@@ -1,0 +1,84 @@
+.container-music {
+    width: 400px;
+    height: 150px;
+    /*background-color: #333b40;*/
+    background-color: var(--music-widget-container-bg-color);
+    border-radius: 25px;
+    align-self: center;
+}
+
+#popup-menu {
+    display: none;
+    /*background-color: rgba(45, 45, 45, 0.6);*/
+    background-color: var(--music-widget-container-bg-color);
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+#play {
+    cursor: pointer;
+}
+.item {
+    text-decoration: none;
+    color: var(--music-widget-textara-color);
+    padding-top: 20px;
+}
+
+#mj-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.info {
+    position: relative;
+    left: 20px;
+    top: 25px;
+    float: left;
+    display: inline-block;
+}
+
+.text-area {
+    width: 50%;
+    text-align: center;
+    padding-left: 20px;
+    color: var(--music-widget-textara-color);
+    font-family: 'sans-serif', 'Helvetica';
+}
+
+#Song-Name {
+    font-size: larger;
+}
+
+.more {
+    position: relative;
+    left: 0;
+    float: right;
+}
+#more-button {
+    background: transparent;
+    border: none;
+    line-height: 80px;
+}
+.more:hover .popup{
+    transition: all 1s ease 0.1s;
+}
+
+@media screen and (max-device-width: 400px){
+    .container-music {
+        width: 100%;
+    }
+    .text-area {
+        padding-left: 1%;
+    }
+    #popup-menu {
+        left: 210px;
+    }
+    .more {
+        padding-left: 0;
+    }
+}
