@@ -9,14 +9,14 @@
     <atom:link href="https://blog.yaonas.space/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>WhisperYao&#39;s Diary</description>
-    <pubDate>Sat, 14 Jun 2025 23:50:19 GMT</pubDate>
+    <pubDate>Sun, 14 Sep 2025 18:12:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>今日小记-2025-06-15</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-15/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-15/</guid>
-      <pubDate>Sat, 14 Jun 2025 23:50:19 GMT</pubDate>
+      <title>今日小记-2025-09-15</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-15/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-15/</guid>
+      <pubDate>Sun, 14 Sep 2025 18:12:22 GMT</pubDate>
       
         
         
@@ -28,7 +28,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>六月已经过半，这几日身体状态感觉哪哪都不好了，吃饭不香（无辣不欢），作息不规律，前天好不容易调整好作息，昨天晚上又是为了打游戏直到凌晨4点才睡，今天中午12点才被妈妈喊醒。</p><p>中午的菜是她现炒的酸辣土豆丝和咸菜和之前蒸好的肉丸子，吃完之后，优化files站点的nginx location typecho和dayone块配置。</p><p>觉得不得劲，我又想出去走走。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨晚8点多就睡了，起夜的时间也提前到午夜12点，上个厕所继续睡到凌晨4:04，我感到挺巧的，因为昨天好像也是这个时间醒来。还是躺在床上刷抖音到早晨7点多。</p><p>洗漱下楼吃早饭，只看到电饭煲亮着指示屏，打开一看，上面是一盘三个包子，底下则是还没有化开的水泡饭。真是梅开二度。昨天就是房客给的包子我没吃，今天还是如此，我还指望着妈妈去买个早点呢，到8点左右下楼，依然只能硬着头皮吃寡淡的稀饭。</p><p>吃完早餐上楼，吃一个橘子，冲一壶曼特宁，喝着咖啡，整理一下DayOne，9月已经过半，距离Hexo-Blog网站文章更新已经过去3个月，是时候推送更新一下DayOne手记了。</p><p>上午10点多，我帮妈妈去晒衣服。中午的菜有烤鸭和炒冬瓜。</p><p>BT-Docker项目从6月底立项，7月半完成后Typecho的sync-post插件，到现在这个项目只能说前后端建了一个框架，开了一个头，更多的模块和细节的打磨还需要耗费一些功夫，争取在9月完成基本功能（做到投入使用）吧。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -37,15 +37,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-15/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-15/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-14</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-14/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-14/</guid>
-      <pubDate>Fri, 13 Jun 2025 20:00:00 GMT</pubDate>
+      <title>今日小记-2025-09-14</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-14/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-14/</guid>
+      <pubDate>Sat, 13 Sep 2025 16:49:00 GMT</pubDate>
       
         
         
@@ -57,7 +57,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>今天难得作息调整过来，可是不知为什么明明昨晚7点多睡，今天早晨7点多醒，睡了12个小时中午还是犯困。中午妈妈买了一盘卤菜（干子，牛肉），可是上面又加了一些鸡肠子，觉得卤汤挺腥，然后还有一个苋菜还是大姨娘炒的，最终我没有继续吃下去，上楼睡觉去了。</p><p>到下午2点左右，妈妈让我去帮她晾衣服，答应我买西瓜，晾完衣服之后就去玩Switch了，直到晚间吃饭时她都没有买，给出的理由是昨晚我吹空调受凉了吃饭不香，还吃什么西瓜，卧槽，这什么理由。</p><p>最终我晚饭也没吃，就吃了一盒好吃点饼干，打了一晚上游戏，到凌晨4点多睡觉了。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>今天是星期天，凌晨4点醒来，刷一会抖音，重新登陆昨天的号，打了两把游戏，由于生日体验皮肤到期且依旧是机制局，我没有了继续玩下去的动力。</p><p>早晨7点多洗漱下楼，早饭是粥和一盘包子（房客给的），没有看到妈妈的身影，以为其去买早点了，就上楼唤醒电脑，看会视频。</p><p>8点左右听到妈妈的声音下楼，只看到桌子上的菜（冬瓜和鸡毛菜），才知晓妈妈只是去买菜了。我硬着头皮就着咸豇豆和调味料吃了一碗半粥，由于没有干的，吃了就像没吃一样。</p><p>继续推进BT-Docker项目，但是进程缓慢，好想抽烟。</p><p>由于早晨吃的全是稀的，没到11点就饿了，中午下楼，菜有冬瓜排骨汤，蒸豆腐干子和炒豇豆，至于煎牛排和炒鸡毛菜都没搞，我说了挺久的烤鸭就更是没有。我带着火气上楼，到下午一点多，妈妈才把腌好的牛排煎好，虽然闻得挺香，但里面却没有进味，煎老了且有点发酸，我吃了一碗水泡饭，感到难受极了。</p><p>晚上多炒了一盘鸡毛菜，That’s it. 重新用微波炉打热了中午剩的一块牛排，干巴的都嚼不动了。</p><p>到6点，按部就班的看明眸直播，然后晚上9点多，困得iPad都拿不稳，沉沉睡去。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -66,15 +66,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-14/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-14/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-205-06-13</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-205-06-13/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-205-06-13/</guid>
-      <pubDate>Fri, 13 Jun 2025 03:13:37 GMT</pubDate>
+      <title>今日小记-2025-09-13</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-13/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-13/</guid>
+      <pubDate>Fri, 12 Sep 2025 16:51:00 GMT</pubDate>
       
         
         
@@ -86,7 +86,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>玩了一整天游戏，调整作息，真的是困的游戏都不好玩了。我觉得这样调整真的很难受啊，24小时不能睡觉，困的坐在那都想眯一会，怎么感觉比高中那时都困了，太自由其实也不好的，没有自制力，想睡就睡这样真的作息一团糟。现在晚上7点14分吹着空调睡觉。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天晚上承受着睡意看明眸关羽直播，直到10点钟，终于到了计划的睡觉时间且实在坚持不住，沉沉睡去。</p><p>终于功夫不负有心的一觉睡到凌晨4点，没有因为起夜导致睡眠中断。</p><p>想到今天是星期六，王者有周末活动，全英雄限免，于是又安装好云·王者荣耀登陆上前几天创建的135区号（掠影金秋-弈）开始游玩。</p><p>到早晨7点多，下楼吃早餐，妈妈已经煮好了疙瘩汤，我加入了南德调味料和火锅底料，吃的很香。</p><p>吃完早餐，继续不间断的打游戏到中午12点多，下楼吃午饭，菜有土豆丝和我之前提出的炒牛肉（洋葱炒牛肉），菜很合胃口，又是美美的一餐。</p><p>继续打游戏到下午4点，段位也上升到钻石III了，随着连胜和英雄胜率，评分等数据的影响，机制开始发力了，我拿出十二分的努力也无法阻止失败。还是又一次的卸载了游戏。</p><p>今天基本上都是打游戏，手机电量都循环了三次（电池健康都连降2%）。</p><p>晚餐依然是中午的菜，吃完饭刷会视频，看直播，到9点多睡觉了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -95,15 +95,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-205-06-13/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-13/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-12</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-12/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-12/</guid>
-      <pubDate>Wed, 11 Jun 2025 23:22:57 GMT</pubDate>
+      <title>今日小记-2025-09-12</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-12/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-12/</guid>
+      <pubDate>Thu, 11 Sep 2025 17:06:00 GMT</pubDate>
       
         
         
@@ -115,7 +115,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>一觉睡到下午2点。这几天作息真是有够糟糕的。凌晨两点多睡不着觉就和ChatGPT聊天，聊如何调整作息，饮食方面的问题，以及胡辣汤和酸辣土豆丝怎么做等。</p><p><img src="https://files.yaonas.space/dayone/2025/06/fa061a45b14ed559fca826fc73094316.jpeg?oss_process=rt:fit" alt="fa061a45b14ed559fca826fc73094316.jpeg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>这几天着力于调整作息，但是仍不可避免的晚间被尿憋醒一两次，然后就是凌晨4点就醒后就睡不着了（算算时间，晚上总共也睡了6，7个小时）。</p><p>凌晨4点多醒，对香烟的渴望和近段时间的恼骚在微信note上写一篇文章（内容如下图，本来是想通过文本内嵌图片的方式发送给别人的，但是发现没有实现方法，故退一步在note上写，然后直接发送note，但是文章写好之后最终还是没有发。）</p><p><img src="https://files.yaonas.space/dayone/2025/09/9357fd7d579f9f77f8e5a5526e7c709d.jpeg?oss_process=rt:fit" alt="9357fd7d579f9f77f8e5a5526e7c709d.jpeg"></p><p>清晨6点多，我还在写文，爸爸进来房间，帮我开窗，我还沉浸在写文中，他突然进来且没什么声音，把我吓了一大跳。</p><p>6点半过后，我洗漱下楼吃早饭，是稀饭，还有昨天妈妈搞得纯肉馅的大包子，我吃了一碗稀饭和两个半包子，这次的包子馅味道真不错，可给我吃美了。</p><p>一上午好像没干什么事，看看视频，刷刷抖音，处理BT-Docker前端的ContainerStatus组件的style，通过tailwindcss和svgtofont包处理原子化CSS和svg图标转font。</p><p>又到了中午吃饭的时间，昨天想要吃的凉拌海带丝今天终于有了，还有我说的炒鸡毛菜（真是鲜嫩），以及一盘炸芋头片（这两天腹胀且便秘，妈妈说吃这个好点）。</p><p>晚上6点多，一个多星期没有直播的明眸终于重新直播了，我看到晚上8点多，困得实在受不了，睡觉了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -124,15 +124,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-12/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-12/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-11</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-11/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-11/</guid>
-      <pubDate>Tue, 10 Jun 2025 23:23:00 GMT</pubDate>
+      <title>今日小记-2025-09-11</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-11/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-11/</guid>
+      <pubDate>Wed, 10 Sep 2025 17:50:00 GMT</pubDate>
       
         
         
@@ -144,7 +144,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>晚上抽时间将隔壁房间书架上的书整理一下，并打扫了一下卫生，现在楼上这两间房间看起来真是赏心悦目。</p><p><img src="https://files.yaonas.space/dayone/2025/06/0ca0e70796460ec3c3a1e0b53fa166bc.jpeg?oss_process=rt:fit" alt="0ca0e70796460ec3c3a1e0b53fa166bc.jpeg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>早晨7点多下楼，妈妈已经煮好了一锅挂面，帮我盛入碗里一看，不仅是挂面，里面还加入了米饭。我感到一阵恶心，从小到大，我从不接受这种伙食，面条加饭，想想口感就恶心。上楼喝着咖啡，吃了最后一片吐司面包。</p><p>上午的时光在代码和短视频的陪伴中度过。</p><p>中午的菜有土豆丝和豇豆以及西兰花，但是没有肉菜，吃的我有点难受，一碗白饭和土豆丝，应该直接让我的血糖飙升了。</p><p>晚上多了一锅肉烧板栗，但不是很合我的胃口。今天基本上没吃多少肉的。</p><p>到7点多，我急于调整作息且有点无事可做，就入睡了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -153,15 +153,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-11/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-11/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-10</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-10/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-10/</guid>
-      <pubDate>Tue, 10 Jun 2025 03:56:56 GMT</pubDate>
+      <title>今日小记-2025-09-10</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-10/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-10/</guid>
+      <pubDate>Tue, 09 Sep 2025 20:00:00 GMT</pubDate>
       
         
         
@@ -173,7 +173,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>沉浸于短视频的不用动脑筋的松弛感无法自拔，食色性也，白白浪费一天时间。</p><p>昨晚一宿没睡，晚上10点结束SyncPostPlugin开发脱衣欲就寝，刷视频，看短剧直到凌晨2点多。2点到4点不知做了什么，反正一晚上都是很饿的。4点起床打游戏直到早晨7点40多，吃了馅饼和茶叶蛋作为早餐。解决之后困意再也不可阻挡，睡觉了。到下午2点左右，发现中午吃全是蔬菜，西红柿鸡蛋汤，炒生菜，瓠子，以及一份海带凉菜，食欲不振却饥饿难耐，听着音乐煎了香肠就稀饭。</p><p>晚间饭菜依旧如初，有点难受。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天晚上接近11点醒来，还是无法继续入睡。索性起来玩Switch 《蔚蓝》，然后在B站上看博主通关视频。</p><p>早上6点多洗漱下楼，锅里有爸爸炒的蛋炒饭，看起来干巴巴的，绝对不好吃。上楼打电话给妈妈，问她什么时候到家，打算让她给我带早饭的。得知要到9:30之后才能到。</p><p>忍着饥饿，继续打《蔚蓝》，接近10点，妈妈终于回来了，带了一个荠菜粉丝包（应该是半发面，皮薄馅大）和一包威尔康的吐司面包🍞。吃一个包子和一片吐司算branch。</p><p>中午菜有蒸面筋（肉丸子），也只有这一个我想吃的菜了，就着剩一点的咸豇豆吃了两碗饭。吃完中饭去冲了一壶咖啡，就着咖啡又吃了大半片吐司，肚子撑的有一点难受，去上厕所却便秘。到下午2点左右，困了，定了一个半小时的闹钟就睡去，但还是晚上9点才醒。</p><p>下楼找吃的，晚上妈妈应该是下切面的，但是我没有吃。所以还剩一点未煮的面，问我要不要煮一下吃，我不是很饿，吃了几个枣子和菠萝蜜就上楼了。</p><p>继续打《蔚蓝》到凌晨两点左右，主要剧情和关卡大致通关了。重启电脑更新一下Windows系统后就吃2片吐司刷一会抖音睡觉了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -182,15 +182,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-10/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-10/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>梦</title>
-      <link>https://blog.yaonas.space/2025/06/%E6%A2%A6/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E6%A2%A6/</guid>
-      <pubDate>Sun, 08 Jun 2025 17:29:22 GMT</pubDate>
+      <title>今日小记-2025-09-09</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-09/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-09/</guid>
+      <pubDate>Mon, 08 Sep 2025 20:00:00 GMT</pubDate>
       
         
         
@@ -202,7 +202,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>今天早晨睡醒一起来就写下这篇entry，睡眠中满满充斥着梦境，依稀记得一些元素，比如分班，排名等。我自认为时间已经过的够久，但是一些事，一些印象就是扎根于记忆底层，无法忘记。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天下午妈妈去六安了，今一天都不在家。打了大半天的王者。</p><p>早上又是没有吃的。中午菜有卤菜和剩的红烧牛肉。爸爸炒了一个青菜。</p><p>下午1点过后又睡着了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -211,15 +211,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E6%A2%A6/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-09/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-08</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-08/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-08/</guid>
-      <pubDate>Sat, 07 Jun 2025 17:33:00 GMT</pubDate>
+      <title>今日小记-2025-09-08</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-08/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-08/</guid>
+      <pubDate>Sun, 07 Sep 2025 19:49:00 GMT</pubDate>
       
         
         
@@ -231,7 +231,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>晚上吃了过桥米线，过桥米线里有千张丝，在抖音上看到@面条人吃“麻辣电线”，觉得真是色香味俱全，老好吃了，其实实际吃一下也挺好吃，尽管满满都是科技，撒尿都是那个味，哈哈。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天晚上由于晚间喝了一壶咖啡加之观赏血月，在4点左右还玩了Switch，《蔚蓝》，一宿未睡。</p><p><img src="https://files.yaonas.space/dayone/2025/09/62dc230883ac788eced514708f7da6af.jpeg?oss_process=rt:fit" alt="62dc230883ac788eced514708f7da6af.jpeg"></p><p>到上午接近9点才下楼，妈妈特地煮一锅疙瘩汤给我吃。吃完早饭继续玩《蔚蓝》和刷抖音到中饭时间，菜有红烧牛肉和炒藕。</p><p>吃完饭到下午1点多，又冲了一壶咖啡。在床上躺着，困死了，眼睛都睁不开。躺着躺着就睡着了。一觉睡到晚上9点。下楼没看到妈妈身影，打她电话才得知去了六安。吃了一碗水泡饭算作晚餐。</p><p>吃完饭，找一些零食和猕猴桃上楼看电视。晚上快接近凌晨一点才入睡。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -240,15 +240,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-08/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-08/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-07</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-07/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-07/</guid>
-      <pubDate>Fri, 06 Jun 2025 17:31:00 GMT</pubDate>
+      <title>今日小记-2025-09-07</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-07/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-07/</guid>
+      <pubDate>Sun, 07 Sep 2025 01:04:42 GMT</pubDate>
       
         
         
@@ -260,7 +260,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>高考第一天，虽然我早就过了这种考试。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>凌晨接近2点由于梦等原因惊醒，以为一觉睡醒已经凌晨4，5点了，一看手机才发现还没过2点，上个厕所继续睡，但是睡不着（对烟的渴望让我辗转难眠啊）。</p><p>打开投影仪看会电视（主要是阿里云盘中的周杰伦MV，发现一首好听的歌《威廉古堡》），直到凌晨5点多才关上投影仪，继续刷抖音。</p><p>到7点左右洗漱下楼吃早饭，只有一锅粥，我提出有点寡淡，妈妈就说去买一点早点（我说要油条和麻球），之后就就着咸豇豆，咸鸭蛋，南德调味料和火锅底料吃了一碗粥后上楼（等妈妈买完早点回来）。过了10几分钟下楼，发现妈妈买的是馅饼，韭菜盒子和一个茶叶蛋（她之前跟我说在下面买，我说随便，我还以为在下面买油条呢）。继续吃了一个韭菜粉丝馅饼和一个茶叶蛋，吃的挺撑。</p><p>9点多，在床上躺着看视频，有点困，由于每次想要小憩一会定的闹钟都没有将我弄醒，我猜测可能是陷入深度睡眠导致的，查了一下一个睡眠周期的时间，定了一个半小时之后的闹钟后安心睡去，但一觉醒来就是中午11点50几了，上个厕所，还是有点困，又睡到了下午接近2点了，前几天的快递也到了。</p><p>3点左右下楼看中午的菜，一个肉烧豆腐，炒芹菜等菜，没什么喜欢吃的。让妈妈晚上买面条吃顺便帮我取快递，她答应搞面条却让我自己取快递（现在快递真是的，之前送货上门的都要自取了）。</p><p>3点20左右上楼，用电脑和音响放音乐听到4点40几后下楼吃面条。配着剁椒酱和火锅底料吃了两碗面，又是撑。到后门散散风。</p><p>晚上7点多，上个厕所，洗完澡，去取回咖啡豆和马克杯，对咖啡真是饥渴难耐啊，也顾不上养豆了，急忙冲一壶品尝。</p><p><img src="https://files.yaonas.space/dayone/2025/09/c36ba0a96f2b9548a4811b6e7e11720b.jpeg?oss_process=rt:fit" alt="c36ba0a96f2b9548a4811b6e7e11720b.jpeg"></p><p>晚间喝着咖啡，看着投影电视，真是美哉，凌晨1点左右，喝了咖啡，加上血月，睡不着了，上了三楼，一晚上没睡。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -269,15 +269,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-07/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-07/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-06</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-06/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-06/</guid>
-      <pubDate>Thu, 05 Jun 2025 17:30:00 GMT</pubDate>
+      <title>今日小记-2025-09-06</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-06/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-06/</guid>
+      <pubDate>Sat, 06 Sep 2025 05:57:35 GMT</pubDate>
       
         
         
@@ -289,7 +289,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>妈妈从六安将牛牛接回来。下午到晚上通宵打游戏。</p><p>好好的作息就这样糟蹋了，游戏不能过度玩呀！</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天晚上10点左右，在隔壁房间睡觉，半睡半醒的迷糊之际，妈妈过来开个窗户，将我弄醒。刷个视频，又清醒睡不着了。一晚未睡。</p><p>早上接近8点，下楼吃早饭，是妈妈买的馅饼和茶叶蛋。我吃了一个馅饼和一个茶叶蛋和一碗豆浆。</p><p>由于今天是星期六，又是打了大半天的游戏，到下午1点多才下楼吃午饭，菜有西红柿鸡蛋汤，蒸豆腐，芹菜炒酱油干等，困意来袭，加之没有胃口，下午2点多睡觉了，到晚上9点左右才醒。</p><p>醒来有点饿，妈妈炒了一碟咸豇豆，配着中午的芹菜酱油干以及火锅底料吃稀饭。</p><p>吃完上楼，有点困，刷会抖音，写下这篇。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -298,15 +298,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-06/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-06/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-05</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-05/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-05/</guid>
-      <pubDate>Wed, 04 Jun 2025 20:14:00 GMT</pubDate>
+      <title>今日小记-2025-09-05</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-05/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-05/</guid>
+      <pubDate>Thu, 04 Sep 2025 20:00:00 GMT</pubDate>
       
         
         
@@ -318,7 +318,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>今天中午大姨娘来我家吃饭。中午菜有卤牛肉，鸡翅烧毛豆，苋菜等。</p><p>下午4点多打游戏直到凌晨4点，真是疯狂。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>凌晨4点左右，被渴醒，应该是昨晚吃的过桥米线的原因。喝点水，上个厕所，想要继续睡但还是睡不着了。索性打会游戏。</p><p>早晨6点多，下楼吃早饭，是疙瘩汤。</p><p>吃完饭，上午10点左右，用50块在网上买了一袋咖啡豆和一个马克杯。</p><p><img src="https://files.yaonas.space/dayone/2025/09/2fb3b3faa82a595484f68afc7ba8243f.jpeg?oss_process=rt:fit" alt="2fb3b3faa82a595484f68afc7ba8243f.jpeg"></p><p>中午好似没有我喜欢吃的菜，就没吃。</p><p>下午又有点犯困，想着咪一会，但是又睡了几个小时。</p><p>晚上依旧是吃疙瘩汤。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -327,15 +327,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-05/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-05/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-04</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-04/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-04/</guid>
-      <pubDate>Tue, 03 Jun 2025 20:08:00 GMT</pubDate>
+      <title>今日小记-2025-09-04</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-04/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-04/</guid>
+      <pubDate>Thu, 04 Sep 2025 15:33:00 GMT</pubDate>
       
         
         
@@ -347,7 +347,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>今天楼上陪读家长及学生终于走了，下午妈妈打我电话说给我100元让我帮忙打扫那个房间卫生，花费一个下午终于搞完了。然后晚餐是酸菜方便面加活面。</p><p>今天主要Todo是同步Apple Music Library，可能是一月份有活动用11元买了三个月时间，然后到3月10日到期，如果是按一月份开始算，已经有5个月没有续费了，自然Library被清空。好在花了一天左右时间完成同步。</p><p><img src="https://files.yaonas.space/dayone/2025/06/b3e402727a15ef8b8d46084fba8f9f46.jpeg?oss_process=rt:fit" alt="b3e402727a15ef8b8d46084fba8f9f46.jpeg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>昨天晚上11点被他人洗澡声音吵醒，后续没有继续睡着。</p><p>到早上6点半多下楼吃早饭，是白米莲子粥（陪着一点点香辣菜），还有半张饼和一根煎肠。在等待饼的过程中上楼询问ChatGPT如何戒王者荣耀，是的，凌晨的一局游戏使我打破防了。对这游戏产生深深的厌恶。</p><p>早上八点，刷着抖音，困意来袭，一觉睡到下午2点左右，被渴醒和热醒，喝几口水，开着空调继续睡到下午4点。</p><p>晚上5点多下楼吃饭，只有一盘炸鸡腿和昨天剩的菜。吃的寡淡无味。</p><p>上楼，感到一阵空虚，没有茶，咖啡和烟。我觉得生活没有意思。又想拿一百块钱去买烟了。</p><p>但是最终还是在晚上10点多去吃了一份过桥米线，计划明天买咖啡豆。</p><p>晚上9点左右，为BT-Docker项目添加Service模块。</p><p>凌晨1点多，吃饱了，也睡的着了。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -356,15 +356,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-04/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-04/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-03</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-03/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-03/</guid>
-      <pubDate>Tue, 03 Jun 2025 07:37:21 GMT</pubDate>
+      <title>今日小记-2025-09-03</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-03/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-03/</guid>
+      <pubDate>Wed, 03 Sep 2025 15:46:00 GMT</pubDate>
       
         
         
@@ -376,7 +376,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>早上7点多爸爸上来找东西将我吵醒，告知我他们去六安，并且妈妈也要去。8点左右洗漱下楼吃粥作为早饭，然后就是打游戏（刺客信条-黑旗）。</p><p>到下午2点左右，困了睡觉到5点左右。为cloud-clipboard添加一个小功能，修复node依赖版本问题，以及watchOption的忽略文件夹。晚上吃饭只有一盘卤菜，吃的十分不爽。</p><p>帮妈妈洗碗，然后去洗个澡晾衣服。妈妈帮买回来一桶和一袋方便面，桶装的是红烧牛肉面，一如既往的难吃。（可能是太经典了吧，口味一直没变）吃完面，看会电视睡觉了。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>今天是中国抗日战争胜利暨反法西斯80周年，北京首都举行了阅兵仪式。好吧，就是这样。我没有过多关注。</p><p>基本白天还是睡了半天，下午又是打游戏。晚餐是疙瘩汤配烤肠。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -385,15 +385,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-03/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-03/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-06-02</title>
-      <link>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-02/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-02/</guid>
-      <pubDate>Mon, 02 Jun 2025 06:04:00 GMT</pubDate>
+      <title>今日小记-2025-09-02</title>
+      <link>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-02/</link>
+      <guid>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-02/</guid>
+      <pubDate>Tue, 02 Sep 2025 15:43:00 GMT</pubDate>
       
         
         
@@ -405,7 +405,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>真是不像话，打一天Switch，不过《刺客信条-叛逆者合集》真好玩</p><p><img src="https://files.yaonas.space/dayone/2025/06/de2294b624f7e21e78e7a944e51a1bda.jpeg?oss_process=rt:fit" alt="de2294b624f7e21e78e7a944e51a1bda.jpeg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>基本上还是大半夜没睡，早上7点左右直接洗漱下楼吃早餐了。是煎饼和烤肠。</p><p>然后白天不是刷抖音就是打游戏和睡觉，感觉有点颓废。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -414,15 +414,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-06-02/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-09-02/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>儿童节快乐</title>
-      <link>https://blog.yaonas.space/2025/06/%E5%84%BF%E7%AB%A5%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
-      <guid>https://blog.yaonas.space/2025/06/%E5%84%BF%E7%AB%A5%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
-      <pubDate>Sun, 01 Jun 2025 04:17:32 GMT</pubDate>
+      <title>9月首记</title>
+      <link>https://blog.yaonas.space/2025/09/9%E6%9C%88%E9%A6%96%E8%AE%B0/</link>
+      <guid>https://blog.yaonas.space/2025/09/9%E6%9C%88%E9%A6%96%E8%AE%B0/</guid>
+      <pubDate>Mon, 01 Sep 2025 02:20:13 GMT</pubDate>
       
         
         
@@ -434,7 +434,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>时间正如白驹过隙啊，不知不觉一年快要过去一半了，我已不再是儿童，却一直在看动画片，电击小子，熊出没，哆啦A梦，猪猪侠，当然这些动画片都是看前面几部，越往后越看不进去（看看如今猪猪虾改成什么样子了，过年拜年时在亲戚家看到一部竟然是赛车？）我有时觉得我幼稚，都这么大了还看这些动画片，不仅如此行为也挺幼稚的。但有时我越觉得自己思想太成熟，还没过20岁，竟感叹时间匆匆，秋日来临也会写几篇文章抒发悲秋之感，有够衰的。天哪，真是矛盾。</p><p>昨日父母去了六安，晚间自己煮面时打电话问妈妈相关调料在哪，临了妈妈告诉我他们车发生了碰撞。我未做过多评价，即使得知车子被撞的四不像。今天下午他们回来，爸爸给我看车辆照片才发现车子引擎盖及保险杠都凹了下去。</p><p>最近浪费了过多时间在刷短视频上，还得积极完成Todo任务啊。</p><p><img src="https://files.yaonas.space/dayone/2025/06/457e4527c9548c2b42c05e0d71d0d970.jpeg?oss_process=rt:fit" alt="457e4527c9548c2b42c05e0d71d0d970.jpeg"></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>一个月转瞬即逝，立秋早已过去，夏日高温的肆虐已接近尾声。一年也过去四分之三了，年前元旦的所作所为仍然历历在目。今天吃完晚饭，端一杯寿眉茶🍵，拿个塑料凳来到后门阳台，室外秋高气爽，惠风和畅，有点舒坦（若是有咖啡和香烟就更好了）。</p><p>前一周浮躁之心甚重，游戏占据了大部分时间，项目进程缓慢，作息紊乱，王者荣耀消磨我的心神，脾气变得暴躁，还有8月29日七夕节，我的生日不仅没有任何开心的事，晚间还因为饮食问题大发脾气，摔碎了我已经用了一年半的马克杯☕️。BT-Docker从6月末就已经立项，现在还没有实际作用，接口也不过只有1，2个。这样PythonFlask还没有熟悉，SpringBoot又要忘了，真是捡了芝麻丢了西瓜。</p><p>今年暑假已经结束，不管是今年还是去年，6，7，8月都是以娱乐为主，去年呢还开创性的玩了Switch游戏，去了贵州和江苏旅游，而今年呢，游戏基本上都是打王者荣耀这种垃圾游戏，三个月还基本上没有出门，可谓是实实在在的浪费三个月。</p><p>收起前文悲观情绪，着眼当下吧，不然怎么对得起眼前这秀丽的景色，麻雀渣渣叫声此起彼伏，天朗气清。</p><p>本日记述-2025-09-01</p><p>昨晚11点左右醒来，想要接着睡来调整作息，但终究无法轻易睡着，刷刷视频，打两把游戏，王者荣耀让我现在提不起兴趣继续玩，但是过几天又要下回来，真是难受，打了两把，忍受不了，又卸载了。</p><p>到早上6点40分左右，妈妈到我房间看我有没有睡着，我问她早上吃什么，是煎饼配烤肠加豆浆。7点半洗漱后，玩一会塞尔达，觉得没意思后就尝试玩玩4399火线精英和生死狙击，由于Flash Player种种问题，加上游戏质量，没一会就不玩了。下楼吃早餐。吃了两个饼，两根烤肠外加一杯豆浆。</p><p>8点多，困意猛然袭来，想来定个一个小时后的闹钟就起来，但是最后还是一下就睡到下午1点。下楼看个中午饭菜，有一碟肉饼（吃起来有点咸，发酸），还有炒冬瓜等。吃一小块肉饼就上楼了。烧一壶水，泡个寿眉茶，又把王者下回来，打了几把巅峰巅峰赛，分不升反降，1500都没有了，没意思，不玩了。</p><p>5点多下楼吃饭，是疙瘩汤，问妈妈得知中午的肉饼是牛肉。吃了两碗疙瘩汤和两大块牛肉饼就结束战斗。</p><p>吃完饭带一杯茶来到后门阳台，喝着茶，看着风景，写下这些只言片语。</p><p><img src="https://files.yaonas.space/dayone/2025/09/81f9b8e17b90bbe0d444cb831c7a1a2c.jpeg?oss_process=rt:fit" alt="81f9b8e17b90bbe0d444cb831c7a1a2c.jpeg"></p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -443,15 +443,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/06/%E5%84%BF%E7%AB%A5%E8%8A%82%E5%BF%AB%E4%B9%90/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/09/9%E6%9C%88%E9%A6%96%E8%AE%B0/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-05-31</title>
-      <link>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-31/</link>
-      <guid>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-31/</guid>
-      <pubDate>Sat, 31 May 2025 04:33:00 GMT</pubDate>
+      <title>今日小记-2025-08-31</title>
+      <link>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-31/</link>
+      <guid>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-31/</guid>
+      <pubDate>Sun, 31 Aug 2025 03:46:00 GMT</pubDate>
       
         
         
@@ -463,7 +463,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>早餐：稀饭+酸豆角榨菜</p><p>中午有不少菜，麻辣龙虾，土豆丝，炒生菜等等，但是都不想吃（龙虾壳太硬，厚，导致没怎么入味且不知从何时起我不再喜欢剥壳，土豆丝炒的软趴趴的，索然无味）</p><p>下午我在玩Switch 塞尔达，父母开车去了六安。</p><p>晚间我煮了一锅面，搭配香肠，酸豆角以及酱料很好吃。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>八月最后一天了，几乎是睡了一整天，眼睛肿胀。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -472,15 +472,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-31/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-31/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-05-30</title>
-      <link>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-30/</link>
-      <guid>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-30/</guid>
-      <pubDate>Fri, 30 May 2025 04:12:38 GMT</pubDate>
+      <title>今日小记-2025-08-30</title>
+      <link>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-30/</link>
+      <guid>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-30/</guid>
+      <pubDate>Sat, 30 Aug 2025 03:43:00 GMT</pubDate>
       
         
         
@@ -492,7 +492,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>明天就是端午节，牛牛竟然不回来，这对我来说真是再好也不过了。</p><p>这几日晚间睡觉时间又推迟了，自然早上起来也迟，错过早饭。</p><p>昨晚看了很久的Kindle电子书，难以想象之前我一个月看完的同体量的小说，这本竟然前前后后看了持续6个多月，当然是很长时间没有看啦，比如在今年除夕前几日看到300多章，直到昨晚看也不过310多章。看到凌晨1点左右又刷了会手机，然后困意满满，沉沉睡去，做了一个梦。</p><p>今早10点多，妈妈打电话喊醒我，告知我他们去姥爷家吃饭去了，让我在家打个粽子吃。洗漱下楼后并不想吃粽子，觉得一起来就吃黏腻的食物不舒服，洗了一些樱桃吃。</p><p>11点多上楼写几个Java Demo，之后就是很久的看视频时间。1点左右父母回来，我本来准备打个电话让其带点吃的（比如米线）拖延没打，自然他们回来没有带任何吃的。没有办法，还是打了两个粽子吃。吃到第一个发现糯米有点夹生，口感十分糟糕，心情不悦，上楼计划写一个Java版本的AI-Summary-Article，用于总结WordPress文章，前几日用硅基流动的API做了一个Python版本的。保存总结文本到文件中，由于模型选择问题导致总结效果并不理想因此还没有导入数据库用于前端展示。</p><p>晚上8点左右写完了基本的文章爬取与解析。</p><p>早点上床看会书，电视。争取10点左右睡觉。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>今天星期六，昨晚凌晨四五点钟才睡，今天依旧下午1，2点才醒。由于是周末，开一个王者小号，体验生日皮肤，玩低端排位局一下午。</p><p>晚餐是疙瘩汤配烤肠。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -501,15 +501,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-30/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-30/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-05-29</title>
-      <link>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-29/</link>
-      <guid>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-29/</guid>
-      <pubDate>Thu, 29 May 2025 04:30:00 GMT</pubDate>
+      <title>七夕小记-2025-08-29</title>
+      <link>https://blog.yaonas.space/2025/08/%E4%B8%83%E5%A4%95%E5%B0%8F%E8%AE%B0-2025-08-29/</link>
+      <guid>https://blog.yaonas.space/2025/08/%E4%B8%83%E5%A4%95%E5%B0%8F%E8%AE%B0-2025-08-29/</guid>
+      <pubDate>Thu, 28 Aug 2025 23:00:57 GMT</pubDate>
       
         
         
@@ -521,7 +521,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>下午极其的无所适从，抱着手机看了很久的视频。不过还是抽出时间写了一个前端3D卡片hover效果。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<blockquote><p>故人陆续飘零，好似这风中落叶</p></blockquote><p>今天是农历七月初七，也算是我的生日。</p><p>昨天晚上12点左右入睡，到今天早上6点多就醒了，重新下载王者，打游戏。早上7点多下楼吃早饭，是疙瘩汤，煎荷包蛋有点腥，就没有吃了。</p><p>上午分析了一下get_container_info接口，仅此而已，剩下时间都是打游戏。</p><p>中午12点妈妈打电话喊我下楼吃饭，有两三个菜。蒜苗炒酱油干等。没有胃口，就没吃。</p><p>继续打游戏到下午2点多，再也受不了继续打游戏，下楼吃一块西瓜，有点困。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -530,15 +530,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-29/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/08/%E4%B8%83%E5%A4%95%E5%B0%8F%E8%AE%B0-2025-08-29/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>今日小记-2025-05-28</title>
-      <link>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-28/</link>
-      <guid>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-28/</guid>
-      <pubDate>Wed, 28 May 2025 00:47:14 GMT</pubDate>
+      <title>今日小记-2025-08-28</title>
+      <link>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-28/</link>
+      <guid>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-28/</guid>
+      <pubDate>Wed, 27 Aug 2025 23:09:00 GMT</pubDate>
       
         
         
@@ -550,7 +550,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>终于把近半个月积压的Todo List完成了，可喜可贺！</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>nothing to say</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -559,15 +559,15 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/05/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-05-28/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-28/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>依旧折腾-2025-05-27</title>
-      <link>https://blog.yaonas.space/2025/05/%E4%BE%9D%E6%97%A7%E6%8A%98%E8%85%BE-2025-05-27/</link>
-      <guid>https://blog.yaonas.space/2025/05/%E4%BE%9D%E6%97%A7%E6%8A%98%E8%85%BE-2025-05-27/</guid>
-      <pubDate>Tue, 27 May 2025 05:05:00 GMT</pubDate>
+      <title>今日小记-2025-08-27</title>
+      <link>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-27/</link>
+      <guid>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-27/</guid>
+      <pubDate>Tue, 26 Aug 2025 23:08:00 GMT</pubDate>
       
         
         
@@ -579,7 +579,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>各项目开发进度缓慢，Todo List也花好久才完成一小项。这几天就是因为电脑各种问题折腾。比如WebStorm 分析其他Vue组件都是好好的，遇到InterfaceMange组件就卡在Analyazing，今天下午换好几个版本WebStorm，重装都一样，电脑运行卡顿，恼火！</p><p>不过好在晚上终于修复了这个组件初始化ApiInfo的bug。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>打游戏，真他妈难受，狗屎王者游戏。</p>]]></content:encoded>
       
       
       <category domain="https://blog.yaonas.space/categories/Life/">Life</category>
@@ -588,7 +588,7 @@
       <category domain="https://blog.yaonas.space/tags/Diary/">Diary</category>
       
       
-      <comments>https://blog.yaonas.space/2025/05/%E4%BE%9D%E6%97%A7%E6%8A%98%E8%85%BE-2025-05-27/#disqus_thread</comments>
+      <comments>https://blog.yaonas.space/2025/08/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0-2025-08-27/#disqus_thread</comments>
       
     </item>
     
