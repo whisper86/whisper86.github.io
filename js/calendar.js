@@ -5,13 +5,14 @@
 (function($) {
 
   var aCalendar = function(language, options, object) {
+    const currentPathSplit = window.location.pathname.split('/')
     var now = new Date();
     var nDay = now.getDate();
     var nMonth = now.getMonth();
     var nYear = now.getFullYear();
     var dDay = nDay;
-    var dMonth = nMonth;
-    var dYear = nYear;
+    var dMonth = currentPathSplit.length !== 2 ? parseInt(currentPathSplit[2]) -1 : nMonth;
+    var dYear = currentPathSplit.length !== 2 ? parseInt(currentPathSplit[1]) : nYear;
     var instance = object;
     var allPosts = null;
     var months = null;
@@ -98,7 +99,7 @@
      * Load all month's posts.
      */
     function loadAllPosts() {
-      if (settings.url != null && settings.url != '') {
+      if (settings.url != null && settings.url !== '') {
         if (allPosts === null) {
           $.ajax({
             url: settings.url,
@@ -310,7 +311,7 @@
             cDay.addClass('cal-gray');
             cDay.html(dLastDayOfPreviousMonth++);
           } else if (day <= dLastDayOfMonth) {
-            if (day == dDay && nMonth == dMonth && nYear == dYear) {
+            if (day === dDay && nMonth === dMonth && nYear === dYear) {
               cDay.addClass('cal-today');
             }
 
@@ -320,7 +321,7 @@
             };
             for (var k = 0; k < current.posts.length; k++) {
               var d = new Date(Date.parse(current.posts[k].date));
-              if (d.getDate() == day) {
+              if (d.getDate() === day) {
                 count.keys[count.num++] = k;
               }
             }
@@ -328,6 +329,11 @@
             if (count.num !== 0) {
               var index = count.keys[0];
               var cLink = $('<a>').attr('href', current.posts[index].link).attr('title', current.posts[index].title).html(day++);
+              if (current.posts[index].background) {
+                cDay.css('background-image', `url(${current.posts[index].background})`)
+                cDay.attr('hasBackground', '')
+                cLink.attr('removeTransition', '')
+              }
               cDay.append(cLink);
             } else {
               cDay.html(day++);

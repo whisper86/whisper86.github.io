@@ -2343,6 +2343,14 @@ input[type=checkbox] {
   padding: 0;
   text-align: center;
 }
+.cal td[hasBackground] {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cal td[hasBackground] >a {
+  background-color: transparent;
+}
 .cal .cal-foot {
   color: #258fb8;
 }
@@ -2355,8 +2363,8 @@ input[type=checkbox] {
   color: #fff;
   cursor: pointer;
 }
-.cal tbody a:hover,
-.cal tbody a:focus {
+.cal tbody a:hover:not([removeTransition]),
+.cal tbody a:focus:not([removeTransition]) {
   background-color: #ea6753;
   color: #fff;
   cursor: pointer;
