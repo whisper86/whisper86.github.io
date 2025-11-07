@@ -312,69 +312,63 @@
                   
 
 <link id="music-widget-css" href="/assets/mj.css" type="text/css" rel="stylesheet">
-<script>
-  var tag = false;
-  function more(status) {
-    var popup_menu = document.getElementById("popup-menu")
-    setTimeout(function () {
-      $("#popup-menu").slideDown(100)
-    }, 0);
-    var audio = document.getElementById("my-audio");
-    var play_btn = document.getElementById("play");
-    play_btn.addEventListener("click", function () {
-      if (status === false) {
-        play_btn.textContent = "Pause😥";
-        audio.play();
-        tag = true;
-      } else {
-        play_btn.textContent = "Listen😊"
-        audio.pause();
-        tag = false;
-      }
-      $("#popup-menu").slideUp(20);
-    });
-    popup_menu.onmouseleave = function () {
-      $("#popup-menu").slideUp(200);
-    }
-  }
-</script>
+<script src="/assets/music-widget.js" type="text/javascript"></script>
+
 <div id="popup-menu" class="popup">
-    <audio id="my-audio" controls="controls" hidden="hidden">
-    </audio>
     <ul>
         <li class="item"><span id="play">Listen😊</span></li>
-        <li class="item"><a href="#">Share</a><span>😘</span></li>
+        <li class="item"><a id="share" href="#" target="_blank">Share</a><span>😘</span></li>
     </ul>
 </div>
 <div class="container-music">
-    <div class="info">
-        <img id="mj-img" alt="Mark">
+    <audio id="my-audio" controls hidden>
+        <source id="audio-source" type="audio/mp3" src="">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="info player-cover">
+        <img id="mj-img" alt="Cover" src="" srcset="/img/loading.gif" lazyload>
+        <div id="play-btn" class="play-btn">
+            <svg class="audio-control-icon" id="play-icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                <path d="M512 42.667C252.793 42.667 42.667 252.793 42.667 512S252.793 981.333 512 981.333 981.333 771.207
+                981.333 512 771.207 42.667 512 42.667zM708.547 543.16l-266.667 176A37.333 37.333 0 0 1 384 688V336.033a37.333
+                37.333 0 0 1 57.893-31.16l266.667 176a37.333 37.333 0 0 1 0 62.32z" />
+            </svg>
+            <svg class="audio-control-icon hidden" id="pause-icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                <path d="M512 64.4C264.8 64.4 64.4 264.8 64.4 512c0 247.2 200.4 447.6 447.6 447.6 247.2 0 447.6-200.4
+            447.6-447.6 0-247.2-200.4-447.6-447.6-447.6z m-75 597.5c0 24.8-20.1 45-45 45-24.8
+            0-45-20.1-45-45V362.1c0-24.8 20.1-45 45-45 24.8 0 45 20.1 45 45v299.8z m239.9 0c0 24.8-20.1 45-45 45-24.8
+            0-45-20.1-45-45V362.1c0-24.8 20.1-45 45-45 24.8 0 45 20.1 45 45v299.8z" />
+            </svg>
+        </div>
     </div>
     <div class="info text-area">
         <p id="Song-Name"></p>
         <p id="Song-Artist"></p>
+        <div id="progress-container">
+            <div id="progress-bar">
+                <div id="progress-handle"></div>
+            </div>
+        </div>
+        <div id="time-display">
+            <span id="current-time">00:00</span> /
+            <span id="duration">00:00</span>
+        </div>
     </div>
     <div class="info more">
         <button onclick="more(tag)" id="more-button">
-            <svg id="more-img" t="1740246789011" class="icon" viewBox="0 0 4437 1024" version="1.1"
+            <svg id="more-img" class="icon" viewBox="0 0 4437 1024"
                  xmlns="http://www.w3.org/2000/svg"
-                 p-id="1485" width="30" height="30">
-                <path d="M512 0A512 512 0 1 1 0 512 512 512 0 0 1 512 0z" fill="#cdcdcd" p-id="1486"></path>
-                <path d="M2218.666667 0A512 512 0 1 1 1706.666667 512 512 512 0 0 1 2218.666667 0z" fill="#cdcdcd"
-                      p-id="1487"></path>
-                <path d="M3925.333333 0A512 512 0 1 1 3413.333333 512 512 512 0 0 1 3925.333333 0z" fill="#cdcdcd"
-                      p-id="1488"></path>
+                 width="30" height="30">
+                <path d="M512 0A512 512 0 1 1 0 512 512 512 0 0 1 512 0z" fill="#cdcdcd"></path>
+                <path d="M2218.666667 0A512 512 0 1 1 1706.666667 512 512 512 0 0 1 2218.666667 0z" fill="#cdcdcd"/>
+                <path d="M3925.333333 0A512 512 0 1 1 3413.333333 512 512 512 0 0 1 3925.333333 0z" fill="#cdcdcd"/>
             </svg>
         </button>
     </div>
 </div>
 <script>
   const music_widget = '逆战;张杰;/images/Zhan.jpg;/music/逆战.mp3';
-  const Song = music_widget.split(";");
-  document.getElementById("Song-Name").textContent = Song[0];
-  document.getElementById("Song-Artist").textContent = Song[1];
-  document.getElementById("mj-img").src = Song[2];
-  document.getElementById("my-audio").src = Song[3];
+  initMusicWidget(music_widget)
 </script>
 
                       
